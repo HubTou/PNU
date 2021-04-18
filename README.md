@@ -1,7 +1,7 @@
 # pynix
-The PNU Project (PNU as in "Pynix is Not Unix"):
+The PNU Project (PNU as in "PNU is Not Unix"):
 
-(Yet another collection of) uNIX tools rewritten in Python
+(Yet another collection of) UNIX tools rewritten in Python, a kind of PyNIX.
 
 Objectives:
 - Firstly intended as a learning exercise in Python/Unix for my son

@@ -65,3 +65,4 @@ Level 5 sub projects (intermediate level, full blown commands):
 Pre-requisites:
 - All commands need to be PEP 8 compliant (checked with pylint or see https://www.python.org/dev/peps/pep-0008/).
 - Provide a script for testing the new command against the installed one
+- test execution under Windows

@@ -1,4 +1,4 @@
-# pynix
+# PNU / PyNIX
 The PNU Project (PNU as in "PNU is Not Unix"):
 
 (Yet another collection of) UNIX tools rewritten in Python, a kind of PyNIX.

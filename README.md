@@ -21,7 +21,7 @@ Level 0 sub projects (super easy ones, string handling only):
 Level 1 sub projects (easy ones, using basic math or data structures):
 - banner
 - factor
-- rot13 (non standard, check https://www.freebsd.org/cgi/man.cgi?query=rot13&apropos=0&sektion=0&manpath=FreeBSD+12.2-RELEASE+and+Ports&arch=default&format=html or https://fr.wikipedia.org/wiki/ROT13)
+- rot13 (non standard, check https://en.wikipedia.org/wiki/ROT13 or https://www.freebsd.org/cgi/man.cgi?query=rot13)
 
 Level 2 sub projects (easy ones, introducing command line options):
 - cat
@@ -30,7 +30,7 @@ Level 2 sub projects (easy ones, introducing command line options):
 - sleep
 - tail
 - uniq
-- wc
+- wc => a good one to start with
 
 Level 3 sub projects (easy ones, introducing system-level programming)
 - chown, chgrp
@@ -46,7 +46,7 @@ Level 3 sub projects (easy ones, introducing system-level programming)
 - pwd
 - rm, rmdir
 - split
-- sum (hint: use libraries)
+- sum (hint: use readily available libraries)
 - touch
 - uname
 

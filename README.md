@@ -3,7 +3,7 @@ The PNU Project (PNU as in "PNU is Not Unix"):
 
 (Yet another collection of) UNIX tools rewritten in Python, forming a kind of PyNIX.
 
-It's meant to be pronounced "Pneu" (tyre in French), which seems appropriate as it's cleary another reinvention of the wheel :-)
+It's meant to be pronounced "Pneu" (tyre in French), a pun which seems appropriate as it's cleary another reinvention of the wheel :-)
 
 Objectives:
 - Firstly intended as a learning exercise in Python/Unix for my son
@@ -29,6 +29,7 @@ Level 2 sub projects (easy ones, introducing command line options):
 - cat
 - cmp
 - comm
+- head
 - sleep
 - tail
 - uniq
@@ -54,9 +55,9 @@ Level 3 sub projects (easy ones, introducing system-level programming)
 
 Level 4 sub projects (intermediate level, more complex parsing):
 - cut
-- date
 
 Level 5 sub projects (intermediate level, full blown commands):
+- date
 - ls
 - tree (non standard) -> the one we started with!
 - nl
@@ -65,4 +66,4 @@ Level 5 sub projects (intermediate level, full blown commands):
 Pre-requisites:
 - All commands need to be PEP 8 compliant (checked with pylint or see https://www.python.org/dev/peps/pep-0008/).
 - Provide a script for testing the new command against the installed one
-- test execution under Windows
+- Test execution under Windows

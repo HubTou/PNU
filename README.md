@@ -15,15 +15,15 @@ Project status:
 Suggested tasks and progression:
 
 Level 0 sub projects (super easy ones, string handling only):
-- basename / dirname
+- basename, dirname
 - echo
 - line
 - true, false
 
 Level 1 sub projects (easy ones, using basic math or data structures):
 - banner
-- factor
-- rot13 (non standard, check https://en.wikipedia.org/wiki/ROT13 or https://www.freebsd.org/cgi/man.cgi?query=rot13)
+- factor, primes
+- rot13 (non standard, check https://en.wikipedia.org/wiki/ROT13 or https://www.freebsd.org/cgi/man.cgi?query=rot13), caesar
 
 Level 2 sub projects (easy ones, introducing command line options):
 - cat

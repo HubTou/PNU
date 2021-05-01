@@ -1,4 +1,4 @@
-# ![PNU logo](/_images/pnu-logo-small.png) PNU / PyNIX
+# PNU / PyNIX ![PNU logo](/_images/pnu-logo-small.png) 
 The PNU Project (PNU as in "PNU is Not Unix"):
 
 (Yet another collection of) [UNIX](https://en.wikipedia.org/wiki/Unix) tools rewritten in [Python](https://www.python.org/), forming a kind of PyNIX.

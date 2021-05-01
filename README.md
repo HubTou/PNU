@@ -23,7 +23,7 @@ Level 0 sub projects (super easy ones, string handling only):
 Level 1 sub projects (easy ones, using basic math or data structures):
 - banner
 - factor, primes
-- rot13, caesar (non standard, check https://en.wikipedia.org/wiki/ROT13 or https://www.freebsd.org/cgi/man.cgi?query=rot13)
+- rot13, caesar (non standard, check [Wikipedia](https://en.wikipedia.org/wiki/ROT13) or the [man page](https://www.freebsd.org/cgi/man.cgi?query=rot13))
 
 Level 2 sub projects (easy ones, introducing command line options):
 - [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this example for environment and command line processing
@@ -65,6 +65,6 @@ Level 5 sub projects (intermediate level, full blown commands):
 - od
 
 Pre-requisites:
-- All commands need to be PEP 8 compliant (checked with pylint or see https://www.python.org/dev/peps/pep-0008/).
+- All commands need to be [PEP 8](https://www.python.org/dev/peps/pep-0008/) compliant (which you can check with [pylint](https://www.pylint.org/)).
 - Provide a script for testing the new command against the installed one
 - Test execution under Windows

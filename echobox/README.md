@@ -27,37 +27,14 @@ Options | Use
 -a\|--align name|Sets the alignment to use. Possible values: left (default), center, middle, right.
 -b\|--basic-char char|Sets the character to use with the basic style. Default value: '#'.
 -d\|--debug|Enable debug level messages.
-
-.TP
-.BR \-f|\-\-fill-char " char"
-Sets the character to use to fill the box.
-Default value: ' '.
-.TP
-.BR \-h|\-\-help|-?
-Print usage and a short help message and exit.
-.TP
-.BR \-i|\-\-inter-lines " number"
-Sets the number of lines separating the text from the box on the top and bottom sides.
-Default value: 1.
-.TP
-.BR \-S|\-\-style " name"
-Sets the style to use.
-Possible values: basic (default), ascii, single, curved, hatched, double, block.
-.TP
-.BR \-s|\-\-spaces " number"
-Sets the number of spaces separating the text from the box on the left and right sides.
-Default value: 3.
-.TP
-.BR \-t|\-\-trail-lines " number"
-Sets the number of blank lines following the box.
-Default value: 1.
-.TP
-.BR \-v|\-\-version
-Print version and exit.
-.TP
-.BR \-\-
-Options processing terminator.
-Contrarily to the echo(1) command, it is recognized as such.
+-f\|--fill-char char|Sets the character to use to fill the box. Default value: ' '.
+-h\|--help\|-?|Print usage and a short help message and exit.
+-i\|--inter-lines number|Sets the number of lines separating the text from the box on the top and bottom sides. Default value: 1.
+-S\|--style name|Sets the style to use. Possible values: basic (default), ascii, single, curved, hatched, double, block.
+-s\|--spaces number|Sets the number of spaces separating the text from the box on the left and right sides. Default value: 3.
+-t\|--trail-lines number|Sets the number of blank lines following the box. Default value: 1.
+-v\|--version|Print version and exit.
+--\|Options processing terminator. Contrarily to the echo(1) command, it is recognized as such.
 
 ## ENVIRONMENT
 Environment variables are processed first and thus overridden by command line options.

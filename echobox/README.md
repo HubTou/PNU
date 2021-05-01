@@ -34,7 +34,7 @@ Options | Use
 -s\|--spaces number|Sets the number of spaces separating the text from the box on the left and right sides. Default value: 3.
 -t\|--trail-lines number|Sets the number of blank lines following the box. Default value: 1.
 -v\|--version|Print version and exit.
---\|Options processing terminator. Contrarily to the echo(1) command, it is recognized as such.
+--|Options processing terminator. Contrarily to the [echo(1)](https://www.freebsd.org/cgi/man.cgi?query=echo) command, it is recognized as such.
 
 ## ENVIRONMENT
 Environment variables are processed first and thus overridden by command line options.

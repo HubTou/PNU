@@ -57,36 +57,18 @@ Contrarily to the echo(1) command, it is recognized as such.
 
 ## ENVIRONMENT
 Environment variables are processed first and thus overridden by command line options.
-.TP
-.BR ECHOBOX_STYLE
-Sets the style to use.
-.TP
-.BR ECHOBOX_ALIGN
-Sets the alignment to use.
-.TP
-.BR ECHOBOX_BASIC_CHAR
-Sets the character to use with the basic style.
-.TP
-.BR ECHOBOX_FILL_CHAR
-Sets the character to use to fill the box.
-.TP
-.BR ECHOBOX_SPACES
-Sets the number of spaces separating the text from the box on the left and right sides.
-.TP
-.BR ECHOBOX_INTER_LINES
-Sets the number of lines separating the text from the box on the top and bottom sides.
-.TP
-.BR ECHOBOX_TRAIL_LINES
-Sets the number of blank lines following the box.
-.TP
-.BR ECHOBOX_DEBUG
-Enable debug level messages.
-.TP
-.BR COLUMNS
-Defines the number of columns in the terminal window.
-This variable is sometimes provided by the [Bash](http://www.gnu.org/software/bash/) shell and some others, but not necessarily exported.
-It's used for center and right alignments.
-Default value: 80.
+
+Variable | Use
+-------- | ---
+ECHOBOX_STYLE | Sets the style to use.
+ECHOBOX_ALIGN | Sets the alignment to use.
+ECHOBOX_BASIC_CHAR | Sets the character to use with the basic style.
+ECHOBOX_FILL_CHAR | Sets the character to use to fill the box.
+ECHOBOX_SPACES | Sets the number of spaces separating the text from the box on the left and right sides.
+ECHOBOX_INTER_LINES | Sets the number of lines separating the text from the box on the top and bottom sides.
+ECHOBOX_TRAIL_LINES | Sets the number of blank lines following the box.
+ECHOBOX_DEBUG | Enable debug level messages.
+COLUMNS | Defines the number of columns in the terminal window. This variable is sometimes provided by the [Bash](http://www.gnu.org/software/bash/) shell and some others, but not necessarily exported. It's used for center and right alignments. Default value: 80.
 
 ## EXIT STATUS
 The echobox utility exits 0 on success, and >0 if an error occurs.

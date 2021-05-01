@@ -16,16 +16,17 @@ Suggested tasks and progression:
 
 Level 0 sub projects (super easy ones, string handling only):
 - basename, dirname
-- echo
+- echo (without getopt for a start)
 - line
 - true, false
 
 Level 1 sub projects (easy ones, using basic math or data structures):
 - banner
 - factor, primes
-- rot13 (non standard, check https://en.wikipedia.org/wiki/ROT13 or https://www.freebsd.org/cgi/man.cgi?query=rot13), caesar
+- rot13, caesar (non standard, check https://en.wikipedia.org/wiki/ROT13 or https://www.freebsd.org/cgi/man.cgi?query=rot13)
 
 Level 2 sub projects (easy ones, introducing command line options):
+- [echobox][https://github.com/HubTou/PNU/tree/main/echobox] => check this example for environment and command line processing
 - cat
 - cmp
 - comm

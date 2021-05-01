@@ -21,9 +21,13 @@ echobox - write arguments in a box to the standard output
 The **echobox** utility writes any specified operands, separated by single blank (' ') characters and followed by a newline ('\\n') character, in a box, to the standard output.
 
 ## OPTIONS
+
+Options | Use
+------- | ---
 -a\|--align name|Sets the alignment to use. Possible values: left (default), center, middle, right.
 -b\|--basic-char char|Sets the character to use with the basic style. Default value: '#'.
 -d\|--debug|Enable debug level messages.
+
 .TP
 .BR \-f|\-\-fill-char " char"
 Sets the character to use to fill the box.

@@ -84,7 +84,7 @@ Enable debug level messages.
 .TP
 .BR COLUMNS
 Defines the number of columns in the terminal window.
-This variable is sometimes provided by the Bash shell and some others, but not necessarily exported.
+This variable is sometimes provided by the [Bash](http://www.gnu.org/software/bash/) shell and some others, but not necessarily exported.
 It's used for center and right alignments.
 Default value: 80.
 
@@ -92,29 +92,29 @@ Default value: 80.
 The echobox utility exits 0 on success, and >0 if an error occurs.
 
 ## SEE ALSO
-dialog(1)
+[dialog(1)](https://www.freebsd.org/cgi/man.cgi?query=dialog)
 
 https://en.wikipedia.org/wiki/Box-drawing_character
 
 https://unicode-table.com/fr/#box-drawing
 
 ## BUGS
-Specifying a basic or fill Unicode characters is not currently possible with the environment and command line options.
+Specifying a basic or fill [Unicode](https://home.unicode.org/) characters is not currently possible with the environment and command line options.
 
 ## STANDARDS
-The echobox command is not a standard UNIX/POSIX command.
+The echobox command is not a standard [UNIX](https://en.wikipedia.org/wiki/Unix)/[POSIX](https://en.wikipedia.org/wiki/POSIX) command.
 
-It tries to follow the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide for Python code.
+It tries to follow the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide for [Python](https://www.python.org/) code.
 We check this with the [Pylint](https://www.pylint.org/) command.
 
 ## PORTABILITY
-Tested under Windows, though the hatched and curved Unicode characters are not fully recognized in the cmd.exe and PowerShell command prompts.
+Tested under Windows, though the [hatched and curved Unicode characters](https://unicode-table.com/fr/#box-drawing) are not fully recognized in the cmd.exe and PowerShell command prompts.
 
 ## HISTORY
-The echobox command was created as an example for the PNU / PyNIX project, demonstrating how to process the environment and the command line, and use the Python logging module.
+The echobox command was created as an example for the [PNU / PyNIX project](https://github.com/HubTou/PNU), demonstrating how to process the environment and the command line, and use the [Python logging module](https://docs.python.org/3/library/logging.html).
 
 ## LICENSE
 This utility is available under the [3-clause BSD license](https://opensource.org/licenses/BSD-3-Clause).
 
 ## AUTHOR
-Hubert Tournier
+[Hubert Tournier](https://github.com/HubTou)

@@ -1,4 +1,5 @@
 # ECHOBOX(1)
+
 ## NAME
 echobox - write arguments in a box to the standard output
 
@@ -8,7 +9,7 @@ echobox - write arguments in a box to the standard output
 [-b\|--basic-char char]
 [-d\|--debug]
 [-f\|--fill-char char]
-[-h\|--help|-?]
+[-h\|--help\|-?]
 [-i\|--inter-lines number]
 [-S\|--style name]
 [-s\|--spaces number]

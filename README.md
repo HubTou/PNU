@@ -3,7 +3,7 @@ The PNU Project (PNU as in "PNU is Not Unix"):
 
 (Yet another collection of) UNIX tools rewritten in Python, forming a kind of PyNIX.
 
-It's meant to be pronounced "Pneu" (tyre in French), a pun which seems appropriate as it's cleary another reinvention of the wheel :-)
+It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropriate as it's cleary another reinvention of the wheel, longtime after the GNU project :-)
 
 Objectives:
 - Firstly intended as a learning exercise in Python/Unix for my son

@@ -26,7 +26,7 @@ Level 1 sub projects (easy ones, using basic math or data structures):
 - rot13, caesar (non standard, check https://en.wikipedia.org/wiki/ROT13 or https://www.freebsd.org/cgi/man.cgi?query=rot13)
 
 Level 2 sub projects (easy ones, introducing command line options):
-- https://github.com/HubTou/PNU/tree/main/echobox => check this example for environment and command line processing
+- [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this example for environment and command line processing
 - cat
 - cmp
 - comm

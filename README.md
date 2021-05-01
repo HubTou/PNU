@@ -24,7 +24,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 ### Level 1 sub projects (easy ones, using basic math or data structures):
 * [banner](https://www.freebsd.org/cgi/man.cgi?query=banner)
 * [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor)
-* [rot13, caesar](https://www.freebsd.org/cgi/man.cgi?query=rot13) (non standard, check [Wikipedia](https://en.wikipedia.org/wiki/ROT13))
+* [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar) (non standard, check [Wikipedia](https://en.wikipedia.org/wiki/ROT13))
 
 ### Level 2 sub projects (easy ones, introducing command line options):
 * [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this full example first for environment and command line processing

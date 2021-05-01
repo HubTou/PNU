@@ -5,6 +5,8 @@ The PNU Project (PNU as in "PNU is Not Unix"):
 
 It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropriate as it's clearly another reinvention of the wheel, longtime after the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html) :-)
 
+![PNU logo](/_images/pnu-logo.png)
+
 ## Objectives:
 * Firstly intended as a learning exercise in Python/Unix for my son, but open to anyone.
 * Eventually having some handy portable Unix tools, for example for Windows.

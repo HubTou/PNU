@@ -71,18 +71,26 @@ Basic system utilities, possibly recursive:
 * [du](https://www.freebsd.org/cgi/man.cgi?query=du)
 
 ## Intermediate levels
+Regular expressions, text parsing.
+CSV, JSON, XML, HTML data handling.
+
 ### Level 5 sub projects (intermediate ones):
-Regular expressions, text parsing:
-
-CSV, JSON, XML, HTML data handling:
-
 Intermediate system utilities:
 
+### Level 6 sub projects (intermediate ones):
+
+### Level 7 sub projects (intermediate ones):
+
+### Level 8 sub projects (intermediate ones):
+
+### Level 9 sub projects (intermediate ones):
+
 ## Advanced levels
+Office documents manipulation, image manipulation, web scraping, network applications, automation.
+
 ### Level 10 sub projects (advanced ones):
 Advanced system utilities:
-
-Office documents manipulation, image manipulation, web scraping, network applications, automation:
+* [compress](https://www.freebsd.org/cgi/man.cgi?query=compress)
 
 ### Level 14 sub projects (advanced ones):
 Interactive full screen applications:
@@ -90,7 +98,7 @@ Interactive full screen applications:
 
 ## Master levels
 ### Level 15 sub projects:
-Languages (interpreters, compilers), database management systems, network stacks, :
+Languages (interpreters, compilers), database management systems, network protocols:
 * [awk](https://www.freebsd.org/cgi/man.cgi?query=awk)
 * [sh](https://www.freebsd.org/cgi/man.cgi?query=sh) => Suggested level boss
 

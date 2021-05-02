@@ -10,26 +10,28 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 
 ## Project status:
 * The project is ongoing.
-* This place is a both a challenge description and a placeholder for publishing unix tools rewrites made by or with my son, or others.
+* This place is both a challenge description and a placeholder for publishing unix tools rewrites made by or with my son, or others.
 
 ## How to contribute:
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
 * Aim to be [PEP 8](https://www.python.org/dev/peps/pep-0008/) compliant (which you can check with [pylint](https://www.pylint.org/)).
 * Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a standard way.
 
-Ideally (but leave this for the future if it's too complicated):
+Ideally (but leave this for the future if it's too complicated for the time being):
 * Provide a script for testing the new command against the installed one.
-* Test execution under Windows for the portability goal.
-* Write some documentation in a README.md file (in [GitHub markdown](https://guides.github.com/features/mastering-markdown/)) or [man](https://www.freebsd.org/cgi/man.cgi?query=man)ual page (in [mdoc](https://www.freebsd.org/cgi/man.cgi?query=mdoc&sektion=7) or [man](https://www.freebsd.org/cgi/man.cgi?query=man&sektion=7) languages).
+* Also test execution under Windows for the portability goal.
+* Write some documentation in a README.md file (in [GitHub markdown](https://guides.github.com/features/mastering-markdown/)) or [man](https://www.freebsd.org/cgi/man.cgi?query=man)ual page (in the newer [mdoc](https://www.freebsd.org/cgi/man.cgi?query=mdoc&sektion=7) or classic [man](https://www.freebsd.org/cgi/man.cgi?query=man&sektion=7) languages).
 * Write an installation script or Makefile.
 * Select an [OSI-approved Open Source License](https://opensource.org/licenses) and put it in a License file.
-* Clone this repository and submit your changes.
+* [Clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) and submit your changes.
 
 ## Suggested tasks and progression:
 The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, level structure is proposed for gamification.
 It would also be fun to set level bosses and associated trophies :-)
 
 The [Python Standard Library](https://docs.python.org/3/library/index.html) online documentation and the online book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) could be useful to progress quickly.
+
+The commands below are linked to their latest [FreeBSD man page](https://www.freebsd.org/cgi/man.cgi), which also gives access to a lot of other Unix-like operating systems versions, but you should probably start implementing the simpler (and more testing oriented) POSIX.1 version.
 
 ## Basic levels
 ### Level 0 sub projects (super easy ones)

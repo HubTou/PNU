@@ -17,7 +17,8 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a standard way.
 * Provide a script for testing the new command against the installed one.
 * Test execution under Windows for the portability goal.
-* Write some documentations in a README.md (in [GitHub markdown](https://guides.github.com/features/mastering-markdown/)) or manual page.
+* Write some documentation in a README.md (in [GitHub markdown](https://guides.github.com/features/mastering-markdown/)) or manual page.
+* Write an installation script or Makefile.
 * Select an [OSI-approved Open Source License](https://opensource.org/licenses) and put it in a License file.
 * Clone this repository and submit your changes.
 

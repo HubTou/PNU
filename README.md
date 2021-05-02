@@ -14,10 +14,12 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 
 ## Pre-requisites:
 * Aim to be [PEP 8](https://www.python.org/dev/peps/pep-0008/) compliant (which you can check with [pylint](https://www.pylint.org/)).
+* Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a standard way.
 * Provide a script for testing the new command against the installed one.
 * Test execution under Windows for the portability goal.
-* Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a standard way.
-* Select an [OSI-approved Open Source License](https://opensource.org/licenses) and submit your code.
+* Write some documentations in a README.md (GitHub markdown style) or manual page
+* Select an [OSI-approved Open Source License](https://opensource.org/licenses).
+* Clone this repository and submit your changes.
 
 ## Suggested tasks and progression:
 The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, level structure is proposed for gamification.
@@ -31,18 +33,18 @@ Handling return codes, printing & reading to/from the terminal, and basic string
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
 * [yes](https://www.freebsd.org/cgi/man.cgi?query=yes)
 * [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => without options for a start
-* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start. Suggested boss level
+* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start. Suggested level boss
 
 ### Level 1 sub projects (easy ones)
 Basic math or data structures, school level:
-* [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => Suggested boss level
+* [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => Suggested level boss
 
 ### Level 2 sub projects (easy ones)
 Basic command line & environment processing, file operations and filters:
 * [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this already made full example first
 * [expand, unexpand](https://www.freebsd.org/cgi/man.cgi?query=expand)
 * [fold](https://www.freebsd.org/cgi/man.cgi?query=fold)
-* [wc](https://www.freebsd.org/cgi/man.cgi?query=wc) => Suggested boss level.
+* [wc](https://www.freebsd.org/cgi/man.cgi?query=wc) => Suggested level boss
 
 ### Level 3 sub projects (easy ones)
 Basic system utilities, multiple files or many options:
@@ -50,7 +52,7 @@ Basic system utilities, multiple files or many options:
 * [cmp](https://www.freebsd.org/cgi/man.cgi?query=cmp)
 * [comm](https://www.freebsd.org/cgi/man.cgi?query=comm)
 * [expr](https://www.freebsd.org/cgi/man.cgi?query=expr)
-* [uniq](https://www.freebsd.org/cgi/man.cgi?query=uniq)
+* [uniq](https://www.freebsd.org/cgi/man.cgi?query=uniq) => Suggested level boss
 
 ### Level 4 sub projects (easy ones)
 Basic system utilities, possibly recursive:

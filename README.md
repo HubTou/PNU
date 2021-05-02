@@ -6,7 +6,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 ## Objectives:
 * Firstly intended as a learning exercise in Python/Unix for my son, but open to anyone.
 * Having some handy portable Unix tools, for example for Windows.
-* Ultimately to have all the [standard utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), most utilities sitting under /bin and /usr/bin in a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)/[GNU Linux](https://en.wikipedia.org/wiki/Linux) system, some usual non-standard utilities, as well as some utilities of our own.
+* Ultimately to have all the relevant [standard utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), many utilities sitting under /bin and /usr/bin in a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)/[GNU Linux](https://en.wikipedia.org/wiki/Linux) system, some usual non-standard utilities, as well as some utilities of our own.
 
 ## Project status:
 * The project is ongoing.
@@ -17,8 +17,8 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a standard way.
 * Provide a script for testing the new command against the installed one.
 * Test execution under Windows for the portability goal.
-* Write some documentations in a README.md (GitHub markdown style) or manual page
-* Select an [OSI-approved Open Source License](https://opensource.org/licenses).
+* Write some documentations in a README.md (in [GitHub markdown](https://guides.github.com/features/mastering-markdown/)) or manual page.
+* Select an [OSI-approved Open Source License](https://opensource.org/licenses) and put it in a License file.
 * Clone this repository and submit your changes.
 
 ## Suggested tasks and progression:

@@ -25,7 +25,7 @@ It would also be fun to set level bosses and associated trophies :-)
 
 The [Python Standard Library](https://docs.python.org/3/library/index.html) online documentation and the online book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) could be useful to progress quickly.
 
-## Easy levels
+## Basic levels
 ### Level 0 sub projects (super easy ones)
 Handling return codes, printing & reading to/from the terminal, and basic string handling:
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
@@ -55,12 +55,17 @@ CSV, JSON, XML, HTML data handling:
 
 Intermediate system utilities:
 
-## Advanced / Pro levels
+## Advanced levels
 ### Level 10 sub projects (advanced ones):
 Advanced system utilities:
 
 Office documents manipulation, image manipulation, web scraping, network applications, automation
 
 ## Master levels
-### Level 15 sub projects (master-level ones):
-Languages (interpreters, compilers), database management systems, network stacks, operating systems, device drivers:
+### Level 15 sub projects:
+Languages (interpreters, compilers), database management systems, network stacks, :
+
+## Immortal levels
+### Level transcending projects:
+Full operating system kernels & device drivers:
+* Your own [Minix](https://en.wikipedia.org/wiki/Minix)/[386BSD](https://en.wikipedia.org/wiki/386BSD)/Linux like operating system with PNU userland utilities.

@@ -74,9 +74,9 @@ Basic system utilities, possibly recursive:
 * [chmod](https://www.freebsd.org/cgi/man.cgi?query=chmod)
 * [chown](https://www.freebsd.org/cgi/man.cgi?query=chown)
 * [chgrp](https://www.freebsd.org/cgi/man.cgi?query=chgrp)
-* [du](https://www.freebsd.org/cgi/man.cgi?query=du)
 
 ### Level 6 sub projects (intermediate ones):
+* [du](https://www.freebsd.org/cgi/man.cgi?query=du)
 
 ### Level 7 sub projects (intermediate ones):
 

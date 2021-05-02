@@ -16,6 +16,8 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
 * Aim to be [PEP 8](https://www.python.org/dev/peps/pep-0008/) compliant (which you can check with [pylint](https://www.pylint.org/)).
 * Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a standard way.
+
+Ideally (but leave this for the future if it's too complicated):
 * Provide a script for testing the new command against the installed one.
 * Test execution under Windows for the portability goal.
 * Write some documentation in a README.md file (in [GitHub markdown](https://guides.github.com/features/mastering-markdown/)) or [man](https://www.freebsd.org/cgi/man.cgi?query=man)ual page (in [mdoc](https://www.freebsd.org/cgi/man.cgi?query=mdoc&sektion=7) or [man](https://www.freebsd.org/cgi/man.cgi?query=man&sektion=7) languages).

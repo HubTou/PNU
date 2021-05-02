@@ -12,6 +12,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * This place is a placeholder for publishing unix tools rewrites made by or with my son, or others.
 
 ## Suggested tasks and progression:
+A long term goal would be to have all the [utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), most utilities sitting under /bin and /usr/bin, some common non-standard utilities, as well as some utilities of our own.
 
 ### Level 0 sub projects (super easy ones)
 Handling return codes, printing & reading to/from the terminal, and basic string handling:
@@ -24,9 +25,30 @@ Handling return codes, printing & reading to/from the terminal, and basic string
 Basic math or data structures, school level:
 * [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor)
 
-### Level 2 sub projects (easy ones, introducing command line options):
-* [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this full example first for environment and command line processing
+### Level 2 sub projects (easy ones)
+Basic command line & environment processing, file operations and filters:
+* [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this full example first
 * [wc](https://www.freebsd.org/cgi/man.cgi?query=wc)
+
+### Level 3 sub projects (easy ones)
+Basic system utilities:
+
+### Level 4 sub projects (easy ones)
+
+### Level 5 sub projects (intermediate ones):
+Regular expressions, text parsing:
+
+CSV, JSON, XML, HTML data handling:
+
+Intermediate system utilities:
+
+### Level 10 sub projects (advanced ones):
+Advanced system utilities:
+
+Office documents manipulation, image manipulation, web scraping, network applications, automation
+
+### Level 15 sub projects (master-level ones):
+Languages (interpreters, compilers), database management systems, network stacks, operating systems, device drivers:
 
 ## Pre-requisites:
 * All commands need to be [PEP 8](https://www.python.org/dev/peps/pep-0008/) compliant (which you can check with [pylint](https://www.pylint.org/)).

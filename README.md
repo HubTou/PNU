@@ -31,7 +31,7 @@ It would also be fun to set level bosses and associated trophies :-)
 
 The [Python Standard Library](https://docs.python.org/3/library/index.html) online documentation and the online book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) could be useful to progress quickly.
 
-The commands below are linked to their latest [FreeBSD man page](https://www.freebsd.org/cgi/man.cgi), which also gives access to a lot of other Unix-like operating systems versions, but you should probably start implementing the simpler (and more testing oriented) POSIX.1 version.
+The commands below are linked to their latest [FreeBSD man page](https://www.freebsd.org/cgi/man.cgi), which also gives access to a lot of other Unix-like operating systems versions, but you should probably start implementing their simpler (and more testing oriented) [POSIX.1 version}(https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
 
 ## Basic levels
 ### Level 0 sub projects (super easy ones)

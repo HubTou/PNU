@@ -6,7 +6,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 ## Objectives:
 * Firstly intended as a learning exercise in Python/Unix for my son, but open to anyone.
 * Having some handy portable Unix tools, for example for Windows.
-* Ultimately to have all the [utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), most utilities sitting under /bin and /usr/bin in a BSD/Linux system, some usual non-standard utilities, as well as some utilities of our own.
+* Ultimately to have all the [standard utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), most utilities sitting under /bin and /usr/bin in a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)/[GNU Linux](https://en.wikipedia.org/wiki/Linux) system, some usual non-standard utilities, as well as some utilities of our own.
 
 ## Project status:
 * The project is ongoing.

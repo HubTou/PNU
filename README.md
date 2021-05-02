@@ -13,55 +13,20 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 
 ## Suggested tasks and progression:
 
-### Level 0 sub projects (super easy ones, string handling only):
-* basename, dirname
-* echo (without getopt for a start)
-* line
-* true, false
+### Level 0 sub projects (super easy ones)
+Handling return codes, printing & reading to/from the terminal, and basic string handling:
+* [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
+* [yes](https://www.freebsd.org/cgi/man.cgi?query=yes)
+* [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => without options for a start
+* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start
 
-### Level 1 sub projects (easy ones, using basic math or data structures):
-* [banner](https://www.freebsd.org/cgi/man.cgi?query=banner)
+### Level 1 sub projects (easy ones)
+Basic math or data structures, school level:
 * [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor)
-* [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar) (non standard, check [Wikipedia](https://en.wikipedia.org/wiki/ROT13))
 
 ### Level 2 sub projects (easy ones, introducing command line options):
 * [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this full example first for environment and command line processing
-* cat
-* cmp
-* comm
-* head
-* sleep
-* tail
-* uniq => a good one to start with
-* wc => a good one to start with
-
-### Level 3 sub projects (easy ones, introducing system-level programming)
-* chown, chgrp
-* cp, ln, mv
-* df
-* dircmp
-* du
-* env
-* id
-* logname
-* machid
-* mkdir
-* pwd
-* rm, rmdir
-* split
-* sum (hint: use readily available libraries)
-* touch
-* uname
-
-### Level 4 sub projects (intermediate level, more complex parsing):
-* cut
-
-### Level 5 sub projects (intermediate level, full blown commands or bigger projects):
-* date
-* ls
-* tree (non standard) -> the one we started with!
-* nl
-* od
+* [wc](https://www.freebsd.org/cgi/man.cgi?query=wc)
 
 ## Pre-requisites:
 * All commands need to be [PEP 8](https://www.python.org/dev/peps/pep-0008/) compliant (which you can check with [pylint](https://www.pylint.org/)).

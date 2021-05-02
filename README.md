@@ -66,13 +66,17 @@ Basic text processing utilities, multiple files or many options:
 * [uniq](https://www.freebsd.org/cgi/man.cgi?query=uniq) => Suggested level boss
 
 ### Level 4 sub projects (easy ones)
+Basic utilities using more complex parsing!
+* cut
+* getopts
+* printf
 
 ## Intermediate levels
 Regular expressions, text parsing.
 CSV, JSON, XML, HTML data handling.
 
 ### Level 5 sub projects (intermediate ones):
-Basic system utilities, possibly recursive:
+Basic system utilities (implying minimum Unix system knowledge), possibly recursive ones:
 * [chmod](https://www.freebsd.org/cgi/man.cgi?query=chmod)
 * [chown](https://www.freebsd.org/cgi/man.cgi?query=chown)
 * [chgrp](https://www.freebsd.org/cgi/man.cgi?query=chgrp)

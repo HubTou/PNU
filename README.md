@@ -12,17 +12,17 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * The project is ongoing.
 * This place is a both a challenge description and a placeholder for publishing unix tools rewrites made by or with my son, or others.
 
-## Suggested tasks and progression:
-The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, level structure is proposed for gamification.
-It would also be fun to set level bosses and associated trophies.
-
-The [Python Standard Library](https://docs.python.org/3/library/index.html) online documentation and the online book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) could be useful to progress quickly.
-
 ## Pre-requisites:
 * All commands need to be [PEP 8](https://www.python.org/dev/peps/pep-0008/) compliant (which you can check with [pylint](https://www.pylint.org/)).
 * Provide a script for testing the new command against the installed one.
 * Test execution under Windows for the portability goal.
 * Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a standard way.
+
+## Suggested tasks and progression:
+The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, level structure is proposed for gamification.
+It would also be fun to set level bosses and associated trophies.
+
+The [Python Standard Library](https://docs.python.org/3/library/index.html) online documentation and the online book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) could be useful to progress quickly.
 
 ## Easy levels
 ### Level 0 sub projects (super easy ones)
@@ -30,16 +30,16 @@ Handling return codes, printing & reading to/from the terminal, and basic string
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
 * [yes](https://www.freebsd.org/cgi/man.cgi?query=yes)
 * [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => without options for a start
-* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start
+* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start. Suggested boss level
 
 ### Level 1 sub projects (easy ones)
 Basic math or data structures, school level:
-* [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor)
+* [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => Suggested boss level
 
 ### Level 2 sub projects (easy ones)
 Basic command line & environment processing, file operations and filters:
 * [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this already made full example first
-* [wc](https://www.freebsd.org/cgi/man.cgi?query=wc)
+* [wc](https://www.freebsd.org/cgi/man.cgi?query=wc) => Suggested boss level.
 
 ### Level 3 sub projects (easy ones)
 Basic system utilities:

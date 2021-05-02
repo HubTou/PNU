@@ -18,6 +18,7 @@ The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspire
 
 The [Python Standard Library](https://docs.python.org/3/library/index.html) documentation and the online book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) could be useful to progress quickly.
 
+## Easy levels
 ### Level 0 sub projects (super easy ones)
 Handling return codes, printing & reading to/from the terminal, and basic string handling:
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
@@ -39,6 +40,7 @@ Basic system utilities:
 
 ### Level 4 sub projects (easy ones)
 
+## Intermediate levels
 ### Level 5 sub projects (intermediate ones):
 Regular expressions, text parsing:
 
@@ -46,11 +48,13 @@ CSV, JSON, XML, HTML data handling:
 
 Intermediate system utilities:
 
+## Advanced / Pro levels
 ### Level 10 sub projects (advanced ones):
 Advanced system utilities:
 
 Office documents manipulation, image manipulation, web scraping, network applications, automation
 
+# Master levels
 ### Level 15 sub projects (master-level ones):
 Languages (interpreters, compilers), database management systems, network stacks, operating systems, device drivers:
 
@@ -58,3 +62,4 @@ Languages (interpreters, compilers), database management systems, network stacks
 * All commands need to be [PEP 8](https://www.python.org/dev/peps/pep-0008/) compliant (which you can check with [pylint](https://www.pylint.org/)).
 * Provide a script for testing the new command against the installed one
 * Test execution under Windows
+* Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a standard way.

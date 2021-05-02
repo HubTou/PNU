@@ -14,6 +14,10 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 ## Suggested tasks and progression:
 A long term goal would be to have all the [utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), most utilities sitting under /bin and /usr/bin, some common non-standard utilities, as well as some utilities of our own.
 
+The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, level structure is proposed for gamification. It would also be fun to set level bosses and associated trophies.
+
+The [Python Standard Library](https://docs.python.org/3/library/index.html) documentation and the online book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) could be useful to progress quickly.
+
 ### Level 0 sub projects (super easy ones)
 Handling return codes, printing & reading to/from the terminal, and basic string handling:
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)

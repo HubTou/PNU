@@ -45,7 +45,7 @@ Basic math or data structures, school level:
 
 ### Level 2 sub projects (easy ones)
 Basic command line & environment processing, file operations and filters:
-* [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this already made full example first
+* [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => Check this already made full example first
 * [expand, unexpand](https://www.freebsd.org/cgi/man.cgi?query=expand)
 * [fold](https://www.freebsd.org/cgi/man.cgi?query=fold)
 * [head](https://www.freebsd.org/cgi/man.cgi?query=head)
@@ -54,7 +54,7 @@ Basic command line & environment processing, file operations and filters:
 
 ### Level 3 sub projects (easy ones)
 Basic text processing utilities, multiple files or many options:
-* [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) => here because of the number of options
+* [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) => Here because of the number of options
 * [cmp](https://www.freebsd.org/cgi/man.cgi?query=cmp)
 * [comm](https://www.freebsd.org/cgi/man.cgi?query=comm)
 * [expr](https://www.freebsd.org/cgi/man.cgi?query=expr)

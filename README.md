@@ -68,4 +68,4 @@ Languages (interpreters, compilers), database management systems, network stacks
 ## Immortal levels
 ### Level transcending projects:
 Full operating system kernels & device drivers:
-* Your own [Minix](https://en.wikipedia.org/wiki/Minix)/[386BSD](https://en.wikipedia.org/wiki/386BSD)/Linux like operating system with PNU userland utilities.
+* Your own [Minix](https://en.wikipedia.org/wiki/Minix)/[386BSD](https://en.wikipedia.org/wiki/386BSD)/Linux like operating system with PNU userland utilities :-)

@@ -49,7 +49,7 @@ Basic command line & environment processing, file operations and filters:
 * [wc](https://www.freebsd.org/cgi/man.cgi?query=wc) => Suggested level boss
 
 ### Level 3 sub projects (easy ones)
-Basic system utilities, multiple files or many options:
+Basic text processing utilities, multiple files or many options:
 * [cat](https://www.freebsd.org/cgi/man.cgi?query=cat)
 * [cmp](https://www.freebsd.org/cgi/man.cgi?query=cmp)
 * [comm](https://www.freebsd.org/cgi/man.cgi?query=comm)

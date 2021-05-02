@@ -40,12 +40,24 @@ Basic math or data structures, school level:
 ### Level 2 sub projects (easy ones)
 Basic command line & environment processing, file operations and filters:
 * [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this already made full example first
+* [cat](https://www.freebsd.org/cgi/man.cgi?query=cat)
+* [expand](https://www.freebsd.org/cgi/man.cgi?query=expand)
+* [fold](https://www.freebsd.org/cgi/man.cgi?query=fold)
 * [wc](https://www.freebsd.org/cgi/man.cgi?query=wc) => Suggested boss level.
 
 ### Level 3 sub projects (easy ones)
-Basic system utilities:
+Basic system utilities, multiple files:
+* [cmp](https://www.freebsd.org/cgi/man.cgi?query=cmp)
+* [comm](https://www.freebsd.org/cgi/man.cgi?query=comm)
+* [expr](https://www.freebsd.org/cgi/man.cgi?query=expr)
+* [uniq](https://www.freebsd.org/cgi/man.cgi?query=uniq)
 
 ### Level 4 sub projects (easy ones)
+Basic system utilities, possibly recursive:
+* [chmod](https://www.freebsd.org/cgi/man.cgi?query=chmod)
+* [chown](https://www.freebsd.org/cgi/man.cgi?query=chown)
+* [chgrp](https://www.freebsd.org/cgi/man.cgi?query=chgrp)
+* [du](https://www.freebsd.org/cgi/man.cgi?query=du)
 
 ## Intermediate levels
 ### Level 5 sub projects (intermediate ones):

@@ -17,6 +17,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * Provide a script for testing the new command against the installed one.
 * Test execution under Windows for the portability goal.
 * Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a standard way.
+* Select an [OSI-approved Open Source License](https://opensource.org/licenses) and submit your code.
 
 ## Suggested tasks and progression:
 The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, level structure is proposed for gamification.

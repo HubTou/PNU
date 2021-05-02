@@ -31,7 +31,7 @@ Basic math or data structures, school level:
 
 ### Level 2 sub projects (easy ones)
 Basic command line & environment processing, file operations and filters:
-* [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this full example first
+* [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => check this already made full example first
 * [wc](https://www.freebsd.org/cgi/man.cgi?query=wc)
 
 ### Level 3 sub projects (easy ones)

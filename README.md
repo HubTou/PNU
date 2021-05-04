@@ -99,7 +99,8 @@ Office documents manipulation, image manipulation, web scraping, network applica
 
 ### Level 10 sub projects (advanced ones):
 Advanced system utilities:
-* [compress](https://www.freebsd.org/cgi/man.cgi?query=compress)
+* [compress, uncompress](https://www.freebsd.org/cgi/man.cgi?query=compress)
+* [zcat](https://www.freebsd.org/cgi/man.cgi?query=zcat)
 
 ### Level 14 sub projects (advanced ones):
 Interactive full screen applications:

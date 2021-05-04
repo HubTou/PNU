@@ -6,11 +6,11 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 ## Objectives:
 * Firstly intended as a learning exercise in Python/Unix for my son, but open to anyone.
 * Having some handy portable Unix tools, for example for Windows.
-* Ultimately to have all the relevant [standard utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), many utilities sitting under /bin and /usr/bin in a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)/[GNU Linux](https://en.wikipedia.org/wiki/Linux) system, some usual non-standard utilities, as well as some utilities of our own.
+* Ultimately to have most of the relevant [standard utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html) (around 80 utilities, about 50% of the set), many utilities sitting under /bin and /usr/bin in a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)/[GNU Linux](https://en.wikipedia.org/wiki/Linux) system, some usual non-standard utilities, as well as some utilities of our own.
 
 ## Project status:
 * The project is ongoing.
-* This place is both a challenge description and a placeholder for publishing unix tools rewrites made by or with my son, or others.
+* This place is both for the challenge description and a placeholder for publishing unix tools rewrites made by or with my son, or others.
 
 ## How to contribute:
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
@@ -20,10 +20,12 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 Ideally (but leave this for the future if it's too complicated for the time being):
 * Provide a script for testing the new command against the installed one.
 * Also test execution under Windows for the portability goal.
-* Write some documentation in a README.md file (in [GitHub markdown](https://guides.github.com/features/mastering-markdown/)) or [man](https://www.freebsd.org/cgi/man.cgi?query=man)ual page (in the newer [mdoc](https://www.freebsd.org/cgi/man.cgi?query=mdoc&sektion=7) or classic [man](https://www.freebsd.org/cgi/man.cgi?query=man&sektion=7) languages).
+* Write some documentation in a README.md file (in [GitHub markdown](https://guides.github.com/features/mastering-markdown/)) or [man](https://www.freebsd.org/cgi/man.cgi?query=man)ual page (in the newer [mdoc](https://www.freebsd.org/cgi/man.cgi?query=mdoc&sektion=7) or classical [man](https://www.freebsd.org/cgi/man.cgi?query=man&sektion=7) languages).
 * Write an installation script or Makefile.
 * Select an [OSI-approved Open Source License](https://opensource.org/licenses) and put it in a License file.
-* [Clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) and submit your changes.
+* [Clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository), make your changes and submit them for inclusion.
+
+Eventually, [make a pip package](https://packaging.python.org/tutorials/packaging-projects/) for your entry.
 
 ## Suggested tasks and progression:
 The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, level structure is proposed for gamification.
@@ -45,6 +47,7 @@ Handling return codes, printing & reading to/from the terminal, and basic string
 ### Level 1 sub projects (easy ones)
 Basic math or data structures, school level:
 * [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => Suggested level boss
+* [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar)
 
 ### Level 2 sub projects (easy ones)
 Basic command line & environment processing, file operations and filters:
@@ -67,10 +70,10 @@ Basic text processing utilities, multiple files or many options:
 * [uniq](https://www.freebsd.org/cgi/man.cgi?query=uniq) => Suggested level boss
 
 ### Level 4 sub projects (easy ones)
-Basic utilities using more complex parsing!
-* cut
-* getopts
-* printf
+Basic utilities using more complex parsing:
+* [cut](https://www.freebsd.org/cgi/man.cgi?query=cut)
+* [getopts](https://www.freebsd.org/cgi/man.cgi?query=getopts)
+* [printf](https://www.freebsd.org/cgi/man.cgi?query=printf)
 
 ## Intermediate levels
 Regular expressions, text parsing.

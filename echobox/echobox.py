@@ -103,7 +103,7 @@ def display_help():
     print("usage: %s [-a|--align name] [-b|--basic-char char] [-d|--debug]" % NAME)
     print("       [-f|--fill-char char] [-h|--help|-?] [-i|--inter-lines number]")
     print("       [-S|--style name] [-s|--spaces number] [-t|--trail-lines number]")
-    print("       [-v|--version] [--] string [...]")
+    print("       [-v|--version] [--] [string ...]")
     print("  ----------------   ---------------------------------------------------")
     print("  -a|--align         Box alignment (left, middle, center, right): %s"
         % parameters["Alignment"])

@@ -29,7 +29,7 @@ Eventually, [make a pip package](https://packaging.python.org/tutorials/packagin
 
 ## Suggested tasks and progression:
 The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, level structure is proposed for gamification.
-We suggest level bosses in order to complete a level (but no Demogorgon here, we are not in Stranger Things...).
+We suggest level bosses in order to complete a level (but no Demogorgon here, we are not in [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things)...).
 We are also thinking to provide associated trophies for fun in the future :-)
 
 The [Python Standard Library](https://docs.python.org/3/library/index.html) online documentation and the online book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) could be useful to progress quickly.
@@ -38,7 +38,7 @@ The commands below are linked to their latest [FreeBSD man page](https://www.fre
 
 ## Basic levels
 ### Level 0 sub projects (super easy ones)
-Handling return codes, printing & reading to/from the terminal, and basic string handling:
+Handling return codes, printing to the terminal, and basic string handling:
 * [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start. Suggested level boss
 * [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => without options for a start
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
@@ -60,7 +60,7 @@ Basic command line & environment processing, file operations and filters:
 
 ### Level 3 sub projects (easy ones)
 Basic text processing utilities, multiple files or many options:
-* [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) => Here because of the number of options
+* [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) => Here because of the number of options in latest versions
 * [cmp](https://www.freebsd.org/cgi/man.cgi?query=cmp)
 * [comm](https://www.freebsd.org/cgi/man.cgi?query=comm)
 * [expr](https://www.freebsd.org/cgi/man.cgi?query=expr)
@@ -76,11 +76,12 @@ Basic utilities using more complex parsing:
 * [printf](https://www.freebsd.org/cgi/man.cgi?query=printf)
 
 ## Intermediate levels
-Regular expressions, text parsing.
-CSV, JSON, XML, HTML data handling.
+System utilities (implying minimum Unix system knowledge).
+[Regular expressions](https://docs.python.org/3/library/re.html), text parsing.
+[CSV](https://docs.python.org/3/library/csv.html), [JSON](https://docs.python.org/3/library/json.html), [XML](https://docs.python.org/3/library/xml.html), [HTML](https://docs.python.org/3/library/html.html) data handling.
 
 ### Level 5 sub projects (intermediate ones):
-Basic system utilities (implying minimum Unix system knowledge), possibly recursive ones:
+Basic system utilities, possibly recursive ones:
 * [chmod](https://www.freebsd.org/cgi/man.cgi?query=chmod)
 * [chown](https://www.freebsd.org/cgi/man.cgi?query=chown)
 * [chgrp](https://www.freebsd.org/cgi/man.cgi?query=chgrp)

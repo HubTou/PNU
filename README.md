@@ -50,7 +50,7 @@ Basic math or data structures, school level:
 * [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar)
 
 ### Level 2 sub projects (easy ones)
-Basic command line & environment processing, file operations and filters:
+Basic command line & [environment](https://www.freebsd.org/cgi/man.cgi?query=environ) processing, file operations and filters:
 * [echobox](https://github.com/HubTou/PNU/tree/main/echobox) => Check this already made full example first
 * [expand, unexpand](https://www.freebsd.org/cgi/man.cgi?query=expand)
 * [fold](https://www.freebsd.org/cgi/man.cgi?query=fold)

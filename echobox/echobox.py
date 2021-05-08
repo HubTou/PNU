@@ -334,7 +334,8 @@ def print_blank_lines():
         print()
 
 ################################################################################
-logging.basicConfig(level=logging.INFO, format='%(module)s: %(levelname)s: %(message)s')
+logging.basicConfig(level=logging.DEBUG, format='%(module)s: %(levelname)s: %(message)s')
+logging.disable(logging.DEBUG)
 
 # pylint: disable=C0103
 columns = 80

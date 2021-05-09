@@ -100,7 +100,7 @@ Basic system utilities, possibly recursive ones:
 ### Level 8 sub projects (intermediate ones):
 
 ### Level 9 sub projects (intermediate ones):
-* [tree]'http://mama.indstate.edu/users/ice/tree/) => Not standard but a pretty complete one for our purpose. Suggested level boss
+* [tree](http://mama.indstate.edu/users/ice/tree/) => Not standard but a pretty complete one for our purpose. Suggested level boss
 
 ## Advanced levels
 Office documents manipulation, image manipulation, web scraping, network applications, automation.

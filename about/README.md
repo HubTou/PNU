@@ -38,7 +38,7 @@ Options | Use
 The about utility exits 0 on success, and >0 if an error occurs.
 
 ## SEE ALSO
-[uname(1)](https://www.freebsd.org/cgi/man.cgi?query=uname), [sysctl(8)](https://www.freebsd.org/cgi/man.cgi?query=uname)
+[uname(1)](https://www.freebsd.org/cgi/man.cgi?query=uname), [sysctl(8)](https://www.freebsd.org/cgi/man.cgi?query=sysctl)
 
 https://docs.python.org/3/library/index.html
 

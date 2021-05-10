@@ -88,6 +88,9 @@ Basic system utilities (super easy ones):
 * [pwd](https://www.freebsd.org/cgi/man.cgi?query=pwd)
 * [pathchk](https://www.freebsd.org/cgi/man.cgi?query=pathchk)
 
+Check this already made full example first to discover the system information Python knows about:
+* [about](https://github.com/HubTou/PNU/tree/main/about)
+
 ### Level 6 sub projects (intermediate ones):
 Basic system utilities, possibly recursive ones:
 * [chmod](https://www.freebsd.org/cgi/man.cgi?query=chmod)

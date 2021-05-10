@@ -1,7 +1,7 @@
 # ![PNU logo](/_images/pnu-logo-small.png) The PNU project / PyNIX 
 PNU as in "PNU is Not Unix": yet another collection of [UNIX](https://en.wikipedia.org/wiki/Unix) tools rewritten in [Python](https://www.python.org/), forming a kind of PyNIX.
 
-It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropriate as it's clearly another reinvention of the wheel, longtime after the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html) :-)
+It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropriate as it's clearly another reinvention of the [wheel](http://www.catb.org/jargon/html/W/wheel.html), longtime after the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html) :-)
 
 ## Objectives:
 * Firstly intended as a learning exercise in Python/Unix for my son, but open to anyone.
@@ -15,7 +15,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 ## How to contribute:
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
 * Aim to be [PEP 8](https://www.python.org/dev/peps/pep-0008/) compliant (which you can check with [pylint](https://www.pylint.org/)).
-* Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a standard way.
+* Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a conventional way.
 
 Ideally (but leave this for the future if it's too complicated for the time being):
 * Provide a script for testing the new command against the installed one.

@@ -23,9 +23,9 @@ Ideally (but leave this for the future if it's too complicated for the time bein
 * Write some documentation in a README.md file (in [GitHub markdown](https://guides.github.com/features/mastering-markdown/) language) or [man](https://www.freebsd.org/cgi/man.cgi?query=man)ual page (in the newer [mdoc](https://www.freebsd.org/cgi/man.cgi?query=mdoc&sektion=7) or classical [man](https://www.freebsd.org/cgi/man.cgi?query=man&sektion=7) languages).
 * Write an installation script or [Makefile](https://www.freebsd.org/cgi/man.cgi?query=makefiles) (check this excellent [tutorial](https://makefiletutorial.com/)).
 * Select an [OSI-approved Open Source License](https://opensource.org/licenses) and put it in a License file.
-* Either [clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository), make your changes and submit them for inclusion. Or create your own repository and use the [pnu-project](https://github.com/topics/pnu-project) GitHub topic.
-
-Eventually, [make a pip package](https://packaging.python.org/tutorials/packaging-projects/) for your entry.
+* Either [clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository), make your changes and submit them for inclusion.
+* Or create your own repository and use the [pnu-project](https://github.com/topics/pnu-project) GitHub topic.
+* Eventually, [make a pip package](https://packaging.python.org/tutorials/packaging-projects/) for your entry.
 
 ## Suggested tasks and progression:
 The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, level structure is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).

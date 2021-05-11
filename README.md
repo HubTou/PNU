@@ -14,8 +14,8 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 
 ## How to contribute:
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
-* Aim to be compliant with the [PEP 8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) (which you can check with the [pylint](https://www.pylint.org/) utility).
-* Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter" utility, to format your code in a conventional way.
+* Aim to be compliant with the [PEP 8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/), which you can check with the [pylint](https://www.pylint.org/) utility.
+* Eventually use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter" utility, to format your code in a conventional way.
 
 Ideally (but leave this for the future if it's too complicated for the time being):
 * Provide a script for testing the new command against the installed one (more on this soon).

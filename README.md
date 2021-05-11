@@ -29,7 +29,7 @@ Ideally (but leave this for the future if it's too complicated for the time bein
 
 ## Suggested tasks and progression:
 The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, level structure is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).
-We suggest level bosses in order to complete a level (but no [Demogorgon](https://en.wikipedia.org/wiki/Demogorgon#Dungeons_&_Dragons) here (we are not in [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things)!), unless someone reimplements [NetHack](https://en.wikipedia.org/wiki/NetHack)!).
+We suggest level bosses in order to complete a level (but no [Demogorgon](https://en.wikipedia.org/wiki/Demogorgon#Dungeons_&_Dragons) here, we are not in [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things) :-), unless someone reimplements [NetHack](https://en.wikipedia.org/wiki/NetHack)).
 We are also thinking to provide associated trophies for fun in the future :-)
 
 The [Python Standard Library](https://docs.python.org/3/library/index.html) online documentation and the online book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) could be useful to progress quickly.

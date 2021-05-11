@@ -1,5 +1,5 @@
 # ![PNU logo](/_images/pnu-logo-small.png) The PNU project / PyNIX 
-PNU as in "PNU is Not Unix": yet another collection of [UNIX](https://en.wikipedia.org/wiki/Unix) tools rewritten in [Python](https://www.python.org/), forming a kind of PyNIX.
+PNU, as in "PNU is Not Unix", is yet another collection of [UNIX](https://en.wikipedia.org/wiki/Unix) tools rewritten in [Python](https://www.python.org/), forming a kind of PyNIX.
 
 It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropriate as it's clearly another reinvention of the [wheel](http://www.catb.org/jargon/html/W/wheel.html), longtime after the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html) :-)
 
@@ -14,16 +14,16 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 
 ## How to contribute:
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
-* Aim to be [PEP 8](https://www.python.org/dev/peps/pep-0008/) compliant (which you can check with [pylint](https://www.pylint.org/)).
-* Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter", to format your code in a conventional way.
+* Aim to be compliant with the [PEP 8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) (which you can check with the [pylint](https://www.pylint.org/) utility).
+* Eventually, use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter" utility, to format your code in a conventional way.
 
 Ideally (but leave this for the future if it's too complicated for the time being):
-* Provide a script for testing the new command against the installed one.
+* Provide a script for testing the new command against the installed one (more on this soon).
 * Also test execution under Windows for the portability goal.
-* Write some documentation in a README.md file (in [GitHub markdown](https://guides.github.com/features/mastering-markdown/)) or [man](https://www.freebsd.org/cgi/man.cgi?query=man)ual page (in the newer [mdoc](https://www.freebsd.org/cgi/man.cgi?query=mdoc&sektion=7) or classical [man](https://www.freebsd.org/cgi/man.cgi?query=man&sektion=7) languages).
+* Write some documentation in a README.md file (in [GitHub markdown](https://guides.github.com/features/mastering-markdown/) language) or [man](https://www.freebsd.org/cgi/man.cgi?query=man)ual page (in the newer [mdoc](https://www.freebsd.org/cgi/man.cgi?query=mdoc&sektion=7) or classical [man](https://www.freebsd.org/cgi/man.cgi?query=man&sektion=7) languages).
 * Write an installation script or [Makefile](https://www.freebsd.org/cgi/man.cgi?query=makefiles) (check this excellent [tutorial](https://makefiletutorial.com/)).
 * Select an [OSI-approved Open Source License](https://opensource.org/licenses) and put it in a License file.
-* [Clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository), make your changes and submit them for inclusion.
+* Either [clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository), make your changes and submit them for inclusion. Or create your own repository and use the [pnu-project](https://github.com/topics/pnu-project) GitHub topic.
 
 Eventually, [make a pip package](https://packaging.python.org/tutorials/packaging-projects/) for your entry.
 

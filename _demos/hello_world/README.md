@@ -100,7 +100,7 @@ Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 ```
 
 ### Formatting our source code in a conventional way:
-Although it was not necessary in our simple example, you can do that with the [black package](https://pypi.org/project/black/):
+Just like you would do with [cb](https://www.freebsd.org/cgi/man.cgi?query=cb&manpath=Unix+Seventh+Edition) for [C language](http://www.catb.org/~esr/jargon/html/C/C.html) code, though unnecessary for our simple example, you can do that with the [black package](https://pypi.org/project/black/):
 ```
 # black hello_world.py
 All done! ✨ 🍰 ✨

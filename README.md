@@ -126,6 +126,8 @@ Languages (interpreters, compilers), database management systems, network protoc
 * [sh](https://www.freebsd.org/cgi/man.cgi?query=sh) => Suggested level boss
 
 ## Immortal levels
+It's a long way to the top if you wanna get your entry in the "Deities & [Demigods](http://www.catb.org/jargon/html/D/demigod.html)" of hackers, but here are some examples to inspire you from the [Unix & open source pantheon](https://www.facesofopensource.com/unix/) (note: a [beard](http://jargonf.org/wiki/barbu) is not mandatory)
+
 ### Level transcending projects:
 Full operating system kernels & device drivers:
 * Your own [Minix](https://en.wikipedia.org/wiki/Minix)/[386BSD](https://en.wikipedia.org/wiki/386BSD)/Linux like operating system with PNU userland utilities :-)

@@ -3,6 +3,7 @@ This is [traditionally the first program a coder is supposed to write in a new e
 
 Let's explain what is inside this overcomplicated version.
 
+## Code commentary:
 ```Python
 #!/usr/bin/env python3
 ```
@@ -51,6 +52,14 @@ import sys
 ID = "@(#) $Id: hello_world - say hello to the world v1.0.0 (May 13, 2021) by Hubert Tournier $"
 ```
 
+* Although unnecessary (and in fact unused by the program itself), the ID [constant](https://www.python.org/dev/peps/pep-0008/#constants) mention is a good practice to allow external programs to extract some information about your program (they also work with compiled software).
+  * The [what](https://www.freebsd.org/cgi/man.cgi?query=what) command works with the original [SCCS version control system](https://en.wikipedia.org/wiki/Source_Code_Control_System) and searches for the magic string "@(#)":
+  * The [ident](https://www.freebsd.org/cgi/man.cgi?query=ident) command works with the [RCS version control system](https://en.wikipedia.org/wiki/Revision_Control_System) and searches for the magic string "Id: ... $".
+  * the number in braces behind the command names (ie. "what(1)") are a reference to the [section of the Unix manual](https://www.freebsd.org/cgi/man.cgi?query=man) describing them. 
+* The combined form used above allows for a single declaration to fit both commands :-)
+* Although [these 2 version control systems are deprecated](https://initialcommit.com/blog/Technical-Guide-VCS-Internals), their identification commands are still (sometimes) used in modern Unix systems.
+* The [Pythonic way](https://www.python.org/dev/peps/pep-0020/) to do this would be to use the __version__ and __author__ [module level dunder variables](https://www.python.org/dev/peps/pep-0008/#module-level-dunder-names), however just putting the ID content into __version__ is not the correct way to use that variable according to the [PEP 440 Version Identification and Dependency Specification](https://www.python.org/dev/peps/pep-0440/).
+
 ```Python
 print("Hello, world!")
 ```
@@ -65,3 +74,18 @@ sys.exit(0)
 * On Unix, by convention a value of 0 means success, and any other value means failure.
 * There are [several exit functions in Python](https://www.geeksforgeeks.org/python-exit-commands-quit-exit-sys-exit-and-os-_exit/), but sys.exit() is the right one to use.
 * Last but not least, there should be no blank lines, nor anything else after that function call. This is the end!
+
+## Other tools output:
+Here's an example of the what(1) command output on our program:
+```
+# what hello_world.py
+hello_world.py:
+         $Id: hello_world - say hello to the world v1.0.0 (May 13, 2021) by Hubert Tournier $
+```
+
+And one for the ident(1) command output on our program:
+```
+# ident hello_world.py
+hello_world.py:
+     $Id: hello_world - say hello to the world v1.0.0 (May 13, 2021) by Hubert Tournier $
+```

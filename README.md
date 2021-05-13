@@ -11,7 +11,8 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 
 ## Project status:
 * The project is ongoing.
-* This place is both for the challenge description and a placeholder for publishing unix tools rewrites made by contributors.
+* This place is both for the challenge description and a placeholder for publishing unix tools rewrites made by contributors, though you can also just create your own repositories and link them to the project by using the [pnu-project](https://github.com/topics/pnu-project) GitHub topic.
+
 
 ## How to contribute:
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
@@ -25,7 +26,6 @@ Ideally (but leave this for the future if it's too complicated for the time bein
 * Write an installation script or [Makefile](https://www.freebsd.org/cgi/man.cgi?query=makefiles) (check this excellent [tutorial](https://makefiletutorial.com/)).
 * Select an [OSI-approved Open Source License](https://opensource.org/licenses) and put it in a License file.
 * Either [clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository), make your changes and submit them for inclusion.
-* Or create your own repository and use the [pnu-project](https://github.com/topics/pnu-project) GitHub topic.
 * Eventually, [make a pip package](https://packaging.python.org/tutorials/packaging-projects/) for your entry.
 
 ## Suggested tasks and progression:

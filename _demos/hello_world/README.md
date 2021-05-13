@@ -99,7 +99,7 @@ Just like you would do with [lint](http://www.catb.org/~esr/jargon/html/L/lint.h
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 ```
 
-### Checking out source code security:
+### Checking our source code security:
 You can do that with the [bandit package](https://pypi.org/project/bandit/):
 ```
 [main]  INFO    profile include tests: None
@@ -139,7 +139,7 @@ All done! ✨ 🍰 ✨
 1 file left unchanged.
 ```
 
-### Checking the minimum version of Python required for running the program:
+### Analyzing the minimum version of Python required for running the program:
 You can do that with the [vermin package](https://pypi.org/project/vermin/):
 ```
 # vermin hello_world.py

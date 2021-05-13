@@ -23,14 +23,16 @@ Author: Hubert Tournier
 """
 ```
 
-* The second line of a Python script starts a comment called a [docstring](https://www.python.org/dev/peps/pep-0257/) (from [documentation](http://www.catb.org/~esr/jargon/html/D/documentation.html) string)
+* The second line of a Python script starts a comment called a [docstring](https://www.python.org/dev/peps/pep-0008/#documentation-strings) (from [documentation](http://www.catb.org/~esr/jargon/html/D/documentation.html) string)
   and is specified in the [PEP 257 convention](https://www.python.org/dev/peps/pep-0257/).
 * This peculiar docstring comments the whole program.
 * You should put a one line description of your program on the first line of the comment.
-* I use the same structure that the [whatis](https://www.freebsd.org/cgi/man.cgi?query=whatis) command returns: the name of the program - the one line description.
+* I use the same structure than what the [whatis](https://www.freebsd.org/cgi/man.cgi?query=whatis) command returns: the name of the program - the one line description.
 * The rest of the comment contents are free.
 * I usually mention at least:
   * the license used (you can [choose an open source one](https://opensource.org/licenses/) on the [Open Source Initiative](https://opensource.org/) (OSI) web site)
+    * Personnally, I favor the [3-clause BSD license](https://opensource.org/licenses/BSD-3-Clause) because I'm [open source](http://www.catb.org/~esr/jargon/html/O/open-source.html) / [copycenter](http://www.catb.org/~esr/jargon/html/C/copycenter.html) minded
+    * Some others would favor the [GNU General Public License](https://opensource.org/licenses/gpl-license) (GPL) because they would be more [free software](http://www.catb.org/~esr/jargon/html/F/free-software.html) / [copyleft](http://www.catb.org/~esr/jargon/html/C/copyleft.html) oriented ([IMNSHO](http://www.catb.org/~esr/jargon/html/I/IMHO.html) we should say freed software rather than free) 
   * the author's name
   * I think it's best not to clutter the source code with explanations that you can put in accompanying documentation...
 * You should also add docstrings for all **public** modules, functions, classes and methods, immediately after the def line.

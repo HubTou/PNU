@@ -7,8 +7,8 @@ Let's explain what is inside this overcomplicated version.
 #!/usr/bin/env python3
 ```
 
-* The first line of the script, when it starts with the [magic](http://www.catb.org/~esr/jargon/html/M/magic-number.html) string "#!", is called a [Shebang](https://en.wikipedia.org/wiki/Shebang_(Unix))
-(from [shell bang](http://www.catb.org/~esr/jargon/html/S/shebang.html)).
+* The first line of the script, when it starts with the [magic](http://www.catb.org/~esr/jargon/html/M/magic-number.html) string "#!", is called a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix))
+(from "[shell bang](http://www.catb.org/~esr/jargon/html/S/shebang.html)").
 * Its purpose is to indicate the name of the software that will be used to interpret the rest of the file.
 * You can directly use the path to your interpreter, for example "#!/bin/sh".
 * But for Python it is recommended to use "#!/usr/bin/env python" instead for portability sake

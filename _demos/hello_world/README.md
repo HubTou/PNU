@@ -43,8 +43,8 @@ import sys
 
 * The next part of the script is the import section.
 * The [PEP8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) has some [recommandations for this section layout](https://www.python.org/dev/peps/pep-0008/#imports), but you should definitely check the Style Guide as a whole!
-* The sys module will be needed for the exit() function that we will use at the end to close the program properly.
-* It's possible to import only the module's contents into our namespace ("from sys import \*"), but I prefer to prefix external functions by their module name for the sake of clarity. 
+* The [sys module](https://docs.python.org/3/library/sys.html) will be needed for the exit() function that we will use at the end to close the program properly.
+* It's possible to import the module's contents into our namespace ("from sys import \*"), but I prefer to prefix external functions by their module name for the sake of clarity. 
 
 ```Python
 # Version string used by the what(1) and ident(1) commands:
@@ -55,8 +55,13 @@ ID = "@(#) $Id: hello_world - say hello to the world v1.0.0 (May 13, 2021) by Hu
 print("Hello, world!")
 ```
 
+* This could have been the only line in the script, but it would have felt so lonely!
+
 ```Python
 sys.exit(0)
 ```
 
-* the **last** line of our program provides
+* The **last** line of our program provides the return code that will be returned to the calling interpreter.
+* On Unix, by convention a value of 0 means success, and any other value means failure.
+* There are [several exit functions in Python](https://www.geeksforgeeks.org/python-exit-commands-quit-exit-sys-exit-and-os-_exit/), but sys.exit() is the right one to use.
+* Last but not least, there should be no blank lines, nor anything else after that function call. This is the end!

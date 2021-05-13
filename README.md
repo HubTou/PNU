@@ -133,4 +133,4 @@ Full operating system kernels & device drivers:
 * Your own [Minix](https://en.wikipedia.org/wiki/Minix)/[386BSD](https://en.wikipedia.org/wiki/386BSD)/Linux like operating system with PNU userland utilities :-)
 
 Making your own hardware platform and all the software to run it.
-* My own personal idol, [The Woz](https://en.wikipedia.org/wiki/Steve_Wozniak) springs to mind and I recommend his excellent autobiography, [iWoz](https://en.wikipedia.org/wiki/IWoz), for a good
+* Although not Unix related, my own personal idol, [The Woz](https://en.wikipedia.org/wiki/Steve_Wozniak) springs to mind and I recommend his excellent autobiography, [iWoz](https://en.wikipedia.org/wiki/IWoz), for a good glimpse into a true Hacker's mind.

@@ -23,8 +23,8 @@ Author: Hubert Tournier
 """
 ```
 
-* The second line of a Python script starts a comment called a [docstring](https://www.python.org/dev/peps/pep-0008/#documentation-strings) (from [documentation](http://www.catb.org/~esr/jargon/html/D/documentation.html) string)
-  and is specified in the [PEP 257 convention](https://www.python.org/dev/peps/pep-0257/).
+* The second line of a Python script starts a comment called a [docstring](https://www.python.org/dev/peps/pep-0008/#documentation-strings) (from "documentation
+  string") and is specified in the [PEP 257 convention](https://www.python.org/dev/peps/pep-0257/).
 * This peculiar docstring comments the whole program.
 * You should put a one line description of your program on the first line of the comment.
 * I use the same structure than what the [whatis](https://www.freebsd.org/cgi/man.cgi?query=whatis) command returns: the name of the program - the one line description.
@@ -34,7 +34,7 @@ Author: Hubert Tournier
     * Personnally, I favor the [3-clause BSD license](https://opensource.org/licenses/BSD-3-Clause) because I'm [open source](http://www.catb.org/~esr/jargon/html/O/open-source.html) / [copycenter](http://www.catb.org/~esr/jargon/html/C/copycenter.html) minded
     * Some others would favor the [GNU General Public License](https://opensource.org/licenses/gpl-license) (GPL) because they would be more [free software](http://www.catb.org/~esr/jargon/html/F/free-software.html) / [copyleft](http://www.catb.org/~esr/jargon/html/C/copyleft.html) oriented ([IMNSHO](http://www.catb.org/~esr/jargon/html/I/IMHO.html) we should say freed software rather than free) 
   * the author's name
-  * I think it's best not to clutter the source code with explanations that you can put in accompanying documentation...
+  * I think it's best not to clutter the source code with explanations that you can put in accompanying [documentation](http://www.catb.org/~esr/jargon/html/D/documentation.html)...
 * You should also add docstrings for all **public** modules, functions, classes and methods, immediately after the def line.
 
 ```Python
@@ -42,7 +42,21 @@ import sys
 ```
 
 * The next part of the script is the import section.
-* The [PEP8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) has some [recommandations for this section layout](https://www.python.org/dev/peps/pep-0008/#imports).
-* But you should definitely check the Style Guide as a whole!
+* The [PEP8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) has some [recommandations for this section layout](https://www.python.org/dev/peps/pep-0008/#imports), but you should definitely check the Style Guide as a whole!
 * The sys module will be needed for the exit() function that we will use at the end to close the program properly.
-* It's possible to import only the module's parts we need (from sys import XXX), but I prefer (TO BE CONTINUED AFTER DINNER)
+* It's possible to import only the module's contents into our namespace ("from sys import \*"), but I prefer to prefix external functions by their module name for the sake of clarity. 
+
+```Python
+# Version string used by the what(1) and ident(1) commands:
+ID = "@(#) $Id: hello_world - say hello to the world v1.0.0 (May 13, 2021) by Hubert Tournier $"
+```
+
+```Python
+print("Hello, world!")
+```
+
+```Python
+sys.exit(0)
+```
+
+* the **last** line of our program provides

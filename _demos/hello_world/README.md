@@ -90,13 +90,45 @@ hello_world.py:
      $Id: hello_world - say hello to the world v1.0.0 (May 13, 2021) by Hubert Tournier $
 ```
 
-### Checking the program correctness and compliance with the [PEP 8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/):
+### Checking our source code correctness and compliance with the [PEP 8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/):
 Just like you would do with [lint](http://www.catb.org/~esr/jargon/html/L/lint.html) for [C language](http://www.catb.org/~esr/jargon/html/C/C.html) code, you can do that for Python with the [pylint package](https://pypi.org/project/pylint/):
 ```
 # pylint hello_world.py
 
 --------------------------------------------------------------------
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+```
+
+### Checking out source code security:
+You can do that with the [bandit package](https://pypi.org/project/bandit/):
+```
+[main]  INFO    profile include tests: None
+[main]  INFO    profile exclude tests: None
+[main]  INFO    cli include tests: None
+[main]  INFO    cli exclude tests: None
+[main]  INFO    running on Python 3.8.9
+[node_visitor]  INFO    Unable to find qualified name for module: hello_world.py
+Run started:2021-05-13 22:10:17.348437
+
+Test results:
+        No issues identified.
+
+Code scanned:
+        Total lines of code: 8
+        Total lines skipped (#nosec): 0
+
+Run metrics:
+        Total issues (by severity):
+                Undefined: 0.0
+                Low: 0.0
+                Medium: 0.0
+                High: 0.0
+        Total issues (by confidence):
+                Undefined: 0.0
+                Low: 0.0
+                Medium: 0.0
+                High: 0.0
+Files skipped (0):
 ```
 
 ### Formatting our source code in a conventional way:

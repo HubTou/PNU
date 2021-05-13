@@ -76,16 +76,41 @@ sys.exit(0)
 * Last but not least, there should be no blank lines, nor anything else after that function call. This is the end!
 
 ## Other tools output:
-Here's an example of the what(1) command output on our program:
+Here's an example of the [what](https://www.freebsd.org/cgi/man.cgi?query=what)([1](https://www.freebsd.org/cgi/man.cgi?query=intro&sektion=1)) command output on our program:
 ```
 # what hello_world.py
 hello_world.py:
          $Id: hello_world - say hello to the world v1.0.0 (May 13, 2021) by Hubert Tournier $
 ```
 
-And one for the ident(1) command output on our program:
+And one for the [ident](https://www.freebsd.org/cgi/man.cgi?query=ident)([1](https://www.freebsd.org/cgi/man.cgi?query=intro&sektion=1)) command output on our program:
 ```
 # ident hello_world.py
 hello_world.py:
      $Id: hello_world - say hello to the world v1.0.0 (May 13, 2021) by Hubert Tournier $
 ```
+
+### Checking the program correctness and compliance with the [PEP 8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/):
+Just like you would do with [lint](http://www.catb.org/~esr/jargon/html/L/lint.html) for [C language](http://www.catb.org/~esr/jargon/html/C/C.html) code, you can do that for Python with the [pylint package](https://pypi.org/project/pylint/):
+```
+# pylint hello_world.py
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+```
+
+### Formatting our source code in a conventional way:
+Although it was not necessary in our simple example, you can do that with the [black package](https://pypi.org/project/black/):
+```
+# black hello_world.py
+All done! ✨ 🍰 ✨
+1 file left unchanged.
+```
+
+### Checking the minimum version of Python required for running the program:
+You can do that with the [vermin package](https://pypi.org/project/vermin/):
+```
+# vermin hello_world.py
+Minimum required versions: 2.0, 3.0
+```
+That will be useful when we'll talk about [making installation packages](https://packaging.python.org/tutorials/packaging-projects/) later.

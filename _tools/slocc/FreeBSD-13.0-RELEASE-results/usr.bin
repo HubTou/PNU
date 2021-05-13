@@ -1,0 +1,282 @@
+0||/usr/src/usr.bin/addr2line
+0||/usr/src/usr.bin/atm
+0||/usr/src/usr.bin/awk
+0||/usr/src/usr.bin/bzip2
+0||/usr/src/usr.bin/bzip2recover
+0||/usr/src/usr.bin/compile_et
+0||/usr/src/usr.bin/cxxfilt
+0||/usr/src/usr.bin/drill
+0||/usr/src/usr.bin/ee
+0||/usr/src/usr.bin/file
+0||/usr/src/usr.bin/gh-bc
+0||/usr/src/usr.bin/host
+0||/usr/src/usr.bin/kyua
+0||/usr/src/usr.bin/ldd32
+0||/usr/src/usr.bin/lessecho
+0||/usr/src/usr.bin/lesskey
+0||/usr/src/usr.bin/lzmainfo
+0||/usr/src/usr.bin/mandoc
+0||/usr/src/usr.bin/minigzip
+0||/usr/src/usr.bin/mkcsmapper_static
+0||/usr/src/usr.bin/mkesdb_static
+0||/usr/src/usr.bin/nc
+0||/usr/src/usr.bin/nm
+0||/usr/src/usr.bin/objcopy
+0||/usr/src/usr.bin/ofed
+0||/usr/src/usr.bin/opieinfo
+0||/usr/src/usr.bin/opiekey
+0||/usr/src/usr.bin/opiepasswd
+0||/usr/src/usr.bin/pamtest
+0||/usr/src/usr.bin/readelf
+0||/usr/src/usr.bin/size
+0||/usr/src/usr.bin/smbutil
+0||/usr/src/usr.bin/strings
+0||/usr/src/usr.bin/telnet
+0||/usr/src/usr.bin/tests
+0||/usr/src/usr.bin/unvis
+0||/usr/src/usr.bin/vacation
+0||/usr/src/usr.bin/vis
+0||/usr/src/usr.bin/xolint
+0||/usr/src/usr.bin/xopo
+0||/usr/src/usr.bin/xz
+0||/usr/src/usr.bin/xzdec
+0||/usr/src/usr.bin/zstd
+1|Bash|/usr/src/usr.bin/alias
+1|Bash|/usr/src/usr.bin/clang
+2|Bash|/usr/src/usr.bin/pagesize
+6|Bash|/usr/src/usr.bin/yacc
+8|C|/usr/src/usr.bin/mkesdb
+9|C|/usr/src/usr.bin/true
+10|C|/usr/src/usr.bin/mkcsmapper
+11|C|/usr/src/usr.bin/false
+13|Bash|/usr/src/usr.bin/bsdcat
+13|Bash|/usr/src/usr.bin/cpio
+13|Bash|/usr/src/usr.bin/tar
+20|C|/usr/src/usr.bin/keylogout
+20|C|/usr/src/usr.bin/revoke
+21|C|/usr/src/usr.bin/vi
+29|C|/usr/src/usr.bin/logname
+29|C|/usr/src/usr.bin/perror
+30|Bash|/usr/src/usr.bin/lorder
+30|Bash|/usr/src/usr.bin/xo
+31|C|/usr/src/usr.bin/getopt
+32|C++|/usr/src/usr.bin/users
+33|Bash|/usr/src/usr.bin/shar
+34|C|/usr/src/usr.bin/tty
+35|C|/usr/src/usr.bin/fsync
+35|C|/usr/src/usr.bin/keylogin
+40|C|/usr/src/usr.bin/dirname
+40|C|/usr/src/usr.bin/yes
+46|C|/usr/src/usr.bin/c89
+48|C|/usr/src/usr.bin/printenv
+56|Bash|/usr/src/usr.bin/ssh-copy-id
+56|C|/usr/src/usr.bin/mesg
+57|C|/usr/src/usr.bin/bc
+58|C|/usr/src/usr.bin/nice
+59|Bash|/usr/src/usr.bin/xohtml
+59|C|/usr/src/usr.bin/mkfifo
+60|C|/usr/src/usr.bin/biff
+62|C|/usr/src/usr.bin/rev
+64|C|/usr/src/usr.bin/stdbuf
+66|C|/usr/src/usr.bin/c99
+66|C|/usr/src/usr.bin/nohup
+68|C|/usr/src/usr.bin/lsvfs
+69|C|/usr/src/usr.bin/hesinfo
+75|C|/usr/src/usr.bin/protect
+77|C, Bash|/usr/src/usr.bin/caesar
+77|C|/usr/src/usr.bin/asa
+77|C|/usr/src/usr.bin/ypmatch
+78|C|/usr/src/usr.bin/ypcat
+79|C, Bash|/usr/src/usr.bin/file2c
+80|C|/usr/src/usr.bin/what
+83|C|/usr/src/usr.bin/basename
+83|C|/usr/src/usr.bin/which
+84|C|/usr/src/usr.bin/colrm
+87|C|/usr/src/usr.bin/mktemp
+88|Bash|/usr/src/usr.bin/mkdep
+88|C|/usr/src/usr.bin/resizewin
+91|C|/usr/src/usr.bin/rwall
+96|C|/usr/src/usr.bin/passwd
+99|C|/usr/src/usr.bin/tee
+106|C|/usr/src/usr.bin/from
+109|C|/usr/src/usr.bin/renice
+112|C|/usr/src/usr.bin/enigma
+113|C|/usr/src/usr.bin/leave
+114|C|/usr/src/usr.bin/pathchk
+122|C, Bash|/usr/src/usr.bin/less
+126|C|/usr/src/usr.bin/expand
+129|C|/usr/src/usr.bin/lockf
+135|C|/usr/src/usr.bin/ftp
+137|C, Bash|/usr/src/usr.bin/tput
+140|C|/usr/src/usr.bin/unexpand
+147|C|/usr/src/usr.bin/tabs
+149|C|/usr/src/usr.bin/cap_mkdb
+149|C|/usr/src/usr.bin/iconv
+150|C|/usr/src/usr.bin/rup
+151|C, Bash|/usr/src/usr.bin/uuencode
+151|C|/usr/src/usr.bin/brandelf
+153|C|/usr/src/usr.bin/pom
+156|C, Bash|/usr/src/usr.bin/apply
+163|C|/usr/src/usr.bin/backlight
+163|C|/usr/src/usr.bin/setchannel
+164|C, Bash|/usr/src/usr.bin/fold
+164|C|/usr/src/usr.bin/rusers
+165|C, Bash|/usr/src/usr.bin/soelim
+165|C|/usr/src/usr.bin/lam
+168|C, Bash|/usr/src/usr.bin/comm
+168|C|/usr/src/usr.bin/rwho
+169|C, Bash|/usr/src/usr.bin/ident
+176|C|/usr/src/usr.bin/number
+177|C|/usr/src/usr.bin/chkey
+182|C|/usr/src/usr.bin/ypwhich
+185|C|/usr/src/usr.bin/grdc
+185|C|/usr/src/usr.bin/look
+187|C|/usr/src/usr.bin/paste
+199|C|/usr/src/usr.bin/ipcrm
+200|C|/usr/src/usr.bin/newgrp
+205|C|/usr/src/usr.bin/lock
+207|C|/usr/src/usr.bin/uname
+208|C, Bash|/usr/src/usr.bin/head
+210|C|/usr/src/usr.bin/mkstr
+213|C|/usr/src/usr.bin/time
+217|C|/usr/src/usr.bin/who
+218|C|/usr/src/usr.bin/write
+223|C|/usr/src/usr.bin/ruptime
+228|C, Awk|/usr/src/usr.bin/getaddrinfo
+233|C|/usr/src/usr.bin/tcopy
+235|C|/usr/src/usr.bin/ktrace
+240|C|/usr/src/usr.bin/factor
+242|C|/usr/src/usr.bin/column
+253|C|/usr/src/usr.bin/tsort
+256|C|/usr/src/usr.bin/uniq
+261|C|/usr/src/usr.bin/etdump
+261|C|/usr/src/usr.bin/split
+262|C|/usr/src/usr.bin/wc
+267|C|/usr/src/usr.bin/nl
+267|C|/usr/src/usr.bin/touch
+278|C|/usr/src/usr.bin/logins
+286|C|/usr/src/usr.bin/ktrdump
+288|C|/usr/src/usr.bin/elfctl
+292|C|/usr/src/usr.bin/showmount
+295|C|/usr/src/usr.bin/wall
+296|C|/usr/src/usr.bin/random
+301|C|/usr/src/usr.bin/proccontrol
+302|C, Bash|/usr/src/usr.bin/csplit
+315|C|/usr/src/usr.bin/logger
+318|C, Bash|/usr/src/usr.bin/seq
+325|C, Bash|/usr/src/usr.bin/uudecode
+327|C|/usr/src/usr.bin/ldd
+332|C|/usr/src/usr.bin/cpuset
+335|C|/usr/src/usr.bin/morse
+343|C|/usr/src/usr.bin/id
+343|C|/usr/src/usr.bin/xstr
+344|C, Bash, Awk|/usr/src/usr.bin/getconf
+346|C, Bash|/usr/src/usr.bin/cut
+347|C|/usr/src/usr.bin/killall
+356|C|/usr/src/usr.bin/cksum
+359|Bash, C|/usr/src/usr.bin/truncate
+365|C|/usr/src/usr.bin/dpv
+379|C, Bash|/usr/src/usr.bin/lastcomm
+386|C|/usr/src/usr.bin/fmt
+386|C|/usr/src/usr.bin/usbhidaction
+391|C, Bash|/usr/src/usr.bin/timeout
+401|C|/usr/src/usr.bin/env
+401|C|/usr/src/usr.bin/posixshmcontrol
+402|C|/usr/src/usr.bin/script
+412|C|/usr/src/usr.bin/usbhidctl
+415|C|/usr/src/usr.bin/last
+419|C|/usr/src/usr.bin/whois
+424|C|/usr/src/usr.bin/ul
+426|C|/usr/src/usr.bin/su
+431|C|/usr/src/usr.bin/gencat
+432|C|/usr/src/usr.bin/newkey
+443|C, Bash|/usr/src/usr.bin/jot
+447|C, Bash|/usr/src/usr.bin/cmp
+452|C|/usr/src/usr.bin/rctl
+457|C|/usr/src/usr.bin/whereis
+461|C, Bash|/usr/src/usr.bin/join
+478|C, Bash|/usr/src/usr.bin/du
+484|C, Bash|/usr/src/usr.bin/col
+485|C|/usr/src/usr.bin/quota
+489|C|/usr/src/usr.bin/getent
+505|C|/usr/src/usr.bin/bsdiff
+509|C, Bash|/usr/src/usr.bin/printf
+519|C|/usr/src/usr.bin/w
+520|C, Bash|/usr/src/usr.bin/diff3
+535|C, Bash|/usr/src/usr.bin/rs
+535|C|/usr/src/usr.bin/ministat
+555|C|/usr/src/usr.bin/ctlstat
+557|Bash, C|/usr/src/usr.bin/bmake
+565|C|/usr/src/usr.bin/ipcs
+570|C, Bash|/usr/src/usr.bin/xargs
+574|C, Bash|/usr/src/usr.bin/limits
+611|C|/usr/src/usr.bin/msgs
+637|C|/usr/src/usr.bin/unzip
+643|C, Bash|/usr/src/usr.bin/units
+691|Bash|/usr/src/usr.bin/man
+704|C|/usr/src/usr.bin/chpass
+738|C|/usr/src/usr.bin/tset
+740|C|/usr/src/usr.bin/fstat
+776|C, Bash|/usr/src/usr.bin/locale
+780|C|/usr/src/usr.bin/login
+800|C|/usr/src/usr.bin/vtfontcvt
+803|C, Bash|/usr/src/usr.bin/ncal
+832|C|/usr/src/usr.bin/bluetooth
+835|C|/usr/src/usr.bin/nfsstat
+835|C|/usr/src/usr.bin/talk
+837|C|/usr/src/usr.bin/fetch
+851|C|/usr/src/usr.bin/sdiotool
+854|C, Bash, Objective-C|/usr/src/usr.bin/compress
+857|C|/usr/src/usr.bin/gcore
+859|C, Bash|/usr/src/usr.bin/locate
+878|C|/usr/src/usr.bin/tftp
+889|C, Bash|/usr/src/usr.bin/tr
+898|C, Bash|/usr/src/usr.bin/sdiff
+919|C, Bash|/usr/src/usr.bin/vgrind
+922|C, Objective-C|/usr/src/usr.bin/svn
+952|C|/usr/src/usr.bin/ctags
+960|C|/usr/src/usr.bin/iscsictl
+963|C, Bash|/usr/src/usr.bin/stat
+967|C|/usr/src/usr.bin/mkuzip
+978|C|/usr/src/usr.bin/chat
+989|C|/usr/src/usr.bin/elfdump
+1021|C, Bash|/usr/src/usr.bin/tail
+1065|C|/usr/src/usr.bin/at
+1066|C|/usr/src/usr.bin/finger
+1082|C|/usr/src/usr.bin/ar
+1086|C|/usr/src/usr.bin/banner
+1138|C|/usr/src/usr.bin/mt
+1145|C, Bash|/usr/src/usr.bin/unifdef
+1148|C|/usr/src/usr.bin/sockstat
+1160|C|/usr/src/usr.bin/primes
+1222|C|/usr/src/usr.bin/rpcinfo
+1223|C, Bash|/usr/src/usr.bin/pr
+1309|C|/usr/src/usr.bin/vmstat
+1329|C, Python|/usr/src/usr.bin/fortune
+1353|C, Bash|/usr/src/usr.bin/xinstall
+1418|C, Bash|/usr/src/usr.bin/hexdump
+1464|C, Bash|/usr/src/usr.bin/grep
+1839|C, Bash|/usr/src/usr.bin/find
+1855|C|/usr/src/usr.bin/kdump
+2017|C|/usr/src/usr.bin/gprof
+2090|C, Bash|/usr/src/usr.bin/diff
+2124|C, Bash|/usr/src/usr.bin/dc
+2261|C, Bash|/usr/src/usr.bin/sed
+2284|C, Bash|/usr/src/usr.bin/procstat
+2433|C, Bash|/usr/src/usr.bin/m4
+2464|C, Bash, Prolog|/usr/src/usr.bin/indent
+2667|C, Bash|/usr/src/usr.bin/calendar
+2753|C|/usr/src/usr.bin/gzip
+2886|C, Bash|/usr/src/usr.bin/patch
+2936|C|/usr/src/usr.bin/localedef
+3221|C++|/usr/src/usr.bin/dtc
+3224|C|/usr/src/usr.bin/top
+3249|C, Bash|/usr/src/usr.bin/mkimg
+3263|C|/usr/src/usr.bin/truss
+3889|C|/usr/src/usr.bin/tip
+4076|C|/usr/src/usr.bin/rpcgen
+4148|C|/usr/src/usr.bin/sort
+4795|C|/usr/src/usr.bin/systat
+5122|C, Awk|/usr/src/usr.bin/lex
+5672|C|/usr/src/usr.bin/mail
+6065|C|/usr/src/usr.bin/netstat

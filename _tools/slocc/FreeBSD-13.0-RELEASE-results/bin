@@ -1,0 +1,39 @@
+0||/usr/src/bin/expr
+0||/usr/src/bin/freebsd-version
+0||/usr/src/bin/rmail
+0||/usr/src/bin/tests
+14|C|/usr/src/bin/sync
+40|C|/usr/src/bin/domainname
+40|C|/usr/src/bin/realpath
+52|C|/usr/src/bin/sleep
+58|C|/usr/src/bin/hostname
+60|C|/usr/src/bin/pwd
+76|C|/usr/src/bin/uuidgen
+81|C, Bash|/usr/src/bin/rmdir
+88|C, Bash|/usr/src/bin/echo
+130|C|/usr/src/bin/kill
+140|C|/usr/src/bin/kenv
+147|C, Bash|/usr/src/bin/mkdir
+147|C|/usr/src/bin/csh
+173|C, Bash|/usr/src/bin/chflags
+229|C|/usr/src/bin/getfacl
+261|C, Bash|/usr/src/bin/chmod
+350|C|/usr/src/bin/cat
+353|C, Bash|/usr/src/bin/ln
+357|Bash, C|/usr/src/bin/pwait
+383|C, Bash|/usr/src/bin/rm
+425|C|/usr/src/bin/df
+543|C, Bash|/usr/src/bin/mv
+599|C, Bash|/usr/src/bin/test
+710|C, Bash|/usr/src/bin/cp
+731|C, Bash|/usr/src/bin/date
+764|C|/usr/src/bin/setfacl
+777|C|/usr/src/bin/chio
+875|C|/usr/src/bin/stty
+1419|C, Bash|/usr/src/bin/dd
+1484|Bash, C|/usr/src/bin/pkill
+2028|C|/usr/src/bin/ps
+2216|C, Bash, D, REBOL|/usr/src/bin/ed
+2232|C, Bash|/usr/src/bin/ls
+6802|C, Perl|/usr/src/bin/pax
+10842|C, Bash|/usr/src/bin/sh

@@ -1,0 +1,87 @@
+0||/usr/src/contrib/openresolv
+0||/usr/src/contrib/terminus
+84|C|/usr/src/contrib/unvis
+205|C|/usr/src/contrib/vis
+209|C|/usr/src/contrib/mknod
+353|C|/usr/src/contrib/libc-pwcache
+361|C|/usr/src/contrib/libexecinfo
+434|C|/usr/src/contrib/com_err
+439|C|/usr/src/contrib/pnpinfo
+470|C|/usr/src/contrib/libbegemot
+471|C|/usr/src/contrib/pnglite
+646|Awk, Bash, Perl|/usr/src/contrib/tzdata
+797|C|/usr/src/contrib/pam_modules
+801|C|/usr/src/contrib/ldns-host
+884|C, Objective-C|/usr/src/contrib/libc-vis
+1089|C|/usr/src/contrib/hyperv
+1309|C|/usr/src/contrib/netcat
+1450|C|/usr/src/contrib/ngatm
+1635|C|/usr/src/contrib/libdivsufsort
+1738|C, Bash|/usr/src/contrib/pjdfstest
+1853|C, Awk|/usr/src/contrib/traceroute
+2032|C++, Bash|/usr/src/contrib/lutok
+2224|S, C, Python, Bash|/usr/src/contrib/cortex-strings
+2505|C, Objective-C, Bash|/usr/src/contrib/dma
+2889|C|/usr/src/contrib/mtree
+3469|C|/usr/src/contrib/blacklist
+3617|C|/usr/src/contrib/tcp_wrappers
+3894|C|/usr/src/contrib/smbfs
+4634|C, C++|/usr/src/contrib/libcxxrt
+4673|C|/usr/src/contrib/tzcode
+4788|C|/usr/src/contrib/bzip2
+5079|C, Awk|/usr/src/contrib/one-true-awk
+5392|C|/usr/src/contrib/pf
+5889|C++, C|/usr/src/contrib/capsicum-test
+6030|C, Perl, Bash|/usr/src/contrib/openpam
+6254|C, Bash|/usr/src/contrib/flex
+6610|C|/usr/src/contrib/ee
+6812|C|/usr/src/contrib/opie
+6871|C, Objective-C|/usr/src/contrib/gdtoa
+8084|C, Python|/usr/src/contrib/serf
+8203|C|/usr/src/contrib/diff
+8286|C|/usr/src/contrib/tnftp
+9560|C, Python|/usr/src/contrib/lib9p
+12731|C, Objective-C, Python, Haskell, Bash, Lua, C++|/usr/src/contrib/libucl
+13067|C|/usr/src/contrib/libedit
+13688|C, Bash, Python|/usr/src/contrib/bc
+14463|C|/usr/src/contrib/telnet
+14586|C, Python|/usr/src/contrib/file
+15384|C, JavaScript, Perl, Bash, JavaScript+Genshi, Python|/usr/src/contrib/libxo
+15513|C++, C|/usr/src/contrib/opencsd
+15707|C, Objective-C|/usr/src/contrib/less
+15968|C, Bash|/usr/src/contrib/xz
+16285|C, C++, Bash|/usr/src/contrib/atf
+16590|C, Objective-C, C++|/usr/src/contrib/lua
+16721|C, Perl, Python, Bash|/usr/src/contrib/dialog
+17076|C, Bash, Python, Objective-C|/usr/src/contrib/bmake
+19856|C, Bash|/usr/src/contrib/openbsm
+20025|C, C++, Bash, Python|/usr/src/contrib/expat
+24098|C, Objective-C, C++|/usr/src/contrib/processor-trace
+24240|C, Objective-C, Perl|/usr/src/contrib/apr
+24824|C|/usr/src/contrib/jemalloc
+26326|C, Objective-C|/usr/src/contrib/apr-util
+26920|C, Awk|/usr/src/contrib/nvi
+26983|C, Objective-C, Bash|/usr/src/contrib/ldns
+30807|C, Igor, Scilab|/usr/src/contrib/ipfilter
+31205|C, C++, Bash|/usr/src/contrib/bsnmp
+31364|C|/usr/src/contrib/mandoc
+36839|C++, Bash, SQL, Awk, Transact-SQL|/usr/src/contrib/kyua
+37049|C, Objective-C, NASM|/usr/src/contrib/libpcap
+40933|C, Tcsh, EmacsLisp|/usr/src/contrib/tcsh
+44765|C, C#, Bash|/usr/src/contrib/bearssl
+46323|C, Bash|/usr/src/contrib/elftoolchain
+46922|C, Awk, Bash, Prolog|/usr/src/contrib/ncurses
+47062|C++, Python, C, Objective-C, Bash|/usr/src/contrib/googletest
+47669|C, Python, Bash|/usr/src/contrib/libevent
+68638|C, Awk|/usr/src/contrib/tcpdump
+80392|C, Bash, Objective-C, Perl, Awk, Python|/usr/src/contrib/unbound
+84402|C, Perl, Objective-C, Bash|/usr/src/contrib/sendmail
+84795|C, Bash|/usr/src/contrib/byacc
+105996|C, Bash, S, C++, Objective-C, Limbo, Igor, Awk, Logos|/usr/src/contrib/netbsd-tests
+124779|C, Objective-C, C#, Nemerle|/usr/src/contrib/sqlite3
+128455|C, Objective-C, C++|/usr/src/contrib/ofed
+129134|C, Objective-C|/usr/src/contrib/libarchive
+199067|C, Python, Objective-C, Perl, Ruby, Bash, Awk, Smarty, Prolog, S|/usr/src/contrib/ntp
+295713|C, Python, Objective-C, C++, Bash|/usr/src/contrib/wpa
+305910|C, Objective-C, SQL, Python, C++, Bash|/usr/src/contrib/subversion
+2711129|C++, C, Objective-C, S, Lasso, NASM, Bash, Python|/usr/src/contrib/llvm-project

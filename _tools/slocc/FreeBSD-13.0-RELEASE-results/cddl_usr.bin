@@ -1,0 +1,8 @@
+0||/usr/src/cddl/usr.bin/ctfdump
+0||/usr/src/cddl/usr.bin/ctfmerge
+0||/usr/src/cddl/usr.bin/tests
+0||/usr/src/cddl/usr.bin/zinject
+0||/usr/src/cddl/usr.bin/zstream
+0||/usr/src/cddl/usr.bin/zstreamdump
+19|Bash|/usr/src/cddl/usr.bin/ctfconvert
+32|Bash|/usr/src/cddl/usr.bin/ztest

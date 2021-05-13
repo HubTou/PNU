@@ -1,0 +1,49 @@
+#!/bin/sh
+### slocc - Single Lines Of Code Counter
+# Description:
+#	Counts the Single Lines of Code (SLOC), excluding comments, in the given directory name.
+#	Prints a triplet with the count, the languages identified, and the directory name
+# License: 3-clause BSD (see https://opensource.org/licenses/BSD-3-Clause)
+# Author: Hubert Tournier
+###
+
+# Version string used by the what(1) and ident(1) commands:
+ID="@(#) \$Id: slocc - Single Lines Of Code Counter v1.0.0 (May 13, 2021) by Hubert Tournier \$"
+
+# Things to exclude from the output, peculiarly non code languages
+NO_PYGOUNT=" *Language |---|__|Sum "
+NO_CODE="AmbientTalk|BC|Batchfile|CFEngine3|CMake|CSS\+Lasso|Debian|Diff|Earl|Easytrieve|GAS|Gettext|Groff|HTML|HTML\+Django/Jinja|HTML\+Genshi|JSON|M4|Makefile|Mason|MiniScript|POVRay|PostScript|Protocol|RPMSpec|Relax-NG|SWIG|Singularity|TADS|TeX|Terminfo|Text|VimL|XML|YAML|markdown|reStructuredText"
+
+# Check pre-requisites: Pygount Python package
+if ! `whereis pygount | grep -q "^pygount: "`
+then
+	pip install pygount > /dev/stderr
+fi
+
+# Command line processing:
+if [ "$#" != "1" ]
+then
+	echo "slocc: WARNING: Please provide a directory name to process" > /dev/stderr
+	exit 0
+else
+	DIRECTORY=$1
+fi
+
+if [ -d ${DIRECTORY} ]
+then
+	pygount --format=summary ${DIRECTORY} \
+	| egrep -v "^(${NO_PYGOUNT}|${NO_CODE})" \
+	| sed "s/  */|/g" \
+	| cut -d"|" -f1,4 \
+	| awk -v dir=${DIRECTORY} \
+		'
+			BEGIN { FS="|" ; languages="" ; sum = 0 }
+			languages != "" { languages = languages ", " $1 ; sum += $2 }
+			languages == "" { languages = $1 ; sum += $2 }
+			END { printf "%s|%s|%s\n", sum, languages, dir }
+		'
+else
+	echo "slocc: CRITICAL: The argument provided is not a directory name" > /dev/stderr
+	exit 1
+fi
+exit 0

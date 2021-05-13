@@ -1,0 +1,9 @@
+0||/usr/src/secure/usr.bin/openssl
+0||/usr/src/secure/usr.bin/scp
+0||/usr/src/secure/usr.bin/sftp
+0||/usr/src/secure/usr.bin/ssh
+0||/usr/src/secure/usr.bin/ssh-add
+0||/usr/src/secure/usr.bin/ssh-agent
+0||/usr/src/secure/usr.bin/ssh-keygen
+0||/usr/src/secure/usr.bin/ssh-keyscan
+0||/usr/src/secure/usr.bin/tests

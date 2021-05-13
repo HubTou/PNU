@@ -1,0 +1,27 @@
+#!/bin/sh
+### slocc4freebsd-src - Single Lines Of Code Counter for FreeBSD utilities source
+# Description:
+#	Counts the Single Lines of Code (SLOC), excluding comments, in the directories holding the FreeBSD utilities source code.
+#	Writes ordered per-directory lists of triplets with the count, the languages identified, and the directory name
+# License: 3-clause BSD (see https://opensource.org/licenses/BSD-3-Clause)
+# Author: Hubert Tournier
+###
+
+# Version string used by the what(1) and ident(1) commands:
+ID="@(#) \$Id: slocc4freebsd-src - Single Lines Of Code Counter for FreeBSD utilities source code v1.0.0 (May 13, 2021) by Hubert Tournier \$"
+
+BIN_DIRS="/usr/src/bin /usr/src/cddl/usr.bin /usr/src/contrib /usr/src/gnu/usr.bin /usr/src/kerberos5/usr.bin /usr/src/secure/usr.bin /usr/src/usr.bin"
+SBIN_DIRS="/usr/src/cddl/sbin /usr/src/cddl/usr.sbin /usr/src/crypto /usr/src/kerberos5/usr.sbin /usr/src/sbin /usr/src/secure/usr.sbin /usr/src/usr.sbin"
+DIRS="${BIN_DIRS} ${SBIN_DIRS}"
+
+for DIR in `echo ${DIRS}`
+do
+	RESULT=`echo ${DIR} | sed -e "s,/usr/src/,," -e "s,/,_,g"`
+    for ITEM in ${DIR}/*
+    do
+		slocc ${ITEM}
+    done \
+	| sort -n \
+	> ${RESULT}
+done
+exit 0

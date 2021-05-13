@@ -1,0 +1,8 @@
+0||/usr/src/cddl/usr.sbin/dwatch
+0||/usr/src/cddl/usr.sbin/lockstat
+0||/usr/src/cddl/usr.sbin/plockstat
+0||/usr/src/cddl/usr.sbin/tests
+0||/usr/src/cddl/usr.sbin/zdb
+0||/usr/src/cddl/usr.sbin/zhack
+285|Bash|/usr/src/cddl/usr.sbin/dtrace
+2353|C++, C|/usr/src/cddl/usr.sbin/zfsd

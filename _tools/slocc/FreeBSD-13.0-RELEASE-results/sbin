@@ -1,0 +1,88 @@
+0||/usr/src/sbin/ipf
+0||/usr/src/sbin/pflogd
+0||/usr/src/sbin/ping6
+0||/usr/src/sbin/resolvconf
+0||/usr/src/sbin/rtsol
+0||/usr/src/sbin/tests
+60|C|/usr/src/sbin/clri
+66|C|/usr/src/sbin/kldunload
+67|C|/usr/src/sbin/mount_nullfs
+76|C|/usr/src/sbin/comcontrol
+81|C|/usr/src/sbin/nfsiod
+90|C|/usr/src/sbin/mount_udf
+95|C|/usr/src/sbin/mknod
+105|C|/usr/src/sbin/mksnap_ffs
+113|C|/usr/src/sbin/mount_unionfs
+124|C|/usr/src/sbin/conscontrol
+131|C|/usr/src/sbin/kldload
+134|C|/usr/src/sbin/dmesg
+135|C|/usr/src/sbin/veriexec
+139|C|/usr/src/sbin/kldstat
+147|C|/usr/src/sbin/fsirand
+147|C|/usr/src/sbin/pfilctl
+164|C|/usr/src/sbin/mount_cd9660
+183|C|/usr/src/sbin/spppcontrol
+204|C|/usr/src/sbin/zfsbootcfg
+207|C|/usr/src/sbin/nos-tun
+210|C|/usr/src/sbin/adjkerntz
+228|C|/usr/src/sbin/mount_msdosfs
+243|C, Bash|/usr/src/sbin/reboot
+245|C|/usr/src/sbin/kldconfig
+284|C|/usr/src/sbin/decryptcore
+294|C|/usr/src/sbin/md5
+302|C|/usr/src/sbin/ccdconfig
+310|C|/usr/src/sbin/ldconfig
+320|C|/usr/src/sbin/mount_fusefs
+339|C|/usr/src/sbin/ddb
+389|C|/usr/src/sbin/ffsinfo
+406|C|/usr/src/sbin/dumpfs
+412|C|/usr/src/sbin/dumpon
+418|C|/usr/src/sbin/shutdown
+427|C|/usr/src/sbin/hastctl
+429|C|/usr/src/sbin/umount
+444|C|/usr/src/sbin/recoverdisk
+445|C|/usr/src/sbin/devmatch
+473|C|/usr/src/sbin/devfs
+578|C|/usr/src/sbin/mdmfs
+615|C, Bash|/usr/src/sbin/mdconfig
+667|C, Bash|/usr/src/sbin/gbde
+685|C|/usr/src/sbin/quotacheck
+685|C|/usr/src/sbin/swapon
+726|C|/usr/src/sbin/fsck
+784|C|/usr/src/sbin/mount_nfs
+838|C|/usr/src/sbin/tunefs
+898|C, Bash|/usr/src/sbin/rcorder
+901|C, Perl|/usr/src/sbin/setkey
+902|C|/usr/src/sbin/sconfig
+927|C|/usr/src/sbin/mount
+929|C|/usr/src/sbin/etherswitchcfg
+931|C|/usr/src/sbin/sysctl
+936|C|/usr/src/sbin/savecore
+974|C|/usr/src/sbin/gvinum
+1012|C++, C|/usr/src/sbin/devd
+1060|C|/usr/src/sbin/fsdb
+1067|C|/usr/src/sbin/newfs_msdos
+1121|C, Bash|/usr/src/sbin/fdisk
+1124|C|/usr/src/sbin/bsdlabel
+1256|C|/usr/src/sbin/init
+1281|C, Bash|/usr/src/sbin/bectl
+1304|C, Bash|/usr/src/sbin/newfs
+1308|C|/usr/src/sbin/natd
+1364|C|/usr/src/sbin/geom
+1560|C, Bash|/usr/src/sbin/route
+1616|C|/usr/src/sbin/iscontrol
+1673|C, Perl|/usr/src/sbin/growfs
+1817|C|/usr/src/sbin/ggate
+2013|C|/usr/src/sbin/fsck_msdosfs
+2657|C|/usr/src/sbin/dump
+3684|C, Bash|/usr/src/sbin/ping
+3694|C|/usr/src/sbin/restore
+4582|C, Bash|/usr/src/sbin/nvmecontrol
+6259|C|/usr/src/sbin/dhclient
+6885|C|/usr/src/sbin/fsck_ffs
+7437|C|/usr/src/sbin/routed
+8293|C|/usr/src/sbin/hastd
+8486|C, Bash|/usr/src/sbin/pfctl
+9033|C|/usr/src/sbin/ifconfig
+10250|C|/usr/src/sbin/ipfw
+11665|C|/usr/src/sbin/camcontrol

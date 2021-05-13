@@ -10,7 +10,7 @@ Let's explain what is inside this overcomplicated version.
 * The first line of the script, when it starts with the [magic](http://www.catb.org/~esr/jargon/html/M/magic-number.html) string "#!", is called a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix))
 (from "[shell bang](http://www.catb.org/~esr/jargon/html/S/shebang.html)").
 * Its purpose is to indicate the name of the software that will be used to interpret the rest of the file.
-* You can directly use the path to your interpreter, for example "#!/bin/sh".
+* You can directly use the path to your interpreter, for example "#!/bin/sh" for the [Bourne](https://en.wikipedia.org/wiki/Stephen_R._Bourne) [shell](http://www.catb.org/~esr/jargon/html/S/shell.html).
 * But for Python it is recommended to use "#!/usr/bin/env python" instead for portability sake
 (the "env" program will find the location of your Python interpreter in one of the directories indicated in the
 [PATH](http://www.catb.org/~esr/jargon/html/P/path.html) environment variable.

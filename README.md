@@ -14,7 +14,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * This place is both for the challenge description and a placeholder for publishing unix tools rewrites made by contributors, though you can also just create your own repositories and link them to the project by using the [pnu-project](https://github.com/topics/pnu-project) GitHub topic.
 
 
-## How to contribute:
+## How to contribute (aka the "Player's Handbook"):
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
 * Aim to be compliant with the [PEP 8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/), which you can check with the [pylint](https://www.pylint.org/) utility.
 * Eventually use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter" utility, to format your code in a conventional way.

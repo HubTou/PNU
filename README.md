@@ -14,7 +14,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * This place is both for the challenge description and a placeholder for publishing unix tools rewrites made by contributors, though you can also just create your own repositories and link them to the project by using the [pnu-project](https://github.com/topics/pnu-project) GitHub topic.
 
 
-## How to contribute (aka the "Player's Handbook"):
+## How to contribute (AKA the "Player's Handbook"):
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
 * Aim to be compliant with the [PEP 8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/), which you can check with the [pylint](https://www.pylint.org/) utility.
 * Eventually use [Black](https://github.com/psf/black), "The Uncompromising Code Formatter" utility, to format your code in a conventional way.
@@ -28,7 +28,7 @@ Ideally (but leave this for the future if it's too complicated for the time bein
 * [Clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository), make your changes and submit them for inclusion here if you prefer this over the [pnu-project](https://github.com/topics/pnu-project) GitHub topic linking.
 * Eventually, [make a pip package](https://packaging.python.org/tutorials/packaging-projects/) for your entry.
 
-## Suggested tasks and progression (aka the "Monster Manual"):
+## Suggested tasks and progression (AKA the "Monster Manual"):
 The following, (A)[D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, [level structure](https://github.com/HubTou/PNU/discussions/2) is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).
 We suggest level bosses in order to complete a level (but no [Demogorgon](https://en.wikipedia.org/wiki/Demogorgon#Dungeons_&_Dragons) here, we are not in [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things) :-)).
 We are also thinking to provide associated trophies for fun in the future :-)

@@ -125,4 +125,6 @@ I said on the front page of the project that there would be no [Demogorgon](http
 
 There will be other [easter eggs](http://www.catb.org/jargon/html/E/Easter-egg.html) like this though this project. That's another tradition we want to honor!
 
-On the lore side, it's interesting to note that the Demogorgon was one of the monsters of the classical [NetHack](https://en.wikipedia.org/wiki/NetHack)) game, and thus somehow already part of the Unix world :-)
+On the lore side, it's interesting to note that the Demogorgon was one of the monsters of the classical [NetHack](https://en.wikipedia.org/wiki/NetHack)) game, which itself was a descendant of the mythical [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game)) and [Hack](https://en.wikipedia.org/wiki/Hack_(video_game)) games, which were included in BSD Unix and many other versions after that.
+
+Perhaps someone will reimplement these important milestones in video gaming history for the project?

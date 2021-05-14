@@ -119,7 +119,7 @@ Minimum required versions: 2.0, 3.0
 ```
 
 ## Some historical notes:
-[Gorgons](https://en.wikipedia.org/wiki/Gorgon) were creatures in Greek mythology which are described as having hair made of living, venomous snakes and horrifying visages that turned those who beheld them to stone. The most famous one, Medusa, was slain by Perseus.
+[Gorgons](https://en.wikipedia.org/wiki/Gorgon) were creatures in Greek mythology which are described as having hair made of living, venomous snakes and horrifying visages that turned those who beheld them to stone. The most famous one, [Medusa](https://en.wikipedia.org/wiki/Medusa), was slain by Perseus.
 
 I said on the front page of the project that there would be no [Demogorgon](https://en.wikipedia.org/wiki/Demogorgon#Dungeons_&_Dragons) here, but we do have this demos/gorgon instead :-)
 

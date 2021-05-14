@@ -11,7 +11,7 @@ Thus a filter program is intended to be used in a command pipeline, for example 
 cat inputfile | gorgon.py | tee result.txt
 ```
 
-This Unix [plumbing](http://www.catb.org/jargon/html/P/plumbing.html) is an essential part of the operating system!
+This Unix [plumbing](http://www.catb.org/jargon/html/P/plumbing.html) (connection of commands through pipes) is an essential part of the operating system!
 
 As the "AT&T Unix System V Release 3.2 Programmer's Guide, Vol. I" manual said in my 1989 edition:
 >> **UNIX System Philosophy Simply Stated**
@@ -26,7 +26,7 @@ As the "AT&T Unix System V Release 3.2 Programmer's Guide, Vol. I" manual said i
 >>
 >> Unlike computer environments where each new project is like starting with a blank canvas, on a UNIX system a good percentage of any programming effor is lying there in **bins**, and **lbins**, and **/usr/bins**, not to mention **etc**, waiting to be used.
 >> 
->> The features of the UNIX system (pipes, processes, and the file system) contribute to this reusability, as does the history of sharing and contributing that extends back to 1969. Your risk missing the essential nature of the UNIX system if you don't put this to work.
+>> The features of the UNIX system (pipes, processes, and the file system) contribute to this reusability, as does the history of sharing and contributing that extends back to 1969. You risk missing the essential nature of the UNIX system if you don't put this to work.
 
 So let's explain the new code constructs since our hello_world program.
 

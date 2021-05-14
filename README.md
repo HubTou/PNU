@@ -16,7 +16,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 
 ## How to contribute:
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
-* [Read the tutorials](https://github.com/HubTou/PNU/_demos/)
+* [Read the tutorials](https://github.com/HubTou/PNU/tree/main/_demos)
 * [Read the guidelines for contribution](https://github.com/HubTou/PNU/wiki/The-Player's-Handbook)
 * [Come discuss it with us on the forums](https://github.com/HubTou/PNU/discussions)
 

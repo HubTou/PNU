@@ -5,10 +5,10 @@ As [Eric S. Raymond](https://en.wikipedia.org/wiki/Eric_S._Raymonda) says in [Th
 >> \[a filter is] A program that processes an input data stream into an output data stream in some well-defined way, and does no I/O to anywhere else except possibly on error conditions;
 >> one designed to be used as a stage in a pipeline
 
-Thus a filter program is intended to be used in a command pipeline, for example:
+Thus a filter program is intended to be used in a command pipeline, for example between [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) and [tee](https://www.freebsd.org/cgi/man.cgi?query=tee):
 
 ```Shell
-[cat](https://www.freebsd.org/cgi/man.cgi?query=cat) inputfile | gorgon.py | [tee](https://www.freebsd.org/cgi/man.cgi?query=tee) result.txt
+cat inputfile | gorgon.py | tee result.txt
 ```
 
 This Unix [plumbing](http://www.catb.org/jargon/html/P/plumbing.html) is an essential part of the operating system!

@@ -6,7 +6,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 ## Objectives:
 * Firstly intended as a [learning exercise](https://github.com/topics/learning-exercise) in Python/Unix for my son, but open to anyone.
 * Passing on some Unix culture & lore to a generation of [new hackers](http://www.catb.org/~esr/jargon/) (in the [original and noble meaning of the word](http://www.catb.org/~esr/jargon/html/H/hacker.html)).
-* Having some handy portable Unix tools, for example for Windows (though there are [plenty of other solutions](https://github.com/HubTou/PNU/discussions/3) for that).
+* Having some handy portable Unix tools, for example for Windows (though there are [plenty of other solutions](https://github.com/HubTou/PNU/wiki/Wilderness-Survival-Guide) for that).
 * Ultimately to have most of the relevant [standard utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html) (around 80 utilities, about 50% of the set), many utilities sitting under /bin and /usr/bin in a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)/[GNU Linux](https://en.wikipedia.org/wiki/Linux) system, some usual non-standard utilities, as well as some utilities of our own.
 
 ## Project status:

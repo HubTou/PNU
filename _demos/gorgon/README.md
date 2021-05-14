@@ -1,5 +1,5 @@
 # gorgon
-Gorgon is our first example of Unix [filter](http://www.catb.org/jargon/html/F/filter.html):
+Gorgon is our first example of Unix [filter](http://www.catb.org/jargon/html/F/filter.html).
 
 As [Eric S. Raymond](https://en.wikipedia.org/wiki/Eric_S._Raymonda) says in [The Jargon File](http://www.catb.org/jargon/html/index.html):
 >> \[a filter is] A program that processes an input data stream into an output data stream in some well-defined way, and does no I/O to anywhere else except possibly on error conditions;
@@ -8,22 +8,24 @@ As [Eric S. Raymond](https://en.wikipedia.org/wiki/Eric_S._Raymonda) says in [Th
 Thus a filter program is intended to be used in a command pipeline, for example:
 
 ```Shell
-cat inputfile | gorgon.py | tee result.txt
+[cat](https://www.freebsd.org/cgi/man.cgi?query=cat) inputfile | gorgon.py | [tee](https://www.freebsd.org/cgi/man.cgi?query=tee) result.txt
 ```
 
-This Unix [plumbing](http://www.catb.org/jargon/html/P/plumbing.html) is an essential part of the operating system:
+This Unix [plumbing](http://www.catb.org/jargon/html/P/plumbing.html) is an essential part of the operating system!
 
 As the "AT&T Unix System V Release 3.2 Programmer's Guide, Vol. I" manual said in my 1989 edition:
 >> **UNIX System Philosophy Simply Stated**
+>>
 >> For as long as you are writing programs on a UNIX system you should keep this motto hanging on your wall:
 >>
->> * * * * * * * * * * * * * * * * * * * * *
->> *                                       *
->> *      Build on the work of others      *
->> *                                       *
->> * * * * * * * * * * * * * * * * * * * * *
+>> \* * * * * * * * * * * * * * * * * * * *
+>> 
+>> \* Build on the work of others *
+>> 
+>> \* * * * * * * * * * * * * * * * * * * *
 >>
 >> Unlike computer environments where each new project is like starting with a blank canvas, on a UNIX system a good percentage of any programming effor is lying there in **bins**, and **lbins**, and **/usr/bins**, not to mention **etc**, waiting to be used.
+>> 
 >> The features of the UNIX system (pipes, processes, and the file system) contribute to this reusability, as does the history of sharing and contributing that extends back to 1969. Your risk missing the essential nature of the UNIX system if you don't put this to work.
 
 So let's explain the new code constructs since our hello_world program.
@@ -38,7 +40,7 @@ def petrification(_):
 * This is our first Python function :-)
 * You'll notice the [docstring](https://www.python.org/dev/peps/pep-0008/#documentation-strings) comment right after the function definition.
 * You should add docstrings for all **public** modules, functions, classes and methods, immediately after the def line.
-* We have a special case here with an argument called "_" which means that we won't be using it.
+* We have a special case here with an argument called "\_" which Python uses to explicitely state that it will be unused.
 * The function here returns a string value, but it could have been any other type, including complex structures, and even multiple return values!
 
 ```Python
@@ -48,7 +50,7 @@ for line in sys.stdin:
     print()
 ```
 
-* TO BE DONE
+* The first line reads a text line in a special file called STDIN (from STanDard INput).
 
 ## Other tools output:
 

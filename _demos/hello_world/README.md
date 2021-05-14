@@ -102,6 +102,7 @@ Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 ### Checking our source code security:
 You can do that with the [bandit package](https://pypi.org/project/bandit/):
 ```
+# bandit -r hello_world.py
 [main]  INFO    profile include tests: None
 [main]  INFO    profile exclude tests: None
 [main]  INFO    cli include tests: None

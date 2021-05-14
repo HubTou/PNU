@@ -57,7 +57,7 @@ ID = "@(#) $Id: hello_world - say hello to the world v1.0.0 (May 13, 2021) by Hu
   * The number in braces behind the command names (ie. "what(1)") are a reference to the [section of the Unix manual](https://www.freebsd.org/cgi/man.cgi?query=man) describing them. 
 * The combined form used above allows for a single declaration to fit both commands :-)
 * Although [these 2 version control systems are deprecated](https://initialcommit.com/blog/Technical-Guide-VCS-Internals), their identification commands are still (sometimes) used in modern Unix systems.
-* The [Pythonic way](https://www.python.org/dev/peps/pep-0020/) to do this would be to use the __version__ and __author__ [module level dunder variables](https://www.python.org/dev/peps/pep-0008/#module-level-dunder-names), however just putting the ID content into __version__ is not the correct way to use that variable according to the [PEP 440 Version Identification and Dependency Specification](https://www.python.org/dev/peps/pep-0440/).
+* The [Pythonic way](https://www.python.org/dev/peps/pep-0020/) to do this would be to use the \_\_version__ and \_\_author__ [module level dunder variables](https://www.python.org/dev/peps/pep-0008/#module-level-dunder-names), however just putting the ID content into \_\_version__ is not the correct way to use that variable according to the [PEP 440 Version Identification and Dependency Specification](https://www.python.org/dev/peps/pep-0440/).
 
 ```Python
 print("Hello, world!")

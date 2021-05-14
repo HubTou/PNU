@@ -28,8 +28,8 @@ Ideally (but leave this for the future if it's too complicated for the time bein
 * [Clone this repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository), make your changes and submit them for inclusion here if you prefer this over the [pnu-project](https://github.com/topics/pnu-project) GitHub topic linking.
 * Eventually, [make a pip package](https://packaging.python.org/tutorials/packaging-projects/) for your entry.
 
-## Suggested tasks and progression:
-The following, [D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, [level structure](https://github.com/HubTou/PNU/discussions/2) is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).
+## Suggested tasks and progression (aka the "Monster Manual"):
+The following, (A)[D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, [level structure](https://github.com/HubTou/PNU/discussions/2) is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).
 We suggest level bosses in order to complete a level (but no [Demogorgon](https://en.wikipedia.org/wiki/Demogorgon#Dungeons_&_Dragons) here, we are not in [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things) :-), unless someone reimplements [NetHack](https://en.wikipedia.org/wiki/NetHack)).
 We are also thinking to provide associated trophies for fun in the future :-)
 

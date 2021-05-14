@@ -21,7 +21,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * [Come discuss it with us on the forums](https://github.com/HubTou/PNU/discussions)
 
 ## Suggested tasks and progression:
-The following, (A)[D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, [level structure](https://github.com/HubTou/PNU/discussions/2) is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).
+The following, [(A)D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, [level structure](https://github.com/HubTou/PNU/discussions/2) is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).
 We suggest level bosses in order to complete a level (but no [Demogorgon](https://en.wikipedia.org/wiki/Demogorgon#Dungeons_&_Dragons) here, we are not in [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things) :-)).
 We are also thinking to provide associated trophies for fun in the future :-)
 

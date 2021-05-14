@@ -36,7 +36,6 @@ Author: Hubert Tournier
     * Some others would favor the [GNU General Public License](https://opensource.org/licenses/gpl-license) (GPL) because they would be more [free software](http://www.catb.org/~esr/jargon/html/F/free-software.html) / [copyleft](http://www.catb.org/~esr/jargon/html/C/copyleft.html) oriented ([IMNSHO](http://www.catb.org/~esr/jargon/html/I/IMHO.html) we should say freed software rather than free) 
   * the author's name
   * I think it's best not to clutter the source code with explanations that you can put in accompanying [documentation](http://www.catb.org/~esr/jargon/html/D/documentation.html)...
-* You should also add docstrings for all **public** modules, functions, classes and methods, immediately after the def line.
 
 ```Python
 import sys

@@ -5,7 +5,7 @@ Check them in the following order:
 
 1. [Hello, world!](https://github.com/HubTou/PNU/tree/main/_demos/hello_world) (also includes a recommended Python toolbox)
 2. [Our first filter](https://github.com/HubTou/PNU/tree/main/_demos/gorgon)
-3. Logging module usage (TO BE DONE)
+3. To log or not to log? (TO BE DONE) (debugging made easy)
 4. Command line options processing (TO BE DONE)
 5. Environment variables processing (TO BE DONE)
 6. Configuration file processing (TO BE DONE)

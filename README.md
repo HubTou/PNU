@@ -39,7 +39,7 @@ The commands below are linked to their latest [FreeBSD man page](https://www.fre
 
 ## Basic levels
 ### Level 0 sub projects (super easy ones)
-Handling return codes, printing to the terminal, and [basic string handling](https://docs.python.org/3/library/string.html):
+Handling return codes, printing to the terminal, and basic [string handling](https://docs.python.org/3/library/string.html):
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
 * [yes](https://www.freebsd.org/cgi/man.cgi?query=yes)
 * [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => without options for a start

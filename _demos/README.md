@@ -3,7 +3,7 @@ A place for some basic, highly commented, tutorials.
 
 Check them in the following order:
 
-1. [Hello, world!](https://github.com/HubTou/PNU/tree/main/_demos/hello_world)
+1. [Hello, world!](https://github.com/HubTou/PNU/tree/main/_demos/hello_world) (also includes a recommended Python toolbox)
 2. [Our first filter](https://github.com/HubTou/PNU/tree/main/_demos/gorgon)
 3. Logging module usage (TO BE DONE)
 4. Command line options processing (TO BE DONE)

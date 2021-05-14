@@ -50,10 +50,12 @@ for line in sys.stdin:
     print()
 ```
 
-* The first line reads a text line in a special file called STDIN (from STanDard INput), which will either be the output of the previous command in the command pipeline, or the user input if our filter is the first part of a command pipeline.
+* The first line reads a text line in a special file called STDIN (from STanDard INput), which will either be the output of the previous command in the command pipeline, or the user input if your filter is the first part of a command pipeline.
 * There are 2 other special files: STDOUT (STanDard OUTput) and STDERR (STanDard ERRor output).
-* When you print() you are in fact writing to STDOUT, which will either be the next command in the command pipeline, or the terminal you use if our filter is the last part of a command pipeline. As you can see in the Python manual, the [print()](https://docs.python.org/3/library/functions.html#print) function as a default parameter "file=sys.stdout".
-* The STDERR channel is to be used for error messages, thus separating them from normal output, and avoiding polluting it if you are redirecting it to a file (you do that by ending your command pipeline with "> filename").
+* When you print() you are in fact writing to STDOUT, which will either be the next command in the command pipeline, or the terminal you use if your filter is the last part of a command pipeline. As you can see in the Python manual, the [print()](https://docs.python.org/3/library/functions.html#print) function as a default parameter "file=sys.stdout".
+* The STDERR channel is to be used for error messages, thus separating them from normal output, and avoiding polluting it if you are redirecting to a file (you do that by ending your command pipeline with "> filename").
+* The next line splits the line in words (separated by spaces) and removes the newline character at the end of each line with the rstrip() function (as in Right Strip).
+* The next line process the input word into our previously defined function and prints it without adding a newline (so that all words stay on the same line). This is done by changing print() default parameter "end='\n'" to "end=''".
 
 ## Other tools output:
 

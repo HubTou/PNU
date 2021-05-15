@@ -5,7 +5,7 @@ As [Eric S. Raymond](https://en.wikipedia.org/wiki/Eric_S._Raymonda) says in [Th
 >> \[a filter is] A program that processes an input data stream into an output data stream in some well-defined way, and does no I/O to anywhere else except possibly on error conditions;
 >> one designed to be used as a stage in a pipeline
 
-Thus a filter program is intended to be used in a command pipeline, for example between [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) and [tee](https://www.freebsd.org/cgi/man.cgi?query=tee):
+Thus a filter program is intended to be used in a command pipeline, for example here between [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) and [tee](https://www.freebsd.org/cgi/man.cgi?query=tee):
 
 ```Shell
 cat inputfile | gorgon.py | tee result.txt
@@ -125,6 +125,6 @@ I said on the front page of the project that there would be no [Demogorgon](http
 
 There will be other [easter eggs](http://www.catb.org/jargon/html/E/Easter-egg.html) like this though this project. That's another tradition we want to honor!
 
-On the lore side, it's interesting to note that the Demogorgon was one of the monsters of the [classical](http://www.catb.org/jargon/html/N/nethack.html) [NetHack](https://en.wikipedia.org/wiki/NetHack) game, which itself was a descendant of the [mythical](http://www.catb.org/jargon/html/R/rogue.html) [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game)) and [Hack](https://en.wikipedia.org/wiki/Hack_(video_game)) games, which were included in BSD Unix and many other versions after that.
+On the lore side, it's interesting to note that the Demogorgon was one of the monsters of the [classical](http://www.catb.org/jargon/html/N/nethack.html) [NetHack](https://en.wikipedia.org/wiki/NetHack) game, which itself was a descendant of the [mythical](http://www.catb.org/jargon/html/R/rogue.html) [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game)) and [Hack](https://en.wikipedia.org/wiki/Hack_(video_game)) games, which were included in [BSD](http://www.catb.org/jargon/html/B/BSD.html) Unix and many other versions after that.
 
 Perhaps someone will reimplement these important milestones in video gaming history for the project?

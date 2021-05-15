@@ -16,7 +16,7 @@ import os
 ```
 
 * The logging library is included with the "import logging" statement.
-* We also import the os library in order to help get the name of the running program, though it's not at all mandatory.
+* We also import the [os library](https://docs.python.org/3/library/os.html) in order to help get the name of the running program, though it's not at all mandatory.
 
 ```Python
 def show_logging_levels():
@@ -28,8 +28,8 @@ def show_logging_levels():
     logging.critical("Critical message (program unable to continue)")
 ```
 
-* This function is just a showcase for the 5 logging functions you can call in your programs, with some explanations on the situation  requiring their use.
-* Please note that the function names are all lowercase. That's a common source of mistakes as we'll see later on.
+* This function is just a showcase for the 5 logging functions you can call in your programs, with some explanations on the situation requiring their use.
+* Please note that the function names are all lowercase. That's a common source of mistakes as there are also all caps constants with the same names.
 * A critical level error should go with an immediate sys.exit() function call with a non zero return code.
 * For error level ones, your program should **ultimately** exit with a non zero code. 
 
@@ -41,10 +41,10 @@ logging.disable(logging.INFO)
 ```
 
 * The first line gets the name of the running program, which is the first argument on the command line.
-* The command line is available through the sys.argv table, with its full pathname in the first cell. The os.path.basname() call helps get rid of the directory part.
-* The logging module has pre-defined variables with your module name, filename and pathname, but they are related to your source code file rather than your program. If you make a multiple source files program, they probably won't work as intended.
+* The command line is available through the [sys.argv](https://docs.python.org/3/library/sys.html) table, with its full pathname in the first cell. The os.path.basename() call helps get rid of the directory part.
+* The logging module has pre-defined variables with your module name, filename and pathname, but they are related to your source code file rather than your program. If you have a multiple source files program, they probably won't work as intended...
 * The second line defines the format of the messages destined to the console. The logging facility also enables you to log to a file, in which case you would probably want to prefix the format with the date & time of the error (with "%(asctime) " at the beginning of the format string).
-* The logging.basicConfig call is supposed to be placed at the beginning of your main code, just after your functions definitions.
+* The [logging.basicConfig()](https://docs.python.org/3/library/logging.html#logging.basicConfig) call is supposed to be placed at the beginning of your main code, just after your functions definitions.
 * The logging level must be set to logging.DEBUG level if you intend to modify it later on to higher levels (or else it won't work).
 * The next line is supposed to follow immediately to set the normal logging level to WARNING or higher. For a production release program you don't want to see DEBUG or INFO level messages...
 

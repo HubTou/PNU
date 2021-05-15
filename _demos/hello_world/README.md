@@ -52,7 +52,7 @@ ID = "@(#) $Id: hello_world - say hello to the world v1.0.0 (May 13, 2021) by Hu
 ```
 
 * Although unnecessary (and in fact unused by the program itself), the ID [constant](https://www.python.org/dev/peps/pep-0008/#constants) mention is a good practice to allow external programs to extract some information about your program (they also work with compiled software).
-  * The [what](https://www.freebsd.org/cgi/man.cgi?query=what) command works with the original [SCCS version control system](https://en.wikipedia.org/wiki/Source_Code_Control_System) and searches for the magic string "@(#)":
+  * The [what](https://www.freebsd.org/cgi/man.cgi?query=what) command works with the original [SCCS version control system](https://en.wikipedia.org/wiki/Source_Code_Control_System) and searches for the magic string "@(#)".
   * The [ident](https://www.freebsd.org/cgi/man.cgi?query=ident) command works with the [RCS version control system](https://en.wikipedia.org/wiki/Revision_Control_System) and searches for the magic string "Id: ... $".
   * The number in braces behind the command names (ie. "what(1)") are a reference to the [section of the Unix manual](https://www.freebsd.org/cgi/man.cgi?query=man) describing them. 
 * The combined form used above allows for a single declaration to fit both commands :-)

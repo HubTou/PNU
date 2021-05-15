@@ -5,7 +5,7 @@ Let's explain what is inside this overcomplicated version.
 
 ## Code commentary:
 ```Python
-#!/usr/bin/env python3
+#!/usr/bin/env python
 ```
 
 * The first line of the script, when it starts with the [magic](http://www.catb.org/~esr/jargon/html/M/magic-number.html) string "#!", is called a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix))

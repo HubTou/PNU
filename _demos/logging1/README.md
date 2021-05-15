@@ -42,13 +42,19 @@ logging.disable(logging.INFO)
 
 * The first line gets the name of the running program, which is the first argument on the command line.
 * The command line is available through the sys.argv table, with its full pathname in the first cell. The os.path.basname() call helps get rid of the directory part.
-* The logging module has pre-defined variables with your module name,
+* The logging module has pre-defined variables with your module name, filename and pathname, but they are related to your source code file rather than your program. If you make a multiple source files program, they probably won't work as intended.
+* The second line defines the format of the messages destined to the console. The logging facility also enables you to log to a file, in which case you would probably want to prefix the format with the date & time of the error (with "%(asctime) " at the beginning of the format string).
+* The logging.basicConfig call is supposed to be placed at the beginning of your main code, just after your functions definitions.
+* The logging level must be set to logging.DEBUG level if you intend to modify it later on to higher levels (or else it won't work).
+* The next line is supposed to follow immediately to set the normal logging level to WARNING or higher. For a production release program you don't want to see DEBUG or INFO level messages...
 
 ```Python
 logging.disable(logging.NOTSET)
 ```
 
-* text
+* The line above will reset the logging level to DEBUG messages or higher (NOTSET is the level below DEBUG).
+* This is what you need to activate the debugging mode!
+* Usually you do this when there's a command line option, environment variable or configuration file item instructing you to do so, but we'll see all these things later on.
 
 ```Python
 ERROR_MESSAGE = "FMH!"
@@ -57,8 +63,9 @@ CRITICAL_ERROR_MESSAGE = "Fandango on core :-("
 logging.critical("Message: %s", CRITICAL_ERROR_MESSAGE)
 ```
 
-* text
-
+* Here are some closing examples showing how to pass variable content to your logging function calls.
+* The strings themselves are constants, thus their all caps names.
+* I leave it as an exercise to you to get the meaning of these classical error messages in [The Jargon File](http://www.catb.org/jargon/html/index.html) :-)
 
 ## The program's output:
 ```

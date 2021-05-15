@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """ hello_world - say hello to the world
 License: 3-clause BSD (see https://opensource.org/licenses/BSD-3-Clause)
 Author: Hubert Tournier

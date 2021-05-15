@@ -3,6 +3,7 @@ A place for some highly commented, basic and incremental tutorials.
 
 Check them in the following order:
 
+0. Setting up your development environment (TO BE DONE)
 1. [Hello, world!](https://github.com/HubTou/PNU/tree/main/_demos/hello_world) (also includes a recommended Python toolbox)
 2. [Our first filter](https://github.com/HubTou/PNU/tree/main/_demos/gorgon)
 3. [An introduction to debugging and logging](https://github.com/HubTou/PNU/tree/main/_demos/logging1)

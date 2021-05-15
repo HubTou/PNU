@@ -1,7 +1,7 @@
 # logging1
 Now that we are ready to start coding, we'll soon need to either confirm that our program performs as intended or chase [bugs](http://www.catb.org/jargon/html/B/bug.html).
 
-If you want something more reliable than [shotgun debugging](http://www.catb.org/jargon/html/S/shotgun-debugging.html), and less complex than using a debugger, you'll probably want to spread debugging print() messages through your code.
+If you want something more reliable than [shotgun debugging](http://www.catb.org/jargon/html/S/shotgun-debugging.html), and less complex than using a debugger, you'll probably want to spread debugging [print()](https://docs.python.org/3/library/functions.html#print) messages through your code.
 
 Instead of doing that, Python provides a full featured [logging library](https://docs.python.org/3/library/logging.html), that will advantageously replace these print() messages.
 
@@ -30,7 +30,7 @@ def show_logging_levels():
 
 * This function is just a showcase for the 5 logging functions you can call in your programs, with some explanations on the situation requiring their use.
 * Please note that the function names are all lowercase. That's a common source of mistakes as there are also all caps constants with the same names.
-* A critical level error should go with an immediate sys.exit() function call with a non zero return code.
+* A critical level error should go with an immediate [sys.exit()](https://docs.python.org/3/library/sys.html#sys.exit) function call with a non zero return code.
 * For error level ones, your program should **ultimately** exit with a non zero code. 
 
 ```Python
@@ -41,8 +41,8 @@ logging.disable(logging.INFO)
 ```
 
 * The first line gets the name of the running program, which is the first argument on the command line.
-* The command line is available through the [sys.argv](https://docs.python.org/3/library/sys.html) table, with its full pathname in the first cell. The os.path.basename() call helps get rid of the directory part.
-* The logging module has pre-defined variables with your module name, filename and pathname, but they are related to your source code file rather than your program. If you have a multiple source files program, they probably won't work as intended...
+* The command line is available through the [sys.argv](https://docs.python.org/3/library/sys.html#sys.argv) table, with its full pathname in the first cell. The [os.path.basename()](https://docs.python.org/3/library/os.path.html#os.path.basename) call helps get rid of the directory part.
+* The logging module has [pre-defined variables](https://docs.python.org/3/library/logging.html#logging.basicConfig) with your module name, filename and pathname, but they are related to your source code file rather than your program. If you have a multiple source files program, they probably won't work as intended...
 * The second line defines the format of the messages destined to the console. The logging facility also enables you to log to a file, in which case you would probably want to prefix the format with the date & time of the error (with "%(asctime) " at the beginning of the format string).
 * The [logging.basicConfig()](https://docs.python.org/3/library/logging.html#logging.basicConfig) call is supposed to be placed at the beginning of your main code, just after your functions definitions.
 * The logging level must be set to logging.DEBUG level if you intend to modify it later on to higher levels (or else it won't work).
@@ -54,7 +54,7 @@ logging.disable(logging.NOTSET)
 
 * The line above will reset the logging level to DEBUG messages or higher (NOTSET is the level below DEBUG).
 * This is what you need to activate the debugging mode!
-* Usually you do this when there's a command line option, environment variable or configuration file item instructing you to do so, but we'll see all these things later on.
+* Usually you do this when there's a command line option, environment variable or configuration file item instructing you to do so, but we'll see all these things later on...
 
 ```Python
 ERROR_MESSAGE = "FMH!"
@@ -68,6 +68,7 @@ logging.critical("Message: %s", CRITICAL_ERROR_MESSAGE)
 * I leave it as an exercise to you to get the meaning of these classical error messages in [The Jargon File](http://www.catb.org/jargon/html/index.html) :-)
 
 ## The program's output:
+Running the program will produce the following display:
 ```
 # logging1.py
 logging1.py: WARNING: Warning message (things still working as expected, but potential for future errors)

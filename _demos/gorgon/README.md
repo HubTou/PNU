@@ -40,7 +40,7 @@ def petrification(_):
 * This is our first Python function :-)
 * You'll notice the [docstring](https://www.python.org/dev/peps/pep-0008/#documentation-strings) comment right after the function definition.
 * You should add docstrings for all **public** modules, functions, classes and methods, immediately after the def line.
-* We have a special case here with an argument called "\_" which Python uses to explicitely state that this argument will be unused.
+* We have a special case here with an argument called "\_" which Python uses to explicitely state that this argument will be unused. A good way to avoid the use of a [metasyntactic variable](http://www.catb.org/jargon/html/M/metasyntactic-variable.html) name :-)
 * The function here returns a string value, but it could have been any other type, including complex structures, and even multiple return values!
 
 ```Python

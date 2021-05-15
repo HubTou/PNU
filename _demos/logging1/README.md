@@ -1,5 +1,11 @@
 # logging1
-text
+Now that we are ready to start coding, we'll soon need to either confirm that our program performs as intended or chase [bugs](http://www.catb.org/jargon/html/B/bug.html).
+
+If you want something more reliable than [shotgun debugging](http://www.catb.org/jargon/html/S/shotgun-debugging.html), and less complex than using a debugger, you'll probably want to spread debugging print() messages through your code.
+
+Instead of doing that, Python provides a full featured [logging library](https://docs.python.org/3/library/logging.html), that will advantageously replace these print() messages.
+
+You'll even be able to keep your debugging code in your program and just vary the logging level to make them appear or not!
 
 So let's explain the new code constructs since our hello_world program.
 
@@ -9,7 +15,8 @@ import logging
 import os
 ```
 
-* text
+* The logging library is included with the "import logging" statement.
+* We also import the os library in order to help get the name of the running program, though it's not at all mandatory.
 
 ```Python
 def show_logging_levels():
@@ -21,7 +28,10 @@ def show_logging_levels():
     logging.critical("Critical message (program unable to continue)")
 ```
 
-* text
+* This function is just a showcase for the 5 logging functions you can call in your programs, with some explanations on the situation  requiring their use.
+* Please note that the function names are all lowercase. That's a common source of mistakes as we'll see later on.
+* A critical level error should go with an immediate sys.exit() function call with a non zero return code.
+* For error level ones, your program should **ultimately** exit with a non zero code. 
 
 ```Python
 PROGRAM_NAME = os.path.basename(sys.argv[0])
@@ -30,7 +40,9 @@ logging.basicConfig(format=CONSOLE_LOG_FORMAT, level=logging.DEBUG)
 logging.disable(logging.INFO)
 ```
 
-* text
+* The first line gets the name of the running program, which is the first argument on the command line.
+* The command line is available through the sys.argv table, with its full pathname in the first cell. The os.path.basname() call helps get rid of the directory part.
+* The logging module has pre-defined variables with your module name,
 
 ```Python
 logging.disable(logging.NOTSET)
@@ -47,6 +59,8 @@ logging.critical("Message: %s", CRITICAL_ERROR_MESSAGE)
 
 * text
 
+
+## The program's output:
 ```
 # logging1.py
 logging1.py: WARNING: Warning message (things still working as expected, but potential for future errors)

@@ -68,7 +68,7 @@ logging.critical("Message: %s", CRITICAL_ERROR_MESSAGE)
 * I leave it as an exercise to you to get the meaning of these classical error messages in [The Jargon File](http://www.catb.org/jargon/html/index.html) :-)
 
 ## The program's output:
-Running the program will produce the following display:
+Running the program (I've showcased only a selection of the code) will produce the following display:
 ```
 # logging1.py
 logging1.py: WARNING: Warning message (things still working as expected, but potential for future errors)

@@ -29,19 +29,19 @@ We are also thinking to provide associated trophies for fun in the future :-)
 The commands below are linked to their latest [FreeBSD man page](https://www.freebsd.org/cgi/man.cgi) (the web site also gives access to a lot of other Unix-like operating systems versions), but you should probably start implementing their simpler (and more testing oriented) [POSIX.1 versions](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
 
 ## Basic levels
-### Level 0 sub projects (super easy ones)
+### Level 1 sub projects (super easy ones)
 Handling return codes, printing to the terminal, and basic [string handling](https://docs.python.org/3/library/string.html):
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
 * [yes](https://www.freebsd.org/cgi/man.cgi?query=yes)
 * [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => without options for a start
 * [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start. Suggested level boss
 
-### Level 1 sub projects (easy ones)
+### Level 2 sub projects (easy ones)
 Basic math or data structures, school level:
 * [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar)
 * [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => suggested level boss
 
-### Level 2 sub projects (easy ones)
+### Level 3 sub projects (easy ones)
 Basic command line & [environment](https://www.freebsd.org/cgi/man.cgi?query=environ) processing, file operations and filters.
 * [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => with full options
 * [read](https://www.freebsd.org/cgi/man.cgi?query=read) => careful with the environment as it won't be a Shell builtin command...
@@ -55,7 +55,7 @@ Basic command line & [environment](https://www.freebsd.org/cgi/man.cgi?query=env
 Check this already made full example first to guide you:
 * [echobox](https://github.com/HubTou/PNU/tree/main/echobox)
 
-### Level 3 sub projects (easy ones)
+### Level 4 sub projects (easy ones)
 Basic text processing utilities, multiple files or many options:
 * [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) => with full options
 * [nl](https://www.freebsd.org/cgi/man.cgi?query=nl)
@@ -63,7 +63,7 @@ Basic text processing utilities, multiple files or many options:
 * [comm](https://www.freebsd.org/cgi/man.cgi?query=comm)
 * [uniq](https://www.freebsd.org/cgi/man.cgi?query=uniq) => suggested level boss
 
-### Level 4 sub projects (easy ones)
+### Level 5 sub projects (easy ones)
 Basic utilities using more complex parsing:
 * [expr](https://www.freebsd.org/cgi/man.cgi?query=expr) => just a warmer
 * [printf](https://www.freebsd.org/cgi/man.cgi?query=printf)
@@ -75,7 +75,7 @@ System utilities (implying minimum Unix system knowledge).
 [Regular expressions](https://docs.python.org/3/library/re.html), text parsing.
 [CSV](https://docs.python.org/3/library/csv.html), [JSON](https://docs.python.org/3/library/json.html), [XML](https://docs.python.org/3/library/xml.html), [HTML](https://docs.python.org/3/library/html.html) data handling.
 
-### Level 5 sub projects (intermediate ones):
+### Level 6 sub projects (intermediate ones):
 Basic system utilities (super easy ones):
 * [pwd](https://www.freebsd.org/cgi/man.cgi?query=pwd)
 * [pathchk](https://www.freebsd.org/cgi/man.cgi?query=pathchk)
@@ -83,36 +83,36 @@ Basic system utilities (super easy ones):
 Check this already made full example first to discover the system information Python knows about:
 * [about](https://github.com/HubTou/about)
 
-### Level 6 sub projects (intermediate ones):
+### Level 7 sub projects (intermediate ones):
 Basic system utilities, possibly recursive ones:
 * [chmod](https://www.freebsd.org/cgi/man.cgi?query=chmod)
 * [chown](https://www.freebsd.org/cgi/man.cgi?query=chown)
 * [chgrp](https://www.freebsd.org/cgi/man.cgi?query=chgrp)
 
-### Level 7 sub projects (intermediate ones):
+### Level 8 sub projects (intermediate ones):
 * [du](https://www.freebsd.org/cgi/man.cgi?query=du)
 
-### Level 8 sub projects (intermediate ones):
-
 ### Level 9 sub projects (intermediate ones):
+
+### Level 10 sub projects (intermediate ones):
 * [tree](http://mama.indstate.edu/users/ice/tree/) => Not standard but a pretty complete one for our purpose. Suggested level boss
 
 ## Advanced levels
 Office documents manipulation, image manipulation, web scraping, network applications, automation.
 
-### Level 10 sub projects (advanced ones):
-Advanced system utilities:
+### Level 11 sub projects (advanced ones):
+Advanced system utilities, data compression:
 * [compress, uncompress](https://www.freebsd.org/cgi/man.cgi?query=compress)
 * [zcat](https://www.freebsd.org/cgi/man.cgi?query=zcat)
 
-### Level 14 sub projects (advanced ones):
+### Level 12 sub projects (advanced ones):
 Interactive full screen applications:
 * [vi](https://www.freebsd.org/cgi/man.cgi?query=vi) => Suggested level boss
 
 ## Master levels
 Languages (interpreters, compilers), database management systems, network protocols:
 
-### Level 15 sub projects:
+### Level 16 sub projects:
 * [awk](https://www.freebsd.org/cgi/man.cgi?query=awk)
 * [sh](https://www.freebsd.org/cgi/man.cgi?query=sh) => Suggested level boss
 

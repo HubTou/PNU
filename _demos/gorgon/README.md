@@ -24,7 +24,7 @@ As the "AT&T Unix System V Release 3.2 Programmer's Guide, Vol. I" manual said i
 >> 
 >> \* * * * * * * * * * * * * * * * * * * *
 >>
->> Unlike computer environments where each new project is like starting with a blank canvas, on a UNIX system a good percentage of any programming effor is lying there in **bins**, and **lbins**, and **/usr/bins**, not to mention **etc**, waiting to be used.
+>> Unlike computer environments where each new project is like starting with a blank canvas, on a UNIX system a good percentage of any programming effort is lying there in **bins**, and **lbins**, and **/usr/bins**, not to mention **etc**, waiting to be used.
 >> 
 >> The features of the UNIX system (pipes, processes, and the file system) contribute to this reusability, as does the history of sharing and contributing that extends back to 1969. You risk missing the essential nature of the UNIX system if you don't put this to work.
 

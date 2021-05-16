@@ -16,7 +16,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
   * your own [PyPi](https://pypi.org/) packages and link them to the project by using the [pnu-project](https://pypi.org/search/?q=pnu-project) keyword
 
 ## How to contribute:
-* Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
+* Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions or our [Monster Manual](https://github.com/HubTou/PNU/wiki/The-Monster-Manual) for full details).
 * [Read the tutorials](https://github.com/HubTou/PNU/blob/main/_demos/README.md)
 * [Read the guidelines for contribution](https://github.com/HubTou/PNU/wiki/The-Player's-Handbook)
 * [Come discuss it with us on the forums](https://github.com/HubTou/PNU/discussions)

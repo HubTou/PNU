@@ -17,7 +17,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 
 ## How to contribute:
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions).
-* [Read the tutorials](https://github.com/HubTou/PNU/tree/main/_demos)
+* [Read the tutorials](https://github.com/HubTou/PNU/blob/main/_demos/README.md)
 * [Read the guidelines for contribution](https://github.com/HubTou/PNU/wiki/The-Player's-Handbook)
 * [Come discuss it with us on the forums](https://github.com/HubTou/PNU/discussions)
 
@@ -118,6 +118,8 @@ Languages (interpreters, compilers), database management systems, network protoc
 
 ## Immortal levels
 It's a long way to the top if you wanna get your entry in the "Deities & [Demigods](http://www.catb.org/jargon/html/D/demigod.html)" of hackers, but here are some examples to inspire you from the [Unix & open source pantheon](https://www.facesofopensource.com/unix/) (note: having a [beard](http://jargonf.org/wiki/barbu) is not mandatory)
+
+However, all of this is beyond the scope of the project and probably not a good idea to implement in Python :-)
 
 ### Level transcending projects:
 Full operating system kernels & device drivers:

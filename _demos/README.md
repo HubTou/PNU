@@ -24,4 +24,4 @@ You can also check our [echobox](https://github.com/HubTou/PNU/tree/main/echobox
 
 Beyond that point, the handy [Python Standard Library](https://docs.python.org/3/library/index.html) online documentation and the online book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) could also be useful to progress quickly.
 
-[RTFM](http://www.catb.org/jargon/html/R/RTFM.html)! as we say.
+[RTFM](http://www.catb.org/jargon/html/R/RTFM.html)! as they say.

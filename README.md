@@ -53,7 +53,7 @@ Basic command line & [environment](https://www.freebsd.org/cgi/man.cgi?query=env
 * [wc](https://www.freebsd.org/cgi/man.cgi?query=wc) => suggested level boss
 
 Check this already made full example first to guide you:
-* [echobox](https://github.com/HubTou/PNU/tree/main/echobox)
+* [echobox](https://github.com/HubTou/PNU/tree/main/_demos/echobox)
 
 ### Level 4 sub projects (easy ones)
 Basic text processing utilities, multiple files or many options:

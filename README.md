@@ -30,30 +30,29 @@ The commands below are linked to their latest [FreeBSD man page](https://www.fre
 
 ## Basic levels
 ### Level 1 sub projects (super easy ones)
-Handling return codes, printing to the terminal, and basic [string handling](https://docs.python.org/3/library/string.html):
+Handling return codes, printing to the terminal:
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
 * [yes](https://www.freebsd.org/cgi/man.cgi?query=yes)
-* [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => without options for a start
-* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start. Suggested level boss
+* [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => with hardcoded option for a start. Suggested level boss. Trophy dummy/teat.
 
 ### Level 2 sub projects (easy ones)
+Basic [string handling](https://docs.python.org/3/library/string.html):
+* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start (hint: there's a hidden shortcut)
+
 Basic math or data structures, school level:
 * [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar)
-* [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => suggested level boss
+* [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => suggested level boss. Trophy schoolbag.
 
 ### Level 3 sub projects (easy ones)
-Basic command line & [environment](https://www.freebsd.org/cgi/man.cgi?query=environ) processing, file operations and filters.
+Basic [filters](https://github.com/HubTou/PNU/tree/main/_demos/gorgon), command line & [environment](https://www.freebsd.org/cgi/man.cgi?query=environ) processing, file operations:
 * [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => with full options
+* [basename](https://www.freebsd.org/cgi/man.cgi?query=basename) => with full options
 * [read](https://www.freebsd.org/cgi/man.cgi?query=read) => careful with the environment as it won't be a Shell builtin command...
-* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => with full options
-* [expand, unexpand](https://www.freebsd.org/cgi/man.cgi?query=expand)
 * [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) => with POSIX options only for a start
 * [head](https://www.freebsd.org/cgi/man.cgi?query=head)
+* [expand, unexpand](https://www.freebsd.org/cgi/man.cgi?query=expand)
 * [fold](https://www.freebsd.org/cgi/man.cgi?query=fold)
 * [wc](https://www.freebsd.org/cgi/man.cgi?query=wc) => suggested level boss
-
-Check this already made full example first to guide you:
-* [echobox](https://github.com/HubTou/PNU/tree/main/_demos/echobox)
 
 ### Level 4 sub projects (easy ones)
 Basic text processing utilities, multiple files or many options:

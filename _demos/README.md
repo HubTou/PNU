@@ -20,7 +20,7 @@ Check them in the following order:
 
 13. Making a pip package for our command (TO BE DONE)
 
-You can also check our [echobox](https://github.com/HubTou/PNU/tree/main/echobox) program for an example covering the steps 1 to 12.
+You can also check our [echobox](https://github.com/HubTou/PNU/tree/main/_demos/echobox) program for an example covering the steps 1 to 12.
 
 Beyond that point, the handy [Python Standard Library](https://docs.python.org/3/library/index.html) online documentation and the online book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) could also be useful to progress quickly.
 

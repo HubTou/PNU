@@ -121,9 +121,10 @@ It's a long way to the top if you wanna get your entry in the "Deities & [Demigo
 
 However, all of this is beyond the scope of the project and probably not a good idea to implement in Python :-)
 
-### Level transcending projects:
+### Demigods level transcending projects:
 Full operating system kernels & device drivers:
 * Your own [Minix](https://en.wikipedia.org/wiki/Minix)/[386BSD](https://en.wikipedia.org/wiki/386BSD)/Linux like operating system with PNU userland utilities :-)
 
+### Deities level transcending projects:
 Making your own hardware platform and all the software to run it.
-* Although not Unix related, my own personal idol, [The Woz](https://en.wikipedia.org/wiki/Steve_Wozniak) springs to mind and I recommend his excellent autobiography, [iWoz](https://en.wikipedia.org/wiki/IWoz), for a good glimpse into a true Hacker's mind.
+* Although not Unix related, my own personal idol, [The Woz](https://en.wikipedia.org/wiki/Steve_Wozniak) springs to mind here and I recommend his excellent autobiography, [iWoz](https://en.wikipedia.org/wiki/IWoz), for a good glimpse into a true Hacker's mind.

@@ -25,8 +25,6 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 The following, [(A)D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, [level structure](https://github.com/HubTou/PNU/discussions/2) is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).
 We suggest level bosses in order to complete a level (but no [Demogorgon](https://en.wikipedia.org/wiki/Demogorgon#Dungeons_&_Dragons) here, we are not in [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things) :-)) and associated trophies for fun :-)
 
-The commands below are linked to their latest [FreeBSD man page](https://www.freebsd.org/cgi/man.cgi) (the web site also gives access to a lot of other Unix-like operating systems versions), but you should probably start implementing their simpler (and more testing oriented) [POSIX.1 versions](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
-
 ## Basic levels
 ### Level 1 sub projects
 Handling return codes, printing to the terminal:
@@ -36,7 +34,7 @@ Handling return codes, printing to the terminal:
 
 ### Level 2 sub projects
 Basic [string handling](https://docs.python.org/3/library/string.html):
-* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start (hint: there's a hidden shortcut)
+* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start (hint: there's a Pythonic secret passage)
 
 Basic math or data structures, school level:
 * [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar)
@@ -46,7 +44,7 @@ Basic math or data structures, school level:
 Basic [filters](https://github.com/HubTou/PNU/tree/main/_demos/gorgon), command line & [environment](https://www.freebsd.org/cgi/man.cgi?query=environ) processing, file operations:
 * [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => with full options
 * [basename](https://www.freebsd.org/cgi/man.cgi?query=basename) => with full options
-* [read](https://www.freebsd.org/cgi/man.cgi?query=read) => careful with the environment as it won't be a Shell builtin command...
+* [read](https://www.freebsd.org/cgi/man.cgi?query=read) => careful with the environment as it won't be a [shell builtin](https://www.freebsd.org/cgi/man.cgi?query=builtin) command...
 * [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) => with POSIX options only for a start
 * [head](https://www.freebsd.org/cgi/man.cgi?query=head)
 * [expand, unexpand](https://www.freebsd.org/cgi/man.cgi?query=expand)

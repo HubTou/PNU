@@ -65,7 +65,7 @@ logging.critical("Message: %s", CRITICAL_ERROR_MESSAGE)
 
 * Here are some closing examples showing how to pass variable content to your logging function calls.
 * The strings themselves are constants, thus their all caps names.
-* I leave it as an exercise to you to get the meaning of these classical error messages in [The Jargon File](http://www.catb.org/jargon/html/index.html) :-)
+* I [leave it as an exercise](http://www.catb.org/jargon/html/E/exercise--left-as-an.html) to you to get the meaning of these classical error messages in [The Jargon File](http://www.catb.org/jargon/html/index.html) :-)
 
 ## The program's output:
 Running the program (I've showcased only a selection of the code) will produce the following display:

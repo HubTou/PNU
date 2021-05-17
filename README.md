@@ -123,7 +123,7 @@ Languages (interpreters, compilers), database management systems, network protoc
 ## Immortal levels
 It's a long way to the top if you wanna get your entry in the "Deities & [Demigods](http://www.catb.org/jargon/html/D/demigod.html)" of hackers, but here are some examples to inspire you from the [Unix & open source pantheon](https://www.facesofopensource.com/unix/) (note: having a [beard](http://jargonf.org/wiki/barbu) is not mandatory)
 
-However, all of this is beyond the scope of the project and probably not a good idea to implement in Python :-)
+However, all of this is beyond the scope of the project and probably not a good idea to implement in [Python](http://www.catb.org/jargon/html/P/Python.html) :-)
 
 ### Demigods level transcending projects
 Full operating system kernels & device drivers:

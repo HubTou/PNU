@@ -16,7 +16,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
   * your own [PyPi](https://pypi.org/) packages and link them to the project by using the [pnu-project](https://pypi.org/search/?q=pnu-project) keyword
 
 ## How to contribute:
-* Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions or our [Monster Manual](https://github.com/HubTou/PNU/wiki/The-Monster-Manual) for full details).
+* Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions or our [Master / targets list](https://github.com/HubTou/PNU/wiki/The-Monster-Manual) for full details).
 * [Read the tutorials](https://github.com/HubTou/PNU/blob/main/_demos/README.md)
 * [Read the guidelines for contribution](https://github.com/HubTou/PNU/wiki/The-Player's-Handbook)
 * [Come discuss it with us on the forums](https://github.com/HubTou/PNU/discussions)
@@ -30,22 +30,20 @@ We suggest level bosses in order to complete a level (but no [Demogorgon](https:
 Handling return codes, printing to the terminal:
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
 * [yes](https://www.freebsd.org/cgi/man.cgi?query=yes)
-* [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => with hardcoded option for a start. Suggested level boss. Trophy: a dummy/teat.
+* [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => suggested level boss. Trophy: a dummy/teat (hint: option can be [hardcoded](http://www.catb.org/jargon/html/H/hardcoded.html))
 
 ### Level 2 sub projects
 Basic [string handling](https://docs.python.org/3/library/string.html):
 * [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start (hint: there's a Pythonic secret passage)
+* [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar)
 
 Basic math or data structures, school level:
-* [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar)
 * [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => suggested level boss. Trophy: a schoolbag.
 
 ### Level 3 sub projects
 Basic [filters](https://github.com/HubTou/PNU/tree/main/_demos/gorgon), command line & [environment](https://www.freebsd.org/cgi/man.cgi?query=environ) processing, file operations:
-* [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => with full options
 * [basename](https://www.freebsd.org/cgi/man.cgi?query=basename) => with full options
-* [read](https://www.freebsd.org/cgi/man.cgi?query=read) => careful with the environment as it won't be a [shell builtin](https://www.freebsd.org/cgi/man.cgi?query=builtin) command...
-* [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) => with POSIX options only for a start
+* [cat](https://www.freebsd.org/cgi/man.cgi?query=cat) => POSIX version only for a start
 * [head](https://www.freebsd.org/cgi/man.cgi?query=head)
 * [expand, unexpand](https://www.freebsd.org/cgi/man.cgi?query=expand)
 * [fold](https://www.freebsd.org/cgi/man.cgi?query=fold)
@@ -129,8 +127,8 @@ However, all of this is beyond the scope of the project and probably not a good 
 
 ### Demigods level transcending projects
 Full operating system kernels & device drivers:
-* Your own [Minix](https://en.wikipedia.org/wiki/Minix)/[386BSD](https://en.wikipedia.org/wiki/386BSD)/Linux like operating system with PNU userland utilities :-)
+* Your own [Minix](https://en.wikipedia.org/wiki/Minix)/[386BSD](https://en.wikipedia.org/wiki/386BSD)/[Linux](http://www.catb.org/jargon/html/L/Linux.html) like operating system with PNU [userland](http://www.catb.org/jargon/html/U/userland.html) utilities :-)
 
 ### Deities level transcending projects
 Making your own hardware platform and all the software to run it.
-* Although not Unix related, my own personal idol, [The Woz](https://en.wikipedia.org/wiki/Steve_Wozniak) springs to mind here and I recommend his excellent autobiography, [iWoz](https://en.wikipedia.org/wiki/IWoz), for a good glimpse into a true Hacker's mind.
+* Although not Unix related, [The Woz](https://en.wikipedia.org/wiki/Steve_Wozniak) springs to mind here and his excellent autobiography, [iWoz](https://en.wikipedia.org/wiki/IWoz), is highly recommended for a good glimpse into a true [hacker](http://www.catb.org/jargon/html/H/hacker.html)'s mind.

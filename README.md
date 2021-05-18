@@ -92,7 +92,7 @@ Basic system utilities, possibly recursive ones:
 * [tree](http://mama.indstate.edu/users/ice/tree/) => Not standard but a pretty complete one for our purpose. Suggested level boss. Trophy: an oak tree
 
 ## Advanced levels
-Office documents manipulation, image manipulation, web scraping, network applications, automation.
+Full screen text applications, windowed applications, office documents manipulation, image manipulation, web scraping, network applications, automation.
 
 ### Level 11 sub projects
 Advanced system utilities, data compression:

@@ -30,7 +30,7 @@ We suggest level bosses in order to complete a level (but no [Demogorgon](https:
 Handling return codes, printing to the terminal:
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
 * [yes](https://www.freebsd.org/cgi/man.cgi?query=yes)
-* [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => suggested level boss. Trophy: a dummy/teat (hint: option can be [hardcoded](http://www.catb.org/jargon/html/H/hardcoded.html))
+* [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => suggested level boss. Trophy: a :baby_bottle: baby bottle or a dummy/teat (hint: option can be [hardcoded](http://www.catb.org/jargon/html/H/hardcoded.html))
 
 ### Level 2 sub projects
 Basic [string handling](https://docs.python.org/3/library/string.html):
@@ -38,7 +38,7 @@ Basic [string handling](https://docs.python.org/3/library/string.html):
 * [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar)
 
 Basic math or data structures, school level:
-* [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => suggested level boss. Trophy: a schoolbag.
+* [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => suggested level boss. Trophy: a :school_satchel: schoolbag.
 
 ### Level 3 sub projects
 Basic [filters](https://github.com/HubTou/PNU/tree/main/_demos/gorgon), command line & [environment](https://www.freebsd.org/cgi/man.cgi?query=environ) processing, file operations:
@@ -47,7 +47,7 @@ Basic [filters](https://github.com/HubTou/PNU/tree/main/_demos/gorgon), command 
 * [head](https://www.freebsd.org/cgi/man.cgi?query=head)
 * [expand, unexpand](https://www.freebsd.org/cgi/man.cgi?query=expand)
 * [fold](https://www.freebsd.org/cgi/man.cgi?query=fold)
-* [wc](https://www.freebsd.org/cgi/man.cgi?query=wc) => suggested level boss
+* [wc](https://www.freebsd.org/cgi/man.cgi?query=wc) => suggested level boss. Trophy: a :toilet: toilet of course :-)
 
 ### Level 4 sub projects
 Basic text processing utilities, multiple files or many options:
@@ -55,14 +55,14 @@ Basic text processing utilities, multiple files or many options:
 * [nl](https://www.freebsd.org/cgi/man.cgi?query=nl)
 * [cmp](https://www.freebsd.org/cgi/man.cgi?query=cmp)
 * [comm](https://www.freebsd.org/cgi/man.cgi?query=comm)
-* [uniq](https://www.freebsd.org/cgi/man.cgi?query=uniq) => suggested level boss
+* [uniq](https://www.freebsd.org/cgi/man.cgi?query=uniq) => suggested level boss. Trophy: a :one: #1 plate
 
 ### Level 5 sub projects
 Basic utilities using more complex parsing:
 * [expr](https://www.freebsd.org/cgi/man.cgi?query=expr) => just a warmer
 * [printf](https://www.freebsd.org/cgi/man.cgi?query=printf)
 * [getopts](https://www.freebsd.org/cgi/man.cgi?query=getopts)
-* [cut](https://www.freebsd.org/cgi/man.cgi?query=cut) => suggested level boss
+* [cut](https://www.freebsd.org/cgi/man.cgi?query=cut) => suggested level boss. Trophy: :scissors: scissors
 
 ## Intermediate levels
 System utilities (implying minimum Unix system knowledge).
@@ -111,14 +111,14 @@ Interactive full screen applications:
 Languages (interpreters, compilers), database management systems, network protocols:
 
 ### Level 16 sub projects
-* [awk](https://www.freebsd.org/cgi/man.cgi?query=awk)
-
 ### Level 17 sub projects
 ### Level 18 sub projects
-### Level 19 sub projects
 
+### Level 19 sub projects
+* [awk](https://www.freebsd.org/cgi/man.cgi?query=awk) => Suggested level boss. Trophy: an 
+ 
 ### Level 20 sub projects
-* [sh](https://www.freebsd.org/cgi/man.cgi?query=sh) => Suggested level boss. Trophy: a shell of course
+* [sh](https://www.freebsd.org/cgi/man.cgi?query=sh) => Suggested level boss. Trophy: a :shell: shell of course
 
 ## Immortal levels
 It's a long way to the top if you wanna get your entry in the "Deities & [Demigods](http://www.catb.org/jargon/html/D/demigod.html)" of hackers, but here are some examples to inspire you from the [Unix & open source pantheon](https://www.facesofopensource.com/unix/) (note: having a :neckbeard: [beard](http://jargonf.org/wiki/barbu) is not mandatory)

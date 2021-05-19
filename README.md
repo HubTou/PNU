@@ -30,7 +30,7 @@ We suggest level bosses in order to complete a level (but no [Demogorgon](https:
 Handling return codes, printing to the terminal:
 * [true](https://www.freebsd.org/cgi/man.cgi?query=true), [false](https://www.freebsd.org/cgi/man.cgi?query=false)
 * [yes](https://www.freebsd.org/cgi/man.cgi?query=yes)
-* [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => suggested level boss. Trophy: a :baby_bottle: baby bottle or a dummy/teat (hint: option can be [hardcoded](http://www.catb.org/jargon/html/H/hardcoded.html))
+* [echo](https://www.freebsd.org/cgi/man.cgi?query=echo) => suggested level boss. Trophy: :baby_bottle: (hint: option can be [hardcoded](http://www.catb.org/jargon/html/H/hardcoded.html))
 
 ### Level 2 sub projects
 Basic [string handling](https://docs.python.org/3/library/string.html):
@@ -38,7 +38,7 @@ Basic [string handling](https://docs.python.org/3/library/string.html):
 * [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar)
 
 Basic math or data structures, school level:
-* [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => suggested level boss. Trophy: a :school_satchel: schoolbag.
+* [factor, primes](https://www.freebsd.org/cgi/man.cgi?query=factor) => suggested level boss. Trophy: :school_satchel:
 
 ### Level 3 sub projects
 Basic [filters](https://github.com/HubTou/PNU/tree/main/_demos/gorgon), command line & [environment](https://www.freebsd.org/cgi/man.cgi?query=environ) processing, file operations:
@@ -47,7 +47,7 @@ Basic [filters](https://github.com/HubTou/PNU/tree/main/_demos/gorgon), command 
 * [head](https://www.freebsd.org/cgi/man.cgi?query=head)
 * [expand, unexpand](https://www.freebsd.org/cgi/man.cgi?query=expand)
 * [fold](https://www.freebsd.org/cgi/man.cgi?query=fold)
-* [wc](https://www.freebsd.org/cgi/man.cgi?query=wc) => suggested level boss. Trophy: a :toilet: toilet of course :-)
+* [wc](https://www.freebsd.org/cgi/man.cgi?query=wc) => suggested level boss. Trophy: :toilet:
 
 ### Level 4 sub projects
 Basic text processing utilities, multiple files or many options:
@@ -55,14 +55,14 @@ Basic text processing utilities, multiple files or many options:
 * [nl](https://www.freebsd.org/cgi/man.cgi?query=nl)
 * [cmp](https://www.freebsd.org/cgi/man.cgi?query=cmp)
 * [comm](https://www.freebsd.org/cgi/man.cgi?query=comm)
-* [uniq](https://www.freebsd.org/cgi/man.cgi?query=uniq) => suggested level boss. Trophy: a :one: #1 plate
+* [uniq](https://www.freebsd.org/cgi/man.cgi?query=uniq) => suggested level boss. Trophy: :one:
 
 ### Level 5 sub projects
 Basic utilities using more complex parsing:
 * [expr](https://www.freebsd.org/cgi/man.cgi?query=expr) => just a warmer
 * [printf](https://www.freebsd.org/cgi/man.cgi?query=printf)
 * [getopts](https://www.freebsd.org/cgi/man.cgi?query=getopts)
-* [cut](https://www.freebsd.org/cgi/man.cgi?query=cut) => suggested level boss. Trophy: :scissors: scissors
+* [cut](https://www.freebsd.org/cgi/man.cgi?query=cut) => suggested level boss. Trophy: :scissors:
 
 ## Intermediate levels
 System utilities (implying minimum Unix system knowledge).
@@ -70,39 +70,27 @@ System utilities (implying minimum Unix system knowledge).
 [CSV](https://docs.python.org/3/library/csv.html), [JSON](https://docs.python.org/3/library/json.html), [XML](https://docs.python.org/3/library/xml.html), [HTML](https://docs.python.org/3/library/html.html) data handling.
 
 ### Level 6 sub projects
-Basic system utilities (super easy ones):
-* [pwd](https://www.freebsd.org/cgi/man.cgi?query=pwd)
-* [pathchk](https://www.freebsd.org/cgi/man.cgi?query=pathchk)
-
-Check this already made full example first to discover the system information Python knows about:
-* [about](https://github.com/HubTou/about)
+Basic system utilities.
 
 ### Level 7 sub projects
 Basic system utilities, possibly recursive ones:
-* [chmod](https://www.freebsd.org/cgi/man.cgi?query=chmod)
-* [chown](https://www.freebsd.org/cgi/man.cgi?query=chown)
-* [chgrp](https://www.freebsd.org/cgi/man.cgi?query=chgrp)
 
 ### Level 8 sub projects
-* [du](https://www.freebsd.org/cgi/man.cgi?query=du)
-
 ### Level 9 sub projects
-
 ### Level 10 sub projects
-* [tree](http://mama.indstate.edu/users/ice/tree/) => Not standard but a pretty complete one for our purpose. Suggested level boss. Trophy: an oak tree
 
 ## Advanced levels
 Full screen text applications, windowed applications, office documents manipulation, image manipulation, web scraping, network applications, automation.
 
-### Level 11 sub projects
+Interactive full screen applications:
+* [vi](https://www.freebsd.org/cgi/man.cgi?query=vi)
+
 Advanced system utilities, data compression:
 * [compress, uncompress](https://www.freebsd.org/cgi/man.cgi?query=compress)
 * [zcat](https://www.freebsd.org/cgi/man.cgi?query=zcat)
 
+### Level 11 sub projects
 ### Level 12 sub projects
-Interactive full screen applications:
-* [vi](https://www.freebsd.org/cgi/man.cgi?query=vi) => Suggested level boss
-
 ### Level 13 sub projects
 ### Level 14 sub projects
 ### Level 15 sub projects
@@ -110,15 +98,15 @@ Interactive full screen applications:
 ## Master levels
 Languages (interpreters, compilers), database management systems, network protocols:
 
+* [awk](https://www.freebsd.org/cgi/man.cgi?query=awk)
+
 ### Level 16 sub projects
 ### Level 17 sub projects
 ### Level 18 sub projects
-
 ### Level 19 sub projects
-* [awk](https://www.freebsd.org/cgi/man.cgi?query=awk) => Suggested level boss. Trophy: an 
  
 ### Level 20 sub projects
-* [sh](https://www.freebsd.org/cgi/man.cgi?query=sh) => Suggested level boss. Trophy: a :shell: shell of course
+* [sh](https://www.freebsd.org/cgi/man.cgi?query=sh) => Suggested level boss. Trophy: :shell:
 
 ## Immortal levels
 It's a long way to the top if you wanna get your entry in the "Deities & [Demigods](http://www.catb.org/jargon/html/D/demigod.html)" of hackers, but here are some examples to inspire you from the [Unix & open source pantheon](https://www.facesofopensource.com/unix/) (note: having a :neckbeard: [beard](http://jargonf.org/wiki/barbu) is not mandatory)

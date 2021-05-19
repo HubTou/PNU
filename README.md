@@ -19,7 +19,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 ## How to contribute:
 * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions or our [Master / targets list](https://github.com/HubTou/PNU/wiki/The-Monster-Manual) for full details).
 * [Read the tutorials](https://github.com/HubTou/PNU/blob/main/_demos/README.md)
-* [Read the guidelines for contribution](https://github.com/HubTou/PNU/wiki/The-Player's-Handbook)
+* [Read the guidelines for contribution](https://github.com/HubTou/PNU/wiki/The-Player's-Handbook) (among other [documentation manuals](https://github.com/HubTou/PNU/wiki))
 * [Come discuss it with us on the forums](https://github.com/HubTou/PNU/discussions)
 
 ## Suggested tasks and progression:

@@ -11,7 +11,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 
 ## Project status:
 * The project is ongoing.
-* This place is both for the challenge description and a place for referencing unix tools rewrites made by contributors.
+* This place is both for the challenge description and for referencing unix tools rewrites made by contributors.
 * To contribute you can simply create:
   * your own Github repositories and link them to the project by using the [pnu-project](https://github.com/topics/pnu-project) topic
   * your own [PyPi](https://pypi.org/) packages and link them to the project by using the [pnu-project](https://pypi.org/search/?q=pnu-project) keyword

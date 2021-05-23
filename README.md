@@ -35,7 +35,7 @@ Handling return codes, printing to the terminal:
 
 ### Level 2 sub projects
 Basic [string handling](https://docs.python.org/3/library/string.html):
-* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start (hint: there's a [Pythonic](https://realpython.com/learning-paths/writing-pythonic-code/) secret passage)
+* [basename, dirname](https://www.freebsd.org/cgi/man.cgi?query=basename) => without options for a start (hint: there's a [Pythonic](https://realpython.com/learning-paths/writing-pythonic-code/) secret passage here)
 * [caesar, rot13](https://www.freebsd.org/cgi/man.cgi?query=caesar)
 
 Basic math or data structures, school level:

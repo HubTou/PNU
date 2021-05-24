@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<test-suite program="basename" processor="b2bt" ID="@(#) $Id: basename.xml - back to back test suite for basename v1.0.0 (May 24, 2021) by Hubert Tournier $">
+
+  <test-case name="Usual call #1">
+    <cmd>
+      basename /directory/item.suffix
+    </cmd>
+  </test-case>
+  
+  <test-case name="Usual call #2">
+    <cmd>
+      basename /directory/item.suffix .suffix
+    </cmd>
+  </test-case>
+  
+  <test-case name="Null string">
+    <cmd>
+      basename
+    </cmd>
+  </test-case>
+  
+  <test-case name="Double slash">
+    <cmd>
+      basename //
+    </cmd>
+  </test-case>
+  
+  <test-case name="All slashes">
+    <cmd>
+      basename ///
+    </cmd>
+  </test-case>
+  
+  <test-case name="Trailing slash">
+    <cmd>
+      basename /directory/item.suffix/
+    </cmd>
+  </test-case>
+  
+  <test-case name="Suffix not found">
+    <cmd>
+      basename /directory/item.suffix .othersuffix
+    </cmd>
+  </test-case>
+  
+  <test-case name="Only suffix">
+    <cmd>
+      basename /directory/suffix suffix
+    </cmd>
+  </test-case>
+  
+  <test-case name="Regular expression trap">
+    <cmd>
+      basename /directory/item-suffix .suffix
+    </cmd>
+  </test-case>
+  
+  <test-case name="No directory part #1">
+    <cmd>
+      basename item.suffix
+    </cmd>
+  </test-case>
+  
+  <test-case name="No directory part #2">
+    <cmd>
+      basename item.suffix .suffix
+    </cmd>
+  </test-case>
+  
+  <test-case name="No directory part #2 suffix not found">
+    <cmd>
+      basename item.suffix .othersuffix
+    </cmd>
+  </test-case>
+  
+  <test-case name="Slash in item part">
+    <cmd>
+      basename it\/em.suffix
+    </cmd>
+  </test-case>
+  
+  <test-case name="Options terminator handling">
+    <cmd>
+      basename -- /directory/item.suffix
+    </cmd>
+  </test-case>
+  
+  <test-case name="Illegal option">
+    <cmd>
+      basename -i
+    </cmd>
+  </test-case>
+  
+  <test-case name="Option -a">
+    <cmd>
+      basename -a dir1/fic1.ext dir2/fic2.ext dir3/fic3.ext
+    </cmd>
+  </test-case>
+  
+  <test-case name="Option -s">
+    <cmd>
+      basename -s .ext dir1/fic1.ext dir2/fic2.ext dir3/fic3.ext
+    </cmd>
+  </test-case>
+  
+  <test-case name="Options -a -s">
+    <cmd>
+      basename -a -s .ext dir1/fic1.ext dir2/fic2.ext dir3/fic3.ext
+    </cmd>
+  </test-case>
+
+  <test-case name="Option -s with 2 arguments #1">
+    <cmd>
+      basename -s .ext1 dir1/fic1.ext1 .ext2
+    </cmd>
+  </test-case>
+  
+  <test-case name="Option -s with 2 arguments #2">
+    <cmd>
+      basename -s .ext1 dir1/fic1.ext2 .ext2
+    </cmd>
+  </test-case>
+  
+  <test-case name="POSIXLY_CORRECT environment variable handling">
+    <cmd>
+      POSIXLY_CORRECT=true basename -a dir1/fic1 dir2/fic2
+    </cmd>
+  </test-case>
+ 
+</test-suite>

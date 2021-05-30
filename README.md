@@ -7,7 +7,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * Firstly intended as a [learning exercise](https://github.com/topics/learning-exercise) in Python/Unix for my son, but open to anyone.
 * Passing on some Unix culture & lore to a generation of [new hackers](http://www.catb.org/~esr/jargon/) (in the [original and noble meaning of the word](http://www.catb.org/~esr/jargon/html/H/hacker.html)).
 * Having some handy portable Unix tools, for example for Windows (though there are [plenty of other solutions](https://github.com/HubTou/PNU/wiki/Wilderness-Survival-Guide) for that).
-* Ultimately to have most of the relevant [standard utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), many utilities sitting under /bin and /usr/bin in a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)/[GNU Linux](https://en.wikipedia.org/wiki/Linux) system, some usual non-standard utilities, as well as some utilities of our own.
+* Ultimately to have most of the relevant [standard utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), many utilities sitting under /bin and /usr/bin in a modern [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)/[GNU Linux](https://en.wikipedia.org/wiki/Linux) system, some usual non-standard utilities, as well as some utilities of our own.
 
 ## Project status:
 * The project is ongoing.
@@ -17,10 +17,13 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
   * your own [PyPi](https://pypi.org/) packages and link them to the project by using the [pnu-project](https://pypi.org/search/?q=pnu-project) keyword
 
 ## How to contribute:
-* Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions or our [Master / targets list](https://github.com/HubTou/PNU/wiki/The-Monster-Manual) for full details).
-* [Read the tutorials](https://github.com/HubTou/PNU/blob/main/_demos/README.md)
-* [Read the guidelines for contribution](https://github.com/HubTou/PNU/wiki/The-Player's-Handbook) (among other [documentation manuals](https://github.com/HubTou/PNU/wiki))
-* [Come discuss it with us on the forums](https://github.com/HubTou/PNU/discussions)
+* As a player:
+  * Decide on a Unix command to reimplement in Python 3.x (see list below for suggestions or our [Master / targets list](https://github.com/HubTou/PNU/wiki/The-Monster-Manual) for full details).
+  * [Read the tutorials](https://github.com/HubTou/PNU/blob/main/_demos/README.md)
+  * [Read the guidelines for contribution](https://github.com/HubTou/PNU/wiki/The-Player's-Handbook) (among other [documentation manuals](https://github.com/HubTou/PNU/wiki))
+  * [Come discuss it with us on the forums](https://github.com/HubTou/PNU/discussions)
+* As an organizer:
+  * [Read the guidelines for organization](https://github.com/HubTou/PNU/wiki/Dungeon-Masters-Guide)
 
 ## Suggested tasks and progression:
 The following, [(A)D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, [level structure](https://github.com/HubTou/PNU/discussions/2) is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).

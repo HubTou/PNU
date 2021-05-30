@@ -23,7 +23,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
   * [Read the guidelines for contribution](https://github.com/HubTou/PNU/wiki/The-Player's-Handbook) (among other [documentation manuals](https://github.com/HubTou/PNU/wiki))
   * [Come discuss it with us on the forums](https://github.com/HubTou/PNU/discussions)
 * As an organizer:
-  * [Read the guidelines for organization](https://github.com/HubTou/PNU/wiki/Dungeon-Masters-Guide)
+  * [Read the guidelines for organization](https://github.com/HubTou/PNU/wiki/Dungeon-Master's-Guide)
 
 ## Suggested tasks and progression:
 The following, [(A)D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, [level structure](https://github.com/HubTou/PNU/discussions/2) is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<test-suite program="dirname" processor="b2bt" ID="@(#) $Id: dirname.xml - back to back test suite for dirname v1.0.0 (May 27, 2021) by Hubert Tournier $">
+
+  <test-case name="Usual call #1">
+    <cmd>
+      dirname /directory/file
+    </cmd>
+  </test-case>
+  
+  <test-case name="Usual call #2">
+    <cmd>
+      dirname /directory1/file1 /directory2/file2
+    </cmd>
+  </test-case>
+  
+  <test-case name="Null string">
+    <cmd>
+      dirname
+    </cmd>
+  </test-case>
+  
+  <test-case name="Double slash">
+    <cmd>
+      dirname //
+    </cmd>
+  </test-case>
+  
+  <test-case name="All slashes">
+    <cmd>
+      dirname ///
+    </cmd>
+  </test-case>
+  
+  <test-case name="Trailing slash">
+    <cmd>
+      dirname /directory/file/
+    </cmd>
+  </test-case>
+  
+  <test-case name="No directory part">
+    <cmd>
+      dirname file
+    </cmd>
+  </test-case>
+  
+  <test-case name="Options terminator handling">
+    <cmd>
+      dirname -- /directory/file
+    </cmd>
+  </test-case>
+  
+  <test-case name="Illegal option">
+    <cmd>
+      dirname -i
+    </cmd>
+  </test-case>
+  
+  <test-case name="POSIXLY_CORRECT environment variable handling">
+    <cmd>
+      POSIXLY_CORRECT=true dirname /directory1/file1 /directory2/file2
+    </cmd>
+  </test-case>
+ 
+</test-suite>

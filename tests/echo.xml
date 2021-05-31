@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<test-suite program="echo" processor="b2bt" ID="@(#) $Id: echo.xml - back to back test suite for echo v1.0.0 (May 30, 2021) by Hubert Tournier $">
+
+  <test-case name="No argument">
+    <cmd>
+      echo
+    </cmd>
+  </test-case>
+  
+  <test-case name="One argument">
+    <cmd>
+      echo word1
+    </cmd>
+  </test-case>
+  
+  <test-case name="Multiple arguments">
+    <cmd>
+      echo word1 word2
+    </cmd>
+  </test-case>
+  
+  <test-case name="String argument">
+    <cmd>
+      echo "A string"
+    </cmd>
+  </test-case>
+  
+  <test-case name="Multi-lines string argument">
+    <cmd>
+      echo "First line\nSecond line"
+    </cmd>
+  </test-case>
+  
+  <test-case name="Option -n">
+    <cmd>
+      echo -n "No trailing newline character"
+    </cmd>
+  </test-case>
+  
+  <test-case name="POSIXLY_CORRECT environment variable handling">
+    <cmd>
+      POSIXLY_CORRECT=true echo -n word1
+    </cmd>
+  </test-case>
+ 
+  <test-case name="Options terminator handling">
+    <cmd>
+      echo -- word1
+    </cmd>
+  </test-case>
+  
+  <test-case name="Illegal option">
+    <cmd>
+      echo -i
+    </cmd>
+  </test-case>
+  
+  <test-case name="String starting with an hyphen">
+    <cmd>
+      echo -Hyphen enclosed-
+    </cmd>
+  </test-case>
+  
+  <test-case name="Backslash a">
+    <cmd>
+      echo alert\a "alert\a" 'alert\a'
+    </cmd>
+  </test-case>
+  
+  <test-case name="Backslash b">
+    <cmd>
+      echo backspace\b "backspace\b" 'backspace\b'
+    </cmd>
+  </test-case>
+  
+  <test-case name="Backslash c">
+    <cmd>
+      echo "No trailing newline character\c"
+    </cmd>
+  </test-case>
+  
+  <test-case name="Backslash c with trailing characters">
+    <cmd>
+      echo "No trailing newline character\ctrailing characters"
+    </cmd>
+  </test-case>
+  
+  <test-case name="Backslash f">
+    <cmd>
+      echo form-feed\f "form-feed\f" 'form-feed\f'
+    </cmd>
+  </test-case>
+  
+  <test-case name="Backslash r">
+    <cmd>
+      echo carriage-return\r "carriage-return\r" 'carriage-return\r'
+    </cmd>
+  </test-case>
+  
+  <test-case name="Backslash t">
+    <cmd>
+      echo tab\t "tab\t" 'tab\t'
+    </cmd>
+  </test-case>
+  
+  <test-case name="Backslash v">
+    <cmd>
+      echo vertical-tab\v "vertical-tab\v" 'vertical-tab\v'
+    </cmd>
+  </test-case>
+  
+  <test-case name="String containing backslashes">
+    <cmd>
+      echo back\slash "back\slash" 'back\slash'
+    </cmd>
+  </test-case>
+  
+  <test-case name="String containing double backslashes">
+    <cmd>
+      echo back\\slash "back\\slash" 'back\\slash'
+    </cmd>
+  </test-case>
+  
+  <test-case name="Backslash zero 1 digit octal number">
+    <cmd>
+      echo BEL\07 "BEL\07" 'BEL\07'
+    </cmd>
+  </test-case>
+  
+  <test-case name="Backslash zero 2 digits octal number">
+    <cmd>
+      echo number1:\061 "number2:\062" 'number3:\063'
+    </cmd>
+  </test-case>
+  
+  <test-case name="Backslash zero 3 digits octal number">
+    <cmd>
+      echo letterA:\0101 "letterB:\0102" 'letterC:\0103'
+    </cmd>
+  </test-case>
+  
+</test-suite>

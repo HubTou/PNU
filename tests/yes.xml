@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<test-suite program="yes" processor="b2bt" ID="@(#) $Id: yes.xml - back to back test suite for yes v1.0.0 (May 30, 2021) by Hubert Tournier $">
+
+  <test-case name="No argument" timeout="0.001">
+    <cmd>
+      yes
+    </cmd>
+  </test-case>
+  
+  <test-case name="One argument" timeout="0.001">
+    <cmd>
+      yes word1
+    </cmd>
+  </test-case>
+  
+  <test-case name="Multiple arguments" timeout="0.001">
+    <cmd>
+      yes word1 word2
+    </cmd>
+  </test-case>
+  
+  <test-case name="String argument" timeout="0.001">
+    <cmd>
+      yes "A string"
+    </cmd>
+  </test-case>
+  
+  <test-case name="Multi-lines string argument" timeout="0.001">
+    <cmd>
+      yes "First line\nSecond line"
+    </cmd>
+  </test-case>
+  
+  <test-case name="Illegal option" timeout="0.001">
+    <cmd>
+      yes -i
+    </cmd>
+  </test-case>
+  
+</test-suite>

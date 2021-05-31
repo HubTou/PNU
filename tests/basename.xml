@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<test-suite program="basename" processor="b2bt" ID="@(#) $Id: basename.xml - back to back test suite for basename v1.0.0 (May 24, 2021) by Hubert Tournier $">
+<test-suite program="basename" processor="b2bt" ID="@(#) $Id: basename.xml - back to back test suite for basename v1.0.1 (May 30, 2021) by Hubert Tournier $">
 
   <test-case name="Usual call #1">
     <cmd>
@@ -70,12 +70,6 @@
   <test-case name="No directory part #2 suffix not found">
     <cmd>
       basename item.suffix .othersuffix
-    </cmd>
-  </test-case>
-  
-  <test-case name="Slash in item part">
-    <cmd>
-      basename it\/em.suffix
     </cmd>
   </test-case>
   

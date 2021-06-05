@@ -4,7 +4,7 @@ PNU, as in [PNU is Not Unix](http://www.catb.org/jargon/html/R/recursive-acronym
 It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropriate as it's clearly another reinvention of the [wheel](http://www.catb.org/jargon/html/W/wheel.html), longtime after the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html) :-)
 
 ## Objectives:
-* Firstly intended as a [learning exercise](https://github.com/topics/learning-exercise) in Python/Unix for my son, but open to anyone.
+* Originally intended as a [learning exercise](https://github.com/topics/learning-exercise) in Python/Unix for my son, but open to anyone.
 * Passing on some Unix culture & lore to a generation of [new hackers](http://www.catb.org/~esr/jargon/) (in the [original and noble meaning of the word](http://www.catb.org/~esr/jargon/html/H/hacker.html)).
 * Having some handy portable Unix tools, for example for Windows (though there are [plenty of other solutions](https://github.com/HubTou/PNU/wiki/Wilderness-Survival-Guide) for that).
 * Ultimately to have most of the relevant [standard utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), many utilities sitting under /bin and /usr/bin in a modern [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)/[GNU Linux](https://en.wikipedia.org/wiki/Linux) system, some usual non-standard utilities, as well as some utilities of our own.
@@ -28,6 +28,8 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 ## Suggested tasks and progression:
 The following, [(A)D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, [level structure](https://github.com/HubTou/PNU/discussions/2) is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).
 We suggest level bosses in order to complete a level (but no [Demogorgon](https://en.wikipedia.org/wiki/Demogorgon#Dungeons_&_Dragons) here, we are not in [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things) :-)) and associated :trophy: trophies for fun :-)
+
+The following classification of commands is still in progress.
 
 ## Basic levels
 ### Level 1 sub projects

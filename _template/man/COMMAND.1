@@ -1,0 +1,80 @@
+.Dd MONTH DAY, YEAR
+.Dt COMMAND 1
+.Os
+.Sh NAME
+.Nm COMMAND
+.Nd ONE_LINE_DESCRIPTION
+.Sh SYNOPSIS
+.Nm
+.Op Fl -debug
+.Op Fl -help|-?
+.Op Fl -version
+.Op Fl -
+.Ar MANDATORY_ARG
+.Op Ar OPTIONAL_ARG
+.Sh DESCRIPTION
+The
+.Nm
+utility
+.Ss OPTIONS
+.Op Fl -debug
+Enable debug mode
+.Pp
+.Op Fl -help|-?
+Print usage and this help message and exit
+.Pp
+.Op Fl -version
+Print version and exit
+.Pp
+.Op Fl -
+Options processing terminator
+.Sh ENVIRONMENT
+The
+.Ev COMMAND_DEBUG
+environment variable can also be set to any value to enable debug mode.
+.Sh FILES
+.Sh EXIT STATUS
+.Ex -std COMMAND
+.Sh EXAMPLES
+.Sh SEE ALSO
+.Xr COMMAND1 1 ,
+.Xr COMMAND2 1
+.Sh STANDARDS
+The
+.Nm
+utility is a standard UNIX/POSIX command.
+.Pp
+It tries to follow the PEP 8 style guide for Python code.
+.Sh PORTABILITY
+To be tested under Windows.
+.Sh HISTORY
+This utility was made for
+.Lk https://github.com/HubTou/PNU [The PNU project / PyNIX]
+in order to test the rewritten commands against the installed ones.
+.Sh LICENSE
+This utility is available under the 3-clause BSD license.
+.Sh AUTHORS
+.An YOU
+.Sh CAVEATS
+.Sh BUGS
+Bold:
+.Em BOLDED_TEXT
+
+Option:
+.Op Fl LETTER
+
+Paragraph break:
+.Pp
+
+Bullet list:
+.Bl -bullet
+.It
+ITEM
+.El
+
+Code block:
+.Bd -literal
+CODE_BLOCK
+.Ed
+
+.Sh SECURITY CONSIDERATIONS

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<test-suite program="COMMAND" processor="b2bt" ID="@(#) $Id: COMMAND.xml - back to back test suite for COMMAND v1.0.0 (MONTH DAY, YEAR) by YOU $">
+
+  <test-case name="Usual call #1">
+    <cmd>
+      SOME_COMMAND
+    </cmd>
+  </test-case>
+  
+  <test-case name="Usual call #2">
+    <cmd>
+      SOME_COMMAND
+    </cmd>
+  </test-case>
+  
+  <test-case name="Null string">
+    <cmd>
+      COMMAND
+    </cmd>
+  </test-case>
+  
+  <test-case name="Options terminator handling">
+    <cmd>
+      COMMAND -- ARGUMENTS
+    </cmd>
+  </test-case>
+  
+  <test-case name="Illegal option">
+    <cmd>
+      COMMAND -i
+    </cmd>
+  </test-case>
+  
+  <test-case name="POSIXLY_CORRECT environment variable handling">
+    <cmd>
+      POSIXLY_CORRECT=true COMMAND NON_POSIX_SYNTAX
+    </cmd>
+  </test-case>
+ 
+</test-suite>

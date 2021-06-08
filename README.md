@@ -10,9 +10,9 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * Ultimately to have most of the relevant [standard utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), many utilities sitting under /bin and /usr/bin in a modern [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)/[GNU Linux](https://en.wikipedia.org/wiki/Linux) system, some usual non-standard utilities, as well as some utilities of our own.
 
 ## Project status:
-* The project is ongoing. You can install what's available with the following console command:
+* The project is ongoing. You can install [what's available](https://github.com/HubTou/PNU/releases/latest) from [our package](https://pypi.org/project/PNU/) with the following console command:
 ```Shell
-pip install PNU
+[pip install PNU](https://pypi.org/project/PNU/)
 ```
 * This page is both for the challenge description and for referencing unix tools rewrites made by contributors.
 * To contribute you can simply create:

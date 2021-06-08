@@ -10,8 +10,11 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 * Ultimately to have most of the relevant [standard utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html) included in [POSIX.1](https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html), many utilities sitting under /bin and /usr/bin in a modern [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)/[GNU Linux](https://en.wikipedia.org/wiki/Linux) system, some usual non-standard utilities, as well as some utilities of our own.
 
 ## Project status:
-* The project is ongoing.
-* This place is both for the challenge description and for referencing unix tools rewrites made by contributors.
+* The project is ongoing. You can install what's available with the following console command:
+```Shell
+pip install PNU
+```
+* This page is both for the challenge description and for referencing unix tools rewrites made by contributors.
 * To contribute you can simply create:
   * your own Github repositories and link them to the project by using the [pnu-project](https://github.com/topics/pnu-project) topic
   * your own [PyPi](https://pypi.org/) packages and link them to the project by using the [pnu-project](https://pypi.org/search/?q=pnu-project) keyword
@@ -126,4 +129,3 @@ Full operating system kernels & device drivers:
 ### Deities level transcending projects
 Making your own hardware platform and all the software to run it.
 * Although not Unix related, :mage_man: [The Woz](https://en.wikipedia.org/wiki/Steve_Wozniak) springs to mind here and his excellent autobiography, [iWoz](https://en.wikipedia.org/wiki/IWoz), is highly recommended for a good glimpse into a true [hacker](http://www.catb.org/jargon/html/H/hacker.html)'s mind.
-

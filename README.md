@@ -12,7 +12,7 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 ## Project status:
 * The project is ongoing. You can install [what's available](https://github.com/HubTou/PNU/releases/latest) from [our package](https://pypi.org/project/PNU/) with the following console command:
 ```Shell
-pip install PNU]
+pip install PNU
 ```
 * This page is both for the challenge description and for referencing unix tools rewrites made by contributors.
 * To contribute you can simply create:

@@ -126,3 +126,4 @@ Full operating system kernels & device drivers:
 ### Deities level transcending projects
 Making your own hardware platform and all the software to run it.
 * Although not Unix related, :mage_man: [The Woz](https://en.wikipedia.org/wiki/Steve_Wozniak) springs to mind here and his excellent autobiography, [iWoz](https://en.wikipedia.org/wiki/IWoz), is highly recommended for a good glimpse into a true [hacker](http://www.catb.org/jargon/html/H/hacker.html)'s mind.
+

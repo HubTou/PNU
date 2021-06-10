@@ -38,7 +38,7 @@ def process_environment_variables():
     global parameters
     # pylint: enable=C0103
 
-    if "B2BT_DEBUG" in os.environ.keys():
+    if "COMMAND_DEBUG" in os.environ.keys():
         logging.disable(logging.NOTSET)
 
     logging.debug("process_environment_variables(): parameters:")
@@ -102,12 +102,8 @@ def main():
     process_environment_variables()
     arguments = process_command_line()
 
-    if len(arguments) == 0:
-        logging.warning("Please specify at least 1 test file to process")
-        display_help()
-        sys.exit(0)
-
     for argument in arguments:
+        # Do something
 
     sys.exit(0)
 

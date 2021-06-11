@@ -30,14 +30,14 @@ The COMMAND_DEBUG environment variable can also be set to any value to enable de
 ## FILES
 
 ## EXIT STATUS
-The COMMAND utility exits 0 on success, and >0 if an error occurs.
+The **COMMAND** utility exits 0 on success, and >0 if an error occurs.
 
 ## EXAMPLES
 
 ## SEE ALSO
 
 ## STANDARDS
-The COMMAND utility is a standard UNIX/POSIX command.
+The **COMMAND** utility is a standard UNIX/POSIX command.
 
 It tries to follow the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide for [Python](https://www.python.org/) code.
 
@@ -58,4 +58,3 @@ This utility is available under the [3-clause BSD license](https://opensource.or
 ## BUGS
 
 ## SECURITY CONSIDERATIONS
-

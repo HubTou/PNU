@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<test-suite program="prep" processor="b2bt" ID="@(#) $Id: prep.xml - back to back test suite for prep v1.0.0 (June 11, 2021) by Hubert Tournier $">
+
+  <test-case name="One file">
+    <pre>
+      echo "one two three four five" > file1
+      echo "six seven eight nine ten" >> file1
+    </pre>
+    <cmd>
+      prep file1
+    </cmd>
+  </test-case>
+ 
+  <test-case name="Multiple files">
+    <pre>
+      echo "one two three four" > file1
+      echo "five six seven" >> file1
+      echo "eight nine" > file2
+      echo "ten" >> file2
+    </pre>
+    <cmd>
+      prep file1 file2
+    </cmd>
+  </test-case>
+ 
+  <test-case name="No files, filter mode" timeout="1.0">
+    <stdin>
+      one two three four
+      five six seven
+      eight nine
+      ten
+    </stdin>
+    <cmd>
+      prep
+    </cmd>
+  </test-case>
+
+  <test-case name="Options terminator handling">
+    <pre>
+      echo "one two three four five" > file1
+      echo "six seven eight nine ten" >> file1
+    </pre>
+    <cmd>
+      prep -- file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Words and apostrophes" timeout="1.0">
+    <stdin>
+      wordone word'two, word''three. 'wordfour wordfive'
+    </stdin>
+    <cmd>
+      prep
+    </cmd>
+  </test-case>
+
+  <test-case name="Bug with starting apostrophe" timeout="1.0">
+    <stdin>
+      'wordfour wordfive'
+    </stdin>
+    <cmd>
+      prep
+    </cmd>
+  </test-case>
+
+  <test-case name="Words and hyphens" timeout="1.0">
+    <stdin>
+      wordone word-two word-
+      three wordfour- -wordfive word-
+      .
+    </stdin>
+    <cmd>
+      prep
+    </cmd>
+  </test-case>
+
+  <test-case name="Words and digits" timeout="1.0">
+    <stdin>
+      1word word2 word 3 44 lastword
+    </stdin>
+    <cmd>
+      prep
+    </cmd>
+  </test-case>
+
+  <test-case name="Words and caps" timeout="1.0">
+    <stdin>
+      Word WORD WoRd word
+    </stdin>
+    <cmd>
+      prep
+    </cmd>
+  </test-case>
+
+  <test-case name="Unicode handling" timeout="1.0">
+    <stdin>
+      français
+    </stdin>
+    <cmd>
+      prep
+    </cmd>
+  </test-case>
+
+  <test-case name="Option -d">
+    <pre>
+      echo "one two three four five" > file1
+      echo "six seven eight nine ten" >> file1
+    </pre>
+    <cmd>
+      prep -d file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Option -d with multiple files">
+    <pre>
+      echo "one two three four" > file1
+      echo "five six seven" >> file1
+      echo "eight nine" > file2
+      echo "ten" >> file2
+    </pre>
+    <cmd>
+      prep -d file1 file2
+    </cmd>
+  </test-case>
+
+  <test-case name="Option -p">
+    <pre>
+      echo "one, two; three. four? five!" > file1
+      echo "six + seven - eight * nine / ten" >> file1
+    </pre>
+    <cmd>
+      prep -p file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Options -dp">
+    <pre>
+      echo "one, two; three. four? five!" > file1
+      echo "six + seven - eight * nine / ten" >> file1
+    </pre>
+    <cmd>
+      prep -dp file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Bug with inner line hyphenated words and -dp options">
+    <pre>
+      echo "display-bug" > file1
+    </pre>
+    <cmd>
+      prep -dp file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Option -p, recognized punctuation">
+    <pre>
+      echo "\"#\$%&amp; ()*+,-./:;&lt;=>?@[\\]^_\`{|}~!" > file1
+    </pre>
+    <cmd>
+      prep -p file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Bug with character after apostrophes">
+    <pre>
+      echo "12'a34 56'(78" > file1
+    </pre>
+    <cmd>
+      prep -p file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Option -i">
+    <pre>
+      echo "one two three four five six seven eight nine ten" > file1
+      printf "%s\n%s\n%s\n%s\n%s\n" one three five seven nine > odd
+    </pre>
+    <cmd>
+      prep -i odd file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Options -di">
+    <pre>
+      echo "one two three four five six seven eight nine ten" > file1
+      printf "%s\n%s\n%s\n%s\n%s\n" one three five seven nine > odd
+    </pre>
+    <cmd>
+      prep -di odd file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Option -o">
+    <pre>
+      echo "one two three four five six seven eight nine ten" > file1
+      printf "%s\n%s\n%s\n%s\n%s\n" one three five seven nine > odd
+    </pre>
+    <cmd>
+      prep -o odd file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Options -do">
+    <pre>
+      echo "one two three four five six seven eight nine ten" > file1
+      printf "%s\n%s\n%s\n%s\n%s\n" one three five seven nine > odd
+    </pre>
+    <cmd>
+      prep -do odd file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Options -i and -o">
+    <pre>
+      echo "one two three four five six seven eight nine ten" > file1
+      printf "%s\n%s\n%s\n%s\n%s\n" two four six eight ten > 2
+      printf "%s\n%s\n%s\n" three six nine > 3
+    </pre>
+    <cmd>
+      prep -i 2 -o 3 file1
+    </cmd>
+  </test-case>
+
+  <test-case name="Unknown option">
+    <cmd>
+      prep -u
+    </cmd>
+  </test-case>
+
+</test-suite>

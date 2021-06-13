@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<test-suite program="false" processor="b2bt" ID="@(#) $Id: false.xml - back to back test suite for false v1.0.0 (June 12, 2021) by Hubert Tournier $">
+
+  <test-case name="Normal call">
+    <cmd>
+      false
+    </cmd>
+  </test-case>
+  
+  <test-case name="With one extra argument">
+    <cmd>
+      false arg
+    </cmd>
+  </test-case>
+  
+  <test-case name="Illegal option">
+    <cmd>
+      false -i
+    </cmd>
+  </test-case>
+  
+</test-suite>

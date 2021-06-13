@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<test-suite program="COMMAND" processor="b2bt" ID="@(#) $Id: COMMAND.xml - back to back test suite for COMMAND v1.0.0 (MONTH DAY, YEAR) by YOU $">
+<test-suite program="COMMAND" processor="b2bt MINIMUM_VERSION" ID="@(#) $Id: COMMAND.xml - back to back test suite for COMMAND v1.0.0 (MONTH DAY, YEAR) by YOU $">
 
   <test-case name="Usual call #1">
     <cmd>

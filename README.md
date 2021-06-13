@@ -1,5 +1,5 @@
 # ![PNU logo](https://github.com/HubTou/PNU/blob/main/_images/pnu-logo-and-title-small.png)
-PNU, as in [PNU is Not Unix](http://www.catb.org/jargon/html/R/recursive-acronym.html), is yet another collection of [UNIX](https://en.wikipedia.org/wiki/Unix) tools rewritten in [Python](https://www.python.org/), forming a kind of [PyNIX](https://github.com/HubTou/PyNIX).
+PNU, as in [PNU is Not Unix](http://www.catb.org/jargon/html/R/recursive-acronym.html), is yet another collection of [UNIX](https://en.wikipedia.org/wiki/Unix) tools rewritten in [Python](https://www.python.org/), forming a kind of [pytnix](https://github.com/HubTou/pytnix).
 
 It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropriate as it's clearly another reinvention of the [wheel](http://www.catb.org/jargon/html/W/wheel.html), longtime after the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html) :-)
 
@@ -129,4 +129,3 @@ Full operating system kernels & device drivers:
 ### Deities level transcending projects
 Making your own hardware platform and all the software to run it.
 * Although not Unix related, :mage_man: [The Woz](https://en.wikipedia.org/wiki/Steve_Wozniak) springs to mind here and his excellent autobiography, [iWoz](https://en.wikipedia.org/wiki/IWoz), is highly recommended for a good glimpse into a true [hacker](http://www.catb.org/jargon/html/H/hacker.html)'s mind.
-

@@ -1,5 +1,5 @@
 # ![PNU logo](https://github.com/HubTou/PNU/blob/main/_images/pnu-logo-and-title-small.png)
-PNU, as in [PNU is Not Unix](http://www.catb.org/jargon/html/R/recursive-acronym.html), is yet another collection of [UNIX](https://en.wikipedia.org/wiki/Unix) tools rewritten in [Python](https://www.python.org/), forming a kind of [pytnix](https://github.com/HubTou/pytnix).
+PNU, as in [PNU is Not Unix](http://www.catb.org/jargon/html/R/recursive-acronym.html), is a challenge project and a learning exercise to reimplement [UNIX](https://en.wikipedia.org/wiki/Unix) command-line tools in [Python](https://www.python.org/), forming a kind of [pytnix](https://github.com/HubTou/pytnix) portable user-land utilities collection.
 
 It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropriate as it's clearly another reinvention of the [wheel](http://www.catb.org/jargon/html/W/wheel.html), longtime after the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html) :-)
 

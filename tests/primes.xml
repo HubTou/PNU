@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<test-suite program="primes" processor="b2bt" ID="@(#) $Id: primes.xml - back to back test suite for primes v1.0.0 (June 14, 2021) by Hubert Tournier $">
+
+  <test-case name="Standard call with start">
+    <cmd>
+      primes 18446744073709551000
+    </cmd>
+  </test-case>
+  
+  <test-case name="Standard call with start and stop on a prime">
+    <cmd>
+      primes 2 7
+    </cmd>
+  </test-case>
+  
+  <test-case name="Negative integer for start #1">
+    <cmd>
+      primes -1
+    </cmd>
+  </test-case>
+  
+  <test-case name="Negative integer for start #2 and options terminator handling">
+    <cmd>
+      primes -- -1
+    </cmd>
+  </test-case>
+  
+  <test-case name="Positive integer with single + for start">
+    <cmd>
+      primes +2 7
+    </cmd>
+  </test-case>
+  
+  <test-case name="Positive integer with multiple ++ for start">
+    <cmd>
+      primes ++2 7
+    </cmd>
+  </test-case>
+  
+  <test-case name="Positive integer with single + for stop">
+    <cmd>
+      primes 2 +7
+    </cmd>
+  </test-case>
+  
+  <test-case name="Not an integer #1">
+    <cmd>
+      primes 2.5
+    </cmd>
+  </test-case>
+  
+  <test-case name="Not an integer #2">
+    <cmd>
+      primes 2,5
+    </cmd>
+  </test-case>
+  
+  <test-case name="Start value greater than stop">
+    <cmd>
+      primes 3 2
+    </cmd>
+  </test-case>
+  
+  <test-case name="Start value equal to stop">
+    <cmd>
+      primes 2 2
+    </cmd>
+  </test-case>
+  
+  <test-case name="Interval without primes">
+    <cmd>
+      primes 0 2
+    </cmd>
+  </test-case>
+  
+  <test-case name="Stop value greater than the maximum value #1">
+    <cmd>
+      primes 18446744073709551616
+    </cmd>
+  </test-case>
+  
+  <test-case name="Stop value greater than the maximum value #2">
+    <cmd>
+      primes 18446744073709551000 18446744073709551616
+    </cmd>
+  </test-case>
+  
+  <test-case name="No arguments">
+    <stdin>
+      18446744073709551000
+    </stdin>
+    <cmd>
+      primes
+    </cmd>
+  </test-case>
+  
+  <test-case name="Start value terminated by non-digit character">
+    <cmd>
+      primes 2a 7
+    </cmd>
+  </test-case>
+  
+  <test-case name="Non-digit character">
+    <cmd>
+      primes a
+    </cmd>
+  </test-case>
+  
+  <test-case name="Option -h">
+    <cmd>
+      primes -h 0x1 0xf
+    </cmd>
+  </test-case>
+  
+  <test-case name="Illegal option">
+    <cmd>
+      primes -i
+    </cmd>
+  </test-case>
+  
+  <test-case name="Python sys.maxsize + 1 start value">
+    <cmd>
+      primes 9223372036854775808 9223372036854775999
+    </cmd>
+  </test-case>
+</test-suite>

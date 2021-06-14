@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<test-suite program="factor" processor="b2bt 1.1" ID="@(#) $Id: factor.xml - back to back test suite for factor v1.0.0 (June 12, 2021) by Hubert Tournier $">
+
+  <test-case name="Standard call">
+    <cmd>
+      factor 12
+    </cmd>
+  </test-case>
+  
+  <test-case name="Standard call with multiple arguments">
+    <cmd>
+      factor 12 35
+    </cmd>
+  </test-case>
+  
+  <test-case name="Negative integer #1">
+    <cmd>
+      factor -1
+    </cmd>
+  </test-case>
+  
+  <test-case name="Negative integer #2 and options terminator handling">
+    <cmd>
+      factor -- -1
+    </cmd>
+  </test-case>
+  
+  <test-case name="Positive integer with single +">
+    <cmd>
+      factor +12
+    </cmd>
+  </test-case>
+  
+  <test-case name="Positive integer with multiple +">
+    <cmd>
+      factor ++12
+    </cmd>
+  </test-case>
+  
+  <test-case name="Not an integer #1">
+    <cmd>
+      factor 12.5
+    </cmd>
+  </test-case>
+  
+  <test-case name="Not an integer #2">
+    <cmd>
+      factor 12,5
+    </cmd>
+  </test-case>
+  
+  <test-case name="Zero">
+    <cmd>
+      factor 0
+    </cmd>
+  </test-case>
+  
+  <test-case name="One">
+    <cmd>
+      factor 1
+    </cmd>
+  </test-case>
+  
+  <test-case name="Hexadecimal number without prefix">
+    <cmd>
+      factor A B C D E F a b c d e f
+    </cmd>
+  </test-case>
+
+  <test-case name="Hexadecimal number with prefix">
+    <cmd>
+      factor 0xaa 0XBB
+    </cmd>
+  </test-case>
+
+  <test-case name="Other non hexadecimal letter">
+    <cmd>
+      factor g
+    </cmd>
+  </test-case>
+
+  <test-case name="Number terminated by a non-digit character">
+    <cmd>
+      factor 12g
+    </cmd>
+  </test-case>
+
+  <test-case name="Number as longest leading substring">
+    <cmd>
+      factor 12g345h
+    </cmd>
+  </test-case>
+
+  <test-case name="No arguments">
+    <stdin>
+      12
+      35
+    </stdin>
+    <cmd>
+      factor
+    </cmd>
+  </test-case>
+  
+  <test-case name="No arguments with zero termination">
+    <stdin>
+      12
+      0
+    </stdin>
+    <cmd>
+      factor
+    </cmd>
+  </test-case>
+  
+  <test-case name="No arguments with error termination">
+    <stdin>
+      12
+      -1
+    </stdin>
+    <cmd>
+      factor
+    </cmd>
+  </test-case>
+
+  <test-case name="No arguments with more than one number per line">
+    <stdin>
+      12 35
+    </stdin>
+    <cmd>
+      factor
+    </cmd>
+  </test-case>
+
+  <test-case name="No arguments with leading white spaces">
+    <stdin>
+      "    12"
+    </stdin>
+    <cmd>
+      factor
+    </cmd>
+  </test-case>
+
+  <test-case name="No arguments with empty line">
+    <stdin>
+      12
+      ""
+      35
+    </stdin>
+    <cmd>
+      factor
+    </cmd>
+  </test-case>
+ 
+  <test-case name="Option -h">
+    <cmd>
+      factor -h 170
+    </cmd>
+  </test-case>
+
+  <test-case name="Illegal option">
+    <cmd>
+      factor -i 170
+    </cmd>
+  </test-case>
+  
+  <test-case name="Python sys.maxsize + 1 value">
+    <cmd>
+      factor 9223372036854775808
+    </cmd>
+  </test-case>
+
+  <test-case name="Prime stop value">
+    <cmd>
+      factor 18446744073709551615
+    </cmd>
+  </test-case>
+ 
+  <test-case name="29 digits number">
+    <cmd>
+      factor 18446744073709551611111111111
+    </cmd>
+  </test-case>
+  
+</test-suite>

@@ -38,17 +38,20 @@ The **COMMAND** utility exits 0 on success, and >0 if an error occurs.
 
 ## STANDARDS
 The **COMMAND** utility is a standard UNIX/POSIX command.
+The **COMMAND** utility is a standard UNIX command, though not a POSIX one.
+The **COMMAND** utility is not a standard UNIX command.
 
-It tries to follow the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide for [Python](https://www.python.org/) code.
+This re-implementation tries to follow the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide for [Python](https://www.python.org/) code.
 
 ## PORTABILITY
 To be tested under Windows.
+Tested OK under Windows.
 
 ## HISTORY
-This utility was made for [The PNU project / PyNIX](https://github.com/HubTou/PNU).
+This re-implementation was made for the [PNU project](https://github.com/HubTou/PNU).
 
 ## LICENSE
-This utility is available under the [3-clause BSD license](https://opensource.org/licenses/BSD-3-Clause).
+It is available under the [3-clause BSD license](https://opensource.org/licenses/BSD-3-Clause).
 
 ## AUTHORS
 [YOU](https://github.com/YOU)

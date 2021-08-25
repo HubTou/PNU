@@ -14,7 +14,7 @@ ID = "@(#) $Id: COMMAND - ONE_LINE_DESCRIPTION v1.0.0 (MONTH DAY, YEAR) by YOU $
 
 # Default parameters. Can be overcome by environment variables, then command line options
 parameters = {
-    "Some meaninggul label": False,
+    "Command flavour": "bsd:freebsd",
 }
 
 
@@ -40,6 +40,26 @@ def process_environment_variables():
 
     if "COMMAND_DEBUG" in os.environ.keys():
         logging.disable(logging.NOTSET)
+
+    if "FLAVOUR" in os.environ.keys():
+        parameters["Command flavour"] = os.environ["FLAVOUR"].lower()
+    if "COMMAND_FLAVOUR" in os.environ.keys():
+        parameters["Command flavour"] = os.environ["COMMAND_FLAVOUR"].lower()
+
+    # From "man environ":
+    # POSIXLY_CORRECT
+    # When set to any value, this environment variable
+    # modifies the behaviour of certain commands to (mostly)
+    # execute in a strictly POSIX-compliant manner.
+    if "POSIXLY_CORRECT" in os.environ.keys():
+        parameters["Command flavour"] = "posix"
+
+    # Command variants supported:
+    if parameters["Command flavour"] not in (
+        "bsd", "bsd:freebsd",
+    ):
+        logging.critical("Unimplemented command FLAVOUR: %s", parameters["Command flavour"])
+        sys.exit(1)
 
     logging.debug("process_environment_variables(): parameters:")
     logging.debug(parameters)
@@ -95,17 +115,21 @@ def process_command_line():
 def main():
     """The program's main entry point"""
     program_name = os.path.basename(sys.argv[0])
+
     console_log_format = program_name + ": %(levelname)s: %(message)s"
     logging.basicConfig(format=console_log_format, level=logging.DEBUG)
     logging.disable(logging.INFO)
+
+    exit_status = 0
 
     process_environment_variables()
     arguments = process_command_line()
 
     for argument in arguments:
         # Do something
+        pass
 
-    sys.exit(0)
+    sys.exit(exit_status)
 
 
 if __name__ == "__main__":

@@ -32,7 +32,7 @@ pip install PNU
 The following, [(A)D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, [level structure](https://github.com/HubTou/PNU/discussions/2) is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).
 We suggest level bosses in order to complete a level (but no [Demogorgon](https://en.wikipedia.org/wiki/Demogorgon#Dungeons_&_Dragons) here, we are not in [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things) :-)) and associated :trophy: trophies for fun :-)
 
-The following classification of commands is still in progress.
+`The following classification of commands is still in progress.`
 
 ## Basic levels
 ### Level 1 sub projects

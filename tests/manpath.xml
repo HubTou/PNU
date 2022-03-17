@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<test-suite program="manpath" processor="b2bt 1.1" ID="@(#) $Id: manpath.xml - back to back test suite for manpath v1.0.0 (March 6, 2022) by Hubert Tournier $">
+
+  <test-case name="Usual call #1">
+    <cmd>
+      unset MANPATH ; manpath
+    </cmd>
+  </test-case>
+  
+  <test-case name="Usual call #1 with extra debugging level 1">
+    <cmd>
+      unset MANPATH ; manpath -d
+    </cmd>
+  </test-case>
+  
+  <test-case name="Usual call #1 with extra debugging level 2">
+    <cmd>
+      unset MANPATH ; manpath -dd
+    </cmd>
+  </test-case>
+  
+  <test-case name="Usual call #1 with extra debugging level 3">
+    <cmd>
+      unset MANPATH ; manpath -ddd
+    </cmd>
+  </test-case>
+  
+  <test-case name="PATH unset">
+    <cmd>
+      unset PATH ; unset MANPATH ; manpath -dd
+    </cmd>
+  </test-case>
+  
+  <test-case name="MANPATH set">
+    <cmd>
+      MANPATH=/usr/share/man manpath -d
+    </cmd>
+  </test-case>
+  
+  <test-case name="MANPATH set and quiet mode">
+    <cmd>
+      MANPATH=/usr/share/man manpath -qd
+    </cmd>
+  </test-case>
+  
+  <test-case name="Usual call #2">
+    <cmd>
+      unset MANLOCALES ; manpath -L
+    </cmd>
+  </test-case>
+ 
+  <test-case name="Usual call #2 with extra debugging level 1">
+    <cmd>
+      unset MANLOCALES ; manpath -Ld
+    </cmd>
+  </test-case>
+  
+  <test-case name="Usual call #2 with extra debugging level 2">
+    <cmd>
+      unset MANLOCALES ; manpath -Ldd
+    </cmd>
+  </test-case>
+  
+  <test-case name="Usual call #2 with extra debugging level 3">
+    <cmd>
+      unset MANLOCALES ; manpath -Lddd
+    </cmd>
+  </test-case>
+  
+  <test-case name="MANLOCALES set">
+    <cmd>
+      MANLOCALES=fr_FR.UTF-8 manpath -Ld
+    </cmd>
+  </test-case>
+  
+  <test-case name="MANLOCALES set and quiet mode">
+    <cmd>
+      MANLOCALES=fr_FR.UTF-8 manpath -Lqd
+    </cmd>
+  </test-case>
+  
+  <test-case name="Illegal option">
+    <cmd>
+      manpath -i
+    </cmd>
+  </test-case>
+  
+</test-suite>

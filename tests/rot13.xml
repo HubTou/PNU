@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<test-suite program="rot13" processor="b2bt 1.1" ID="@(#) $Id: rot13.xml - back to back test suite for rot13 v1.0.0 (November 1, 2021) by Hubert Tournier $">
+
+  <test-case name="Usual call">
+    <cmd>
+      echo test | rot13
+    </cmd>
+  </test-case>
+  
+  <test-case name="Double call">
+    <cmd>
+      echo test | rot13 | rot13
+    </cmd>
+  </test-case>
+  
+  <test-case name="No arguments" timeout="0.5">
+    <cmd>
+      rot13
+    </cmd>
+  </test-case>
+  
+  <test-case name="With file argument" timeout="0.5">
+    <cmd>
+      ROT13_FLAVOUR=bsd:freebsd rot13 /etc/passwd
+    </cmd>
+  </test-case>
+  
+  <test-case name="With string argument" timeout="0.5">
+    <cmd>
+      ROT13_FLAVOUR=bsd:freebsd rot13 "my secret"
+    </cmd>
+  </test-case>
+  
+  <test-case name="Illegal option" timeout="0.5">
+    <cmd>
+      ROT13_FLAVOUR=bsd:freebsd rot13 -i
+    </cmd>
+  </test-case>
+  
+</test-suite>

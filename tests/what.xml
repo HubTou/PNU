@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<test-suite program="what" processor="b2bt 1.1" ID="@(#) $Id: what.xml - back to back test suite for what v1.0.0 (October 31, 2021) by Hubert Tournier $">
+
+  <test-case name="Usual call">
+    <cmd>
+      what /usr/bin/unifdef
+    </cmd>
+  </test-case>
+  
+  <test-case name="Multiple arguments">
+    <cmd>
+      what /usr/bin/unifdef /usr/bin/file
+    </cmd>
+  </test-case>
+  
+  <test-case name="No arguments" timeout="0.5">
+    <cmd>
+      what
+    </cmd>
+  </test-case>
+  
+  <test-case name="Standard input support">
+    <cmd>
+      cat /usr/bin/unifdef | what
+    </cmd>
+  </test-case>
+  
+  <test-case name="Option -s">
+    <cmd>
+      what -s /usr/bin/unifdef
+    </cmd>
+  </test-case>
+  
+  <test-case name="Option -q">
+    <cmd>
+      what -q /usr/bin/unifdef
+    </cmd>
+  </test-case>
+  
+  <test-case name="Options terminator handling">
+    <cmd>
+      what -qs -- /usr/bin/unifdef
+    </cmd>
+  </test-case>
+  
+  <test-case name="Illegal option">
+    <cmd>
+      what -i
+    </cmd>
+  </test-case>
+  
+  <test-case name="Non existent file">
+    <cmd>
+      what nonexistent
+    </cmd>
+  </test-case>
+  
+  <test-case name="Empty file">
+    <pre>
+      touch empty_file
+    </pre>
+    <cmd>
+      what empty_file
+    </cmd>
+  </test-case>
+  
+  <test-case name="POSIXLY_CORRECT environment variable handling">
+    <cmd>
+      POSIXLY_CORRECT=true what -q /usr/bin/unifdef
+    </cmd>
+  </test-case>
+ 
+</test-suite>

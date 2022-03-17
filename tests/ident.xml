@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<test-suite program="ident" processor="b2bt 1.1" ID="@(#) $Id: ident.xml - back to back test suite for ident v1.0.0 (October 31, 2021) by Hubert Tournier $">
+
+  <test-case name="Usual call with match">
+    <cmd>
+      ident /usr/bin/unifdef
+    </cmd>
+  </test-case>
+  
+  <test-case name="Usual call with no match">
+    <cmd>
+      ident /bin/tcsh
+    </cmd>
+  </test-case>
+  
+  <test-case name="Multiple arguments">
+    <cmd>
+      ident /usr/bin/unifdef /usr/bin/file
+    </cmd>
+  </test-case>
+  
+  <test-case name="No arguments" timeout="0.5">
+    <cmd>
+      ident
+    </cmd>
+  </test-case>
+  
+  <test-case name="Standard input support with match">
+    <cmd>
+      cat /usr/bin/unifdef | ident
+    </cmd>
+  </test-case>
+  
+  <test-case name="Standard input support with no match">
+    <cmd>
+      cat /bin/tcsh | ident
+    </cmd>
+  </test-case>
+  
+  <test-case name="Option -q">
+    <cmd>
+      ident -q /bin/tcsh
+    </cmd>
+  </test-case>
+  
+  <test-case name="Option -V on GNU/Linux">
+    <cmd>
+      IDENT_FLAVOUR=gnu:linux ident -V
+    </cmd>
+  </test-case>
+  
+  <test-case name="Option -V on FreeBSD">
+    <cmd>
+      IDENT_FLAVOUR=bsd:freebsd ident -V
+    </cmd>
+  </test-case>
+  
+  <test-case name="Options terminator handling">
+    <cmd>
+      ident -- /usr/bin/unifdef
+    </cmd>
+  </test-case>
+  
+  <test-case name="Illegal option">
+    <cmd>
+      ident -i
+    </cmd>
+  </test-case>
+  
+  <test-case name="Non existent file">
+    <cmd>
+      ident nonexistent
+    </cmd>
+  </test-case>
+  
+  <test-case name="Empty file">
+    <pre>
+      touch empty_file
+    </pre>
+    <cmd>
+      ident empty_file
+    </cmd>
+  </test-case>
+  
+</test-suite>

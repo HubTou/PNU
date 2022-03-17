@@ -14,10 +14,14 @@ It's meant to be pronounced "Pneu" (tyre in French), a "pun" which seems appropr
 ```Shell
 pip install PNU
 ```
+or you can install PNU plus a selection of additional third-parties tools with this command:
+```Shell
+pip install pytnix
+```
 * This page is both for the challenge description and for referencing unix tools rewrites made by contributors.
 * To contribute you can simply create:
   * your own Github repositories and link them to the project by using the [pnu-project](https://github.com/topics/pnu-project) topic
-  * your own [PyPi](https://pypi.org/) packages and link them to the project by using the [pnu-project](https://pypi.org/search/?q=pnu-project) keyword
+  * your own [PyPi](https://pypi.org/) packages and link them to the project by using the [pnu-project](https://pypi.org/search/?q=pnu-project) keyword (but please don't use the "pnu-" package prefix for your own entries)
 
 ## How to contribute:
 * As a player:
@@ -31,6 +35,8 @@ pip install PNU
 ## Suggested tasks and progression:
 The following, [(A)D&D](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) inspired, [level structure](https://github.com/HubTou/PNU/discussions/2) is proposed for [gamification](https://en.wikipedia.org/wiki/Gamification).
 We suggest level bosses in order to complete a level (but no [Demogorgon](https://en.wikipedia.org/wiki/Demogorgon#Dungeons_&_Dragons) here, we are not in [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things) :-)) and associated :trophy: trophies for fun :-)
+
+We're also thinking about offering [Habitica](https://habitica.com/)'s quests for further gamification.
 
 `The following classification of commands is still in progress.`
 

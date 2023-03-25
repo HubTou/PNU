@@ -128,3 +128,4 @@ There will be other [easter eggs](http://www.catb.org/jargon/html/E/Easter-egg.h
 On the lore side, it's interesting to note that the Demogorgon was one of the monsters of the [classical](http://www.catb.org/jargon/html/N/nethack.html) [NetHack](https://en.wikipedia.org/wiki/NetHack) game, which itself was a descendant of the [mythical](http://www.catb.org/jargon/html/R/rogue.html) [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game)) and [Hack](https://en.wikipedia.org/wiki/Hack_(video_game)) games, which were included in [BSD](http://www.catb.org/jargon/html/B/BSD.html) Unix and many other versions after that.
 
 Perhaps someone will reimplement these important milestones in video gaming history for the project?
+

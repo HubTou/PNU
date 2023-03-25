@@ -31,7 +31,31 @@ Options processing terminator
 .Sh ENVIRONMENT
 The
 .Ev COMMAND_DEBUG
-environment variable can also be set to any value to enable debug mode.
+environment variable can be set to any value to enable debug mode.
+.Pp
+The
+.Ev FLAVOUR
+or
+.Ev COMMAND_FLAVOUR
+environment variables can be set to one of the following values, to implement only the corresponding options and behaviours:
+.Bl -bullet
+.It
+posix : POSIX COMMAND
+.It
+unix | unix:v10 : Unix v10 COMMAND(1)
+.It
+bsd | bsd:freebsd : FreeBSD COMMAND(1)
+.It
+gnu | gnu:linux | linux : GNU/Linux COMMAND(1)
+.It
+plan9 : Plan 9 COMMAND(1)
+.It
+inferno : Inferno COMMAND(1)
+.El
+.Pp
+However, if the
+.Ev POSIXLY_CORRECT
+environment variable is set to any value, then the POSIX flavour will be selected.
 .Sh FILES
 .Sh EXIT STATUS
 .Ex -std COMMAND
@@ -44,6 +68,7 @@ The
 .Nm
 utility is a standard UNIX/POSIX command.
 utility is a standard UNIX command, though not a POSIX one.
+utility is not a standard UNIX command, though a usual one on Unix-like systems.
 utility is not a standard UNIX command.
 .Pp
 This re-implementation tries to follow the PEP 8 style guide for Python code.
@@ -57,6 +82,9 @@ This re-implementation was made for the
 It is available under the 3-clause BSD license.
 .Sh AUTHORS
 .An YOU
+.Pp
+This manual page is mainly based on the one written for FreeBSD by
+.An HIM .
 .Sh CAVEATS
 .Sh BUGS
 Bold:

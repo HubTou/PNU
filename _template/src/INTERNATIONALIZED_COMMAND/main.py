@@ -5,6 +5,8 @@ Author: YOU
 """
 
 import getopt
+import gettext
+import locale
 import logging
 import os
 import sys
@@ -21,6 +23,48 @@ parameters = {
 
 
 ####################################################################################################
+def _initialize_internationalization(program_name):
+    """ Internationalization set up """
+    lang = locale.getdefaultlocale()[0][:2]
+    locale_dirs = []
+
+    if os.name == "posix":
+        # local packages override system packages:
+        if "HOME" in os.environ.keys():
+            home = os.environ["HOME"]
+            if os.path.isdir(home + os.sep + ".local/share/locale"):
+                locale_dirs.append(home + os.sep + ".local/share/locale")
+
+        if os.path.isdir("/usr/share/locale"):
+            locale_dirs.append("/usr/share/locale")
+        if os.path.isdir("/usr/local/share/locale"):
+            locale_dirs.append("/usr/local/share/locale")
+    elif os.name == "nt":
+        appdata_path = os.sep + "appdata" + os.sep + "roaming"
+        locale_suffix = os.sep + "python" + os.sep + "share" + os.sep + "locale"
+        if os.environ["APPDATA"]:
+            locale_path = os.environ["APPDATA"] + locale_suffix
+        elif os.environ["HOMEPATH"]:
+            locale_path = os.environ["HOMEPATH"] + appdata_path + locale_suffix
+        elif os.environ["USERPROFILE"]:
+            locale_path = os.environ["USERPROFILE"] + appdata_path + locale_suffix
+        if os.path.isdir(locale_path):
+            locale_dirs.append(locale_path)
+
+        locale_path = sys.base_prefix + os.sep + "share" + os.sep + "locale"
+        if os.path.isdir(locale_path):
+            locale_dirs.append(locale_path)
+
+    for directory in locale_dirs:
+        if gettext.find(program_name, localedir=directory, languages=[lang]) != None:
+            translation = gettext.translation(program_name, localedir=directory, languages=[lang])
+            translation.install()
+            return
+
+    gettext.install(program_name)
+
+
+####################################################################################################
 def _display_help():
     """ Display usage and help """
     #pylint: disable=C0301
@@ -34,13 +78,13 @@ def _display_help():
         # TODO: define subset of options here
         pass
     else: # PNU
-        print("usage: COMMAND [--debug] [--help|-?] [--version]", file=sys.stderr)
-        print("       [--] filename [...]", file=sys.stderr)
-        print("  ------------------  --------------------------------------------------", file=sys.stderr)
-        print("  --debug             Enable debug mode", file=sys.stderr)
-        print("  --help|-?           Print usage and this help message and exit", file=sys.stderr)
-        print("  --version           Print version and exit", file=sys.stderr)
-        print("  --                  Options processing terminator", file=sys.stderr)
+        print(_("usage: COMMAND [--debug] [--help|-?] [--version]"), file=sys.stderr)
+        print("       " + _("[--] filename [...]"), file=sys.stderr)
+        print("  " + _("------------------  --------------------------------------------------"), file=sys.stderr)
+        print("  " + _("--debug             Enable debug mode"), file=sys.stderr)
+        print("  " + _("--help|-?           Print usage and this help message and exit"), file=sys.stderr)
+        print("  " + _("--version           Print version and exit"), file=sys.stderr)
+        print("  " + _("--                  Options processing terminator"), file=sys.stderr)
     print(file=sys.stderr)
     #pylint: enable=C0301
 
@@ -48,7 +92,7 @@ def _display_help():
 ####################################################################################################
 def _handle_interrupts(signal_number, current_stack_frame):
     """ Prevent SIGINT signals from displaying an ugly stack trace """
-    print(" Interrupted!\n", file=sys.stderr)
+    print(" " + _("Interrupted!") + "\n", file=sys.stderr)
     sys.exit(0)
 
 
@@ -59,12 +103,12 @@ def _process_environment_variables():
     global parameters
     #pylint: enable=C0103, W0602
 
-    if "COMMAND_DEBUG" in os.environ:
+    if "COMMAND_DEBUG" in os.environ.keys():
         logging.disable(logging.NOTSET)
 
-    if "FLAVOUR" in os.environ:
+    if "FLAVOUR" in os.environ.keys():
         parameters["Command flavour"] = os.environ["FLAVOUR"].lower()
-    if "COMMAND_FLAVOUR" in os.environ:
+    if "COMMAND_FLAVOUR" in os.environ.keys():
         parameters["Command flavour"] = os.environ["COMMAND_FLAVOUR"].lower()
 
     # From "man environ":
@@ -72,7 +116,7 @@ def _process_environment_variables():
     # When set to any value, this environment variable
     # modifies the behaviour of certain commands to (mostly)
     # execute in a strictly POSIX-compliant manner.
-    if "POSIXLY_CORRECT" in os.environ:
+    if "POSIXLY_CORRECT" in os.environ.keys():
         parameters["Command flavour"] = "posix"
 
     # Command variants supported:
@@ -88,7 +132,7 @@ def _process_environment_variables():
     elif parameters["Command flavour"] == "PNU":
         pass
     else:
-        logging.critical("Unimplemented command FLAVOUR: %s", parameters["Command flavour"])
+        logging.critical(_("Unimplemented command FLAVOUR") + ": %s", parameters["Command flavour"])
         sys.exit(1)
 
     logging.debug("_process_environment_variables(): parameters:")
@@ -138,7 +182,7 @@ def _process_command_line():
             sys.argv[1:], character_options, string_options
         )
     except getopt.GetoptError as error:
-        logging.critical("Syntax error: %s", error)
+        logging.critical(_("Syntax error") + ": %s", error)
         _display_help()
         sys.exit(1)
 
@@ -169,6 +213,7 @@ def main():
     program_name = os.path.basename(sys.argv[0])
 
     libpnu.initialize_debugging(program_name)
+    _initialize_internationalization(program_name)
     libpnu.handle_interrupt_signals(_handle_interrupts)
     _process_environment_variables()
     arguments = _process_command_line()

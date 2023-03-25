@@ -146,3 +146,4 @@ You can do that with the [vermin package](https://pypi.org/project/vermin/):
 Minimum required versions: 2.0, 3.0
 ```
 That will be useful when we'll talk about [making installation packages](https://packaging.python.org/tutorials/packaging-projects/) later.
+

@@ -137,3 +137,4 @@ Using the [vermin package](https://pypi.org/project/vermin/):
 # vermin logging1.py
 Minimum required versions: 2.4, 3.0
 ```
+
